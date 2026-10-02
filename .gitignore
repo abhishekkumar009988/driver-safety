@@ -1,0 +1,8 @@
+# Uploaded reference frames / videos (bade files, repo me nahi jaate)
+frames/
+*.part
+
+# Python
+__pycache__/
+*.pyc
+.venv/
