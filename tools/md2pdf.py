@@ -116,6 +116,36 @@ def fold_keycaps(t):
     return KEYCAP_RE.sub(lambda m: KEYCAP.get(ord(m.group(1)), ""), t)
 
 
+def plain(t):
+    """drop emoji and variation selectors — canvas fonts cannot draw them."""
+    out = []
+    for ch in t:
+        cp = ord(ch)
+        if cp >= 0x1F000 or cp == 0xFE0F or cp == 0x20E3:
+            continue
+        out.append(ch)
+    return " ".join("".join(out).split())
+
+
+def doc_head(md, fallback=("AI-FILM-PROMPTS", "MASTER v10")):
+    """first H1 and first ### line of the markdown -> (title, main, sub)"""
+    h1 = sub = ""
+    for ln in md.split("\n"):
+        t = ln.strip()
+        if not h1 and t.startswith("# "):
+            h1 = t[2:].strip()
+            continue
+        if h1 and not sub and t.startswith("### "):
+            sub = t[4:].strip()
+            break
+    h1 = plain(h1) or fallback[0]
+    sub = plain(sub)
+    if "\u2014" in h1:
+        main, tail = h1.split("\u2014", 1)
+        return main.strip(), tail.strip(), sub
+    return h1, fallback[1], sub
+
+
 def esc(t):
     return t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
@@ -443,6 +473,9 @@ def build_flowables(blocks, doc_title="AI-FILM-PROMPTS"):
 
 
 # ---------------------------------------------------------------- document
+FOOT = {"label": "AI-FILM-PROMPTS"}
+
+
 def footer(canv, doc):
     canv.saveState()
     y = M_B - 20
@@ -451,7 +484,7 @@ def footer(canv, doc):
     canv.line(M_L, y + 12, PAGE_W - M_R, y + 12)
     canv.setFont("Noto", 7.6)
     canv.setFillColor(INK_SOFT)
-    canv.drawString(M_L, y, "AI-FILM-PROMPTS  \u00b7  MASTER v9")
+    canv.drawString(M_L, y, FOOT["label"])
     canv.drawRightString(PAGE_W - M_R, y, "page %d" % canv.getPageNumber())
     canv.restoreState()
 
@@ -464,8 +497,7 @@ def cover(canv, doc):
         canv.rect(M_L, y, USABLE, h, stroke=0, fill=1)
     canv.setFont("Noto", 8.4)
     canv.setFillColor(INK_SOFT)
-    canv.drawString(M_L, M_B - 20, "fixed master prompt system  \u00b7  "
-                                   "4 prompts  \u00b7  Veo 3 grammar")
+    canv.drawString(M_L, M_B - 20, FOOT["label"])
     canv.drawRightString(PAGE_W - M_R, M_B - 20,
                          datetime.date.today().strftime("%d %B %Y"))
     canv.restoreState()
@@ -475,11 +507,13 @@ def main():
     src = sys.argv[1] if len(sys.argv) > 1 else "AI-FILM-PROMPTS.md"
     dst = sys.argv[2] if len(sys.argv) > 2 else "AI-FILM-PROMPTS.pdf"
     md = open(src, encoding="utf-8").read()
+    title_main, title_sub, doc_sub = doc_head(md)
+    FOOT["label"] = plain("%s \u00b7 %s" % (title_main, title_sub))
 
     doc = BaseDocTemplate(dst, pagesize=A4,
                           leftMargin=M_L, rightMargin=M_R,
                           topMargin=M_T, bottomMargin=M_B,
-                          title="AI-FILM-PROMPTS \u2014 MASTER v9",
+                          title="%s \u2014 %s" % (title_main, title_sub),
                           author="AI-FILM-PROMPTS",
                           subject="Fixed 4-prompt film system")
     frame = Frame(M_L, M_B, USABLE, PAGE_H - M_T - M_B, id="body",
@@ -490,16 +524,17 @@ def main():
     ])
 
     # ---- cover page
+    size = min(40.0, 470.0 / max(6.0, 0.62 * len(title_main)))
     story = [Spacer(1, 96),
-             Paragraph("AI-FILM-PROMPTS", ST["cover_t"]),
+             Paragraph(esc(title_main),
+                       S("cv1", fontName="Noto-B", fontSize=size,
+                         leading=size * 1.1, textColor=ACCENT_2)),
              Spacer(1, 10),
-             Paragraph("MASTER v9", S("cv2", fontName="Noto-B", fontSize=17,
-                                      leading=21, textColor=ACCENT)),
+             Paragraph(esc(title_sub), S("cv2", fontName="Noto-B",
+                                         fontSize=17, leading=21,
+                                         textColor=ACCENT)),
              Spacer(1, 14),
-             Paragraph("Universal film prompt system &nbsp;\u00b7&nbsp; "
-                       "story first &nbsp;\u00b7&nbsp; relationship engine "
-                       "&nbsp;\u00b7&nbsp; 4\u20136 camera &nbsp;\u00b7&nbsp; "
-                       "merge system", ST["cover_s"]),
+             Paragraph(esc(doc_sub), ST["cover_s"]),
              Spacer(1, 40)]
     rows = [("1", "STORY + PLAN", "STORY LOCK, route, shot list"),
             ("2", "CHARACTERS + DUNIYA", "portrait image prompts"),
@@ -526,8 +561,8 @@ def main():
     story.append(HRFlowable(width="100%", thickness=1.0, color=RULE))
     story.append(Spacer(1, 9))
     story.append(Paragraph(
-        "Ye tumhare pichhle 4014-line file ka <b>fixed</b> version hai \u2014 "
-        "nayi file nahi, wahi system, saari bataayi hui galtiyan theek ki hui.",
+        "Ye tumhari apni file ka <b>fixed</b> version hai \u2014 nayi file "
+        "nahi, wahi 4-prompt system, saari bataayi hui galtiyan theek ki hui.",
         ST["body"]))
     story.append(NextPageTemplate("body"))
     story.append(PageBreak())
