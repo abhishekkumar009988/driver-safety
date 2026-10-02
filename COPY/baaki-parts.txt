@@ -1,70 +1,65 @@
 ===== ⚡ 2 MINUTE ME SAMJHO =====
 | Step | Kya paste karo | Kya milega |
 |---|---|---|
-| 1️⃣ | **PROMPT 1** + apni kahani (2–4 line) | STORY LOCK · route · shot list · kya-kya tumhara hai |
-| 2️⃣ | **PROMPT 2** + STORY LOCK | character portraits ke image prompts |
+| 1️⃣ | **PROMPT 1** + apni kahani | STORY LOCK + route + shot list |
+| 2️⃣ | **PROMPT 2** + STORY LOCK | style test + character portraits + duniya |
 | 3️⃣ | **PROMPT 3** + STORY LOCK | har shot ka card — image prompt + video prompt |
-| 4️⃣ | **PROMPT 4** + STORY LOCK | gaana, caption, hashtag, upload timing |
-
-===== 💨 SMOKE / FOG KITNA? — ye number yaad rakho =====
-| Level | Smoke | Fog | Face |
-|---|---|---|---|
-| **0** | kuch nahi | kuch nahi | chehra 100% saaf |
-| **1** | ek patli wisp (kalaai se patli) | takhno tak | chehra 100% saaf |
-| **2** | 2–3 wisp, chest height | ghutno tak | chehra saaf, sirf kandhe ka kinara soft ✅ **face ka max** |
-| **3** | kamar tak band + 2 column | kamar tak | aankh/muh saaf, thodi chin soft |
-| **4** | gale tak, chehre ke aar-paar | chest tak | sirf aankhein — **kabhi baat-cheet ka shot nahi** |
-| **5** | poora frame | poora frame | sirf black silhouette — koi chehra nahi |
+| 4️⃣ | **PROMPT 4** + STORY LOCK | gaana, caption, hashtag, timing (film ban jaane ke baad) |
 
 ===== 🔗 TEEN CHEEZEIN — EK CHAIN (story · image · video) =====
-TUMHARI KAHANI KI LINE          →   IMAGE (still)        →   VIDEO
-   "uske haath me kapda aa gaya"       STORY LINE +            SIRF MOVEMENT
-                                        DNA + inventory          (still hi sach hai)
+TUMHARI KAHANI KI LINE       →   IMAGE (still)          →   VIDEO
+   "uske haath me kapda aa gaya"    STORY LINE + DNA +         SIRF MOVEMENT
+                                    inventory                   (still hi sach hai)
 
 ===== 🔗 TEEN CHEEZEIN — EK CHAIN (story · image · video) =====
 | | Kahan se banega | Kya NAHI likhna |
 |---|---|---|
 | **STORY LINE** | tumhare shabdon me, quotes me | apni kahani mat jodo |
 | **IMAGE** | sirf story line + DNA + inventory | jo inventory me nahi, wo frame me nahi |
-| **VIDEO** | sirf **movement** — still pehle se sab kuch hai | jagah/kapda/chehra dobara describe mat karo |
+| **VIDEO** | sirf **movement** — still me sab pehle se hai | jagah/kapda/chehra dobara describe mat karo |
 
-===== ⭐ v9 ME KYA BADLA (tumhari bataayi hui galtiyan) =====
-| # | Tumhari galti | v9 me fix |
-|---|---|---|
-| 1 | Acting nakli — chehra patthar jaisa | **PERFORMANCE ENGINE** — thought → eye → arrival → control → leak. Purani "face holds exactly as it is" line **poori tarah hata di** |
-| 2 | Character budha, modern nahi | **AGE LINE** — DNA umar se shuru. 30 se kam par "wrinkled/weathered/aged" ban |
-| 3 | VFX kuch nahi | **VFX = story emotion se**. Chhota natural event har shot, 1 bada event peak par |
-| 4 | Story meri jaisi nahi banti | **MY THINGS FIRST** — tumhari har cheez film me aayegi. AI badal nahi sakta |
-| 5 | Look pehle, story baad me | **STORY FIRST, LOOK SECOND** — pehle emotional flow, usse location/light/colour/VFX nikalta hai |
-| 6 | Do log ek frame me, koi rishta nahi | **RELATIONSHIP ENGINE** — intention → action → reaction → consequence. Reaction **late** aati hai |
-| 7 | Kapda static lock tha | **COSTUME ACTION CONTINUITY** — kapda actor hai, lock nahi |
-| 8 | Detail shots bekaar | **DETAIL = pichhle shot ka result + agle ka setup.** Khaali pretty frame reject |
-| 9 | Merge sirf object se | **6 MERGE TYPES** — movement · shape · colour · action · eyeline · emotion |
-| 10 | Ek jagah ghoomti rehti hai | **PROGRESS LAW** — har 2 shot me naya background, landmark bada hota aaye |
-| 11 | Face change | **DNA LINE** har prompt me, word-for-word |
-| 12 | Cartoon / calendar-art | Naam ban · glow words ban · portrait rule · realism block **shuru me** |
-| 13 | **2nd prompt me hi video prompt de deta hai** | **STEP LOCK** — P2 sirf portrait banata hai. Video prompt ya camera move aaya to poora jawab reject |
-| 14 | Smoke/fog ka amount koi nahi batata, face dhuyen me gayab | **ATMOSPHERE NUMBER SYSTEM** — smoke 0–5, fog 0–5. Level likha jaata hai, andaza nahi |
-| 15 | "Thoda fog" likha, model ne poora frame bhar diya | **FACE REVEAL LAW** — face ke shot me level 2 se zyada kabhi nahi. Reveal = movement + direction + 2 second |
-| 16 | Frame me kya-kya hai, ginti nahi | **FRAME INVENTORY** — har card par count: kitne log, kitni light, kitni cheezein, kitne metre |
-| 17 | **Story kuch aur, image kuch aur** | **TRACE LAW** — har card ke sabse upar STORY LINE, jis line se wo shot bana hai. Bina line = card delete |
-| 18 | **Video me naya scene ban jaata hai** | **STILL IS THE TRUTH** — video prompt sirf *movement* likhta hai. Dikhaawat dobara describe nahi hoti |
-| 19 | AI apni marzi se cheezein jod deta hai | **NOTHING ADDED** — jo tumne nahi bola wo frame me nahi. Kuch chahiye to ASSUMPTIONS me likho, banane se pehle |
+===== ⭐ v10 ME KYA BADLA — SAARI GALTIYAN EK JAGAH (shuru se abhi tak) =====
+| # | Galti | v10 me fix | Kahan |
+|---|---|---|---|
+| 1 | Acting nakli lagti hai, face patthar jaisa | **PERFORMANCE** — thought · change · leak · suppression · busy body, aur purani "face holds exactly as it is" line hata di | P3 ⑤ + card 2B |
+| 2 | Character budhe, modern nahi | **AGE LINE** — umar se shuru; 30 se kam par wrinkled/weathered/grain ban | P2 |
+| 3 | VFX kuch nahi | **BIG EFFECT** ek, peak par + har shot me ek chhota practical element | P3 ⑪ |
+| 4 | Story meri jaisi nahi banti | **MERI CHEEZEIN** — har cheez film me aayegi, aur aakhir me tick hogi | P1 B + P3 ㉑ |
+| 5 | Look pehle, story baad me | **STORY FIRST** — emotion se look nikalta hai, phase engine | P3 ㉘ |
+| 6 | Do log ek frame me, rishta nahi | **RELATIONSHIP** — intention → action → reaction → consequence, reaction late | P3 ⑤ + ⑯ |
+| 7 | Kapda static | **COSTUME STATE LINE** — har shot me kapde ki halat (start → end) | P3 ㉗ |
+| 8 | Detail shots bekaar | **DETAIL = 2 KAAM** — pichhle ka result + agle ka setup | P3 ㉖ |
+| 9 | Merge sirf object se | **6 MERGE DEVICES** + mid-scene merge shot | P3 ㉓ |
+| 10 | Ek jagah ghoomti rehti hai (treadmill) | **PROGRESS LAW** — background har 2 shot me badle, manzil paas aaye | P1 + P3 ⑥ |
+| 11 | Face badal jaata hai | **DNA LINE** word-for-word + short lock video me | P2 + P3 ④G |
+| 12 | Cartoon / calendar-art | naam ban · glow words ban · portrait rule · capture-first | P2 + P3 3B |
+| 13 | **2nd prompt me hi video prompt de deta hai** | **STEP LOCK** — P2 sirf portrait banata hai; video/camera/timestamp = jawab reject | P2 Rule 9 |
+| 14 | Smoke/fog ka amount koi nahi batata | **ATMOSPHERE NUMBER SYSTEM** — smoke 0–5, fog 0–5, dust 0–4, rain 0–4 | P3 ⑲ |
+| 15 | "Thoda fog" likha, model ne poora frame bhar diya | **FACE REVEAL LAW** — face shot me level 2 se zyada kabhi nahi; reveal = movement + direction + 2 second | P3 ⑳ |
+| 16 | Frame me kya-kya hai, ginti nahi | **FRAME INVENTORY** — kitne log, lights, objects, metres | P3 ㉙ |
+| 17 | **Video me naya scene ban jaata hai** | **STILL IS THE TRUTH** — video prompt sirf movement; dikhaawat dobara describe nahi | P3 card STEP 2 |
+| 18 | AI apni marzi se cheezein jod deta hai | **NOTHING ADDED** — bina bole kuch frame me nahi; ASSUMPTIONS me likhe | P3 ㉒ |
+| 19 | Hold/odhna kaise, koi nahi likhta | **HOLD & DRAPE MECHANICS** — naam liye haath, 3 steps | P3 ㉔ |
+| 20 | 4–6 camera verify nahi hota | **COVERAGE CHECK** — 4–6 setups, har scene 4 se, sirf 1 bold move | P3 ㉕ |
+| 21 | Sirf object handoff se join | **JOIN + THRESHOLD + HANDOFF** — poora join table, har place ka darwaza | P3 ⑯⑰ |
+| 22 | Action attach nahi lagta | **MOTION HANDOVER** — N ka aakhri movement = N+1 ka pehla, word for word | P3 ⑫ |
+| 23 | Keyframe pinning se clip beech me scene badal jaata | **LAST FRAME RULE** — sirf same jagah, same framing par pin karo | P3 STEP 2 |
+| 24 | Positives vs negative list ka confusion | **POSITIVE ONLY** — "no" list kabhi nahi; tool ke alag negative box me sirf 6 terms | P3 3B |
 
 ===== 🗺️ FILM BANANE KA ORDER =====
-1. PROMPT 1 paste → STORY LOCK + shot list milega
-2. PROMPT 2 paste → har character ka ek portrait banao (CHAR-naam.png)
+1. PROMPT 1 paste → STORY LOCK milega
+2. PROMPT 2 paste → style test, phir CHAR-naam.png portraits
 3. PROMPT 3 paste → saare shot cards
-4. Saari IMAGES banao pehle (s01 → last)   ← beech me video mat banao
-5. Saare CLIPS banao (clip01 → last)
-6. Trim → edit → grade → audio → post
+4. Saari IMAGES banao (SHOT-01 → last)     ← beech me video mat banao
+5. Saare CLIPS banao (CLIP-01 → last)
+6. Trim → edit → grade → audio
 7. PROMPT 4 → gaana + caption + timing
 
 ===== ✅ FILE KHATAM — AB YE KARO =====
-1. PROMPT 1 → STORY LOCK milega          (kahani likhna mat bhoolna)
-2. PROMPT 2 → CHAR-naam.png portraits
+1. PROMPT 1 → STORY LOCK                  (kahani likhna mat bhoolna)
+2. PROMPT 2 → style test, phir portraits  (video prompt yahan NAHI)
 3. PROMPT 3 → saare shot cards
-4. Saari images  (s01 se last tak)       ← ek saath
-5. Saare clips   (clip01 se last tak)    ← ek saath
+4. Saari IMAGES   (SHOT-01 se last tak)   ← ek saath
+5. Saare CLIPS    (CLIP-01 se last tak)   ← ek saath
 6. Trim → edit → grade → audio
-7. PROMPT 4 → gaana + caption + timing   (upload se pehle)
+7. PROMPT 4 → gaana + caption + timing    (upload se pehle)

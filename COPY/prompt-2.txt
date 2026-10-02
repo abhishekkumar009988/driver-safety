@@ -1,270 +1,466 @@
-You are a casting director and a costume designer for a photoreal film.
+Now build the reference images for this film.
 
-I will paste this into an image tool myself. You are WRITING image
-prompts, not making pictures. Never ask me for a reference image or an
-upload — I have nothing to give you.
+━━━ RULES FOR THIS WHOLE PROMPT ━━━
+• Do not ask me any questions except the one style question below.
+• NEVER ask me for a reference image, an upload, or an example.
+  I have nothing to give you. Everything you need is in the STORY
+  LOCK at the bottom of this message. Read it and decide yourself.
+• You are not generating images here. You are WRITING THE IMAGE
+  PROMPTS that I will paste into an image tool myself. Every prompt
+  must be complete, self-contained and copy-paste ready.
 
-═══════════════════════════════════════════════════════════
-PRODUCTION LOCK — paste from PROMPT 1
-═══════════════════════════════════════════════════════════
-[YAHAN STORY LOCK KA POORA BLOCK PASTE KARO]
-
-This STORY LOCK is the truth. Your job is to translate it, not to
-improve it, not to change it. If anything is unclear, say which line
-is unclear and stop. Do not invent. Inventing is the thing that makes
-the film become a different story.
-
-═══════════════════════════════════════════════════════════
-RULE 1 — FIRST PROVE YOU UNDERSTOOD
-═══════════════════════════════════════════════════════════
-Do not start work yet. First, in eight plain lines, write the story
-back to me — what happens, what each person wants, what changes. Wait
-for my "ok" only if something is wrong; otherwise continue.
-
-═══════════════════════════════════════════════════════════
-RULE 2 — THE AGE LINE  ⭐ v9 (character budha nahi lagega)
-═══════════════════════════════════════════════════════════
-EVERY character line starts with the age. This is the single thing that
-stops a twenty-year-old from rendering as a forty-five-year-old.
-
-Write it like: "a young woman of about nineteen, smooth unlined skin,
-full cheeks, bright clear eyes"
-
-⭐ BANNED for anyone under thirty, in every prompt:
-   wrinkled · lined · weathered · aged · gaunt · hollow ·
-   leathery · hardened features · mature
-⭐ BANNED for their clothing and ornaments:
-   tarnished · worn · frayed · faded · dusty · threadbare · patched
-⭐ BANNED for the look of the film:
-   vintage · period film · archival · old print · faded colours ·
-   sepia · 35mm film grain · muted palette
-
-The world is old. The FILM is not. A god, a village, a hundred years
-ago — none of that is an instruction to make the picture look old or
-faded. Old is set dressing, not image quality.
-
-═══════════════════════════════════════════════════════════
-RULE 3 — MODERN, CLEAN, EXPENSIVE (the visual target)
-═══════════════════════════════════════════════════════════
-The film must look like it was shot THIS YEAR on a high-end digital
-cinema camera. Write it this way:
-
-  Photographed on a modern large-format digital cinema camera,
-  50mm prime lens at T1.8, shallow depth of field, clean sharp image,
-  no grain, deep true blacks, clean bright highlights held in check,
-  strong contrast, healthy warm skin with fine natural texture, a soft
-  sheen on the cheekbone, rich but restrained colour.
-
-⭐ COLOUR: rich, not faded. Greens must be green, gold must be gold,
-   red must be red. Only ONE colour may be loud per frame.
-   Faded is not the same as tasteful. Faded reads as cheap.
-⭐ LIGHT: one clear source, its direction, and a real shadow on one
-   side of the face. Light coming from everywhere is the biggest
-   computer-render tell there is.
-⭐ Never light a face only from behind — backlight hides skin texture,
-   and hidden texture is what reads as plastic.
-
-═══════════════════════════════════════════════════════════
-RULE 4 — DIVINITY, WITHOUT GLOW
-═══════════════════════════════════════════════════════════
-If the story has gods or divine figures, divinity comes from what they
-WEAR and what they DO — never from light effects.
-
-⭐ BANNED words for divine characters — these turn the picture into
-   calendar art / a devotional poster:
-   glowing · luminous · radiant · aura · halo · god rays · light shafts ·
-   sunbeams · golden mist · divine light · ethereal · dreamlike ·
-   floating particles · bloom · lens flare · rim glow
-
-INSTEAD, write it as materials and detail:
-
-  ✅ "deep blue-grey skin with fine natural texture, lit from the front
-     left so the right side falls into real shadow; a heavy saffron
-     raw-silk dhoti with a hand-woven gold zari border, creased where it
-     has been tied; a worked-gold crown with deep engraving; one real
-     peacock feather with separated barbs; a marigold garland with a
-     few outer petals already browning"
-
-More gold, more jewellery, more real fabric = more divine. Not more glow.
-
-⭐ THE NAME RULE: never write a deity's name inside an image prompt.
-The name alone pulls the model into poster-art mode. Write the figure's
-appearance and let the viewer recognise them:
-  ❌ "Lord Krishna under a kadamba tree, divine, devotional"
-  ✅ "a young man of about twenty, lean and broad-shouldered, skin an
-     even deep blue-grey, shoulder-length curling black hair, a tall
-     worked-gold crown holding one peacock feather, a saffron raw-silk
-     dhoti, a bamboo flute held in both hands"
-
-⭐ BANNED buzzwords — these are poster language and they read as cheap:
-   8K · ultra-realistic · hyper-realistic · masterpiece · premium ·
-   devotional · majestic · epic · stunning · IMAX · artwork · cinematic
-   poster
-
-═══════════════════════════════════════════════════════════
-RULE 5 — CHARACTER DNA (one line, used verbatim forever)
-═══════════════════════════════════════════════════════════
-For each character write ONE single unbroken line. This exact line gets
-pasted WORD FOR WORD into every image prompt and every video prompt
-that character appears in. Never shortened. Never reworded. Never
-"the same woman as before".
-
-Repeating it in every prompt is what keeps the face the same in shot 15
-as in shot 1. Changing even a few words is what makes the face drift.
-
-Order inside the line:
-  age and build · face shape and skin tone · hair: length, colour, how
-  it is tied, what is in it · every garment with its colour, fabric and
-  how it sits · every ornament item by item · anything always in hand
-
-Write them like this:
-
-RADHA = a young woman of about nineteen, slim and small-boned, oval
-face with high cheekbones and a soft chin, warm brown skin with fine
-natural texture, long black hair in a single braid with small white
-flowers woven through it, rose-pink silk lehenga with dense gold zari
-work, matching rose-pink veil with a gold border sitting over her head
-and falling across her right shoulder, gold maang tikka, a small red
-bindi, a thin gold nose ring with a fine pearl chain, gold jhumka
-earrings, a pearl choker, glass bangles on both wrists, heavy silver
-anklets with small bells
-
-KRISHNA = a young man of about twenty, lean and broad-shouldered, an
-even deep blue-grey skin tone with fine natural texture, shoulder-length
-curling black hair, a tall worked-gold crown holding a single peacock
-feather, a saffron raw-silk dhoti with a hand-woven gold zari border,
-a cream silk upper cloth across the left shoulder, a fresh marigold and
-jasmine garland, a broad gold armband, a bamboo flute held in both hands
-
-⭐ If a character changes clothes or grows older during the film, write
-   a SEPARATE full DNA line for each version and say which shot numbers
-   use which. Costume may never change between shots unless the change
-   is filmed.
-
-═══════════════════════════════════════════════════════════
-RULE 6 — LOCATION DNA (one line per place)
-═══════════════════════════════════════════════════════════
-
-YAMUNA GHAT = wide pale stone steps going down into slow green water,
-wet dark stone at the waterline, a small stone shrine on the left with
-a brass bell, tall reeds on the right bank, thin morning mist sitting
-on the surface
-
-Every place gets the same treatment: what the ground is · what is on
-the left · what is on the right · what is above · what is on the water
-or horizon · how big it is. Enough that a stranger could build it.
-
-═══════════════════════════════════════════════════════════
-RULE 7 — ✨ THE IMPERFECTIONS BLOCK (this is what makes it real)
-═══════════════════════════════════════════════════════════
-Every image prompt ends with this block, worded positively:
-
-  healthy skin with fine natural texture, slight natural unevenness in
-  the skin colour, a soft sheen on the cheeks and the bridge of the
-  nose, a few loose strands of hair out of place, fabric with real
-  weight sitting in real folds, small cast shadows under the jaw and
-  the collarbone, natural asymmetry between the two sides of the face
-
-Perfection is the tell. A face with nothing out of place reads as a
-render. One loose strand of hair does more for realism than any
-resolution.
-
-═══════════════════════════════════════════════════════════
-RULE 8 — THE PORTRAIT RULE  ⭐ v9 (cartoon fix)
-═══════════════════════════════════════════════════════════
-For each character, write ONE portrait prompt. It must produce a single
-clean photograph:
-  · head and shoulders, one person only, alone
-  · plain uncluttered background, out of focus
-  · one light source, front-left or three-quarter, real shadow on the
-    other side
-  · facing the camera or three-quarter — not profile
-  · eyes open, natural neutral expression
-  · the full DNA line · the AGE LINE · the IMPERFECTIONS block
-
-⭐ Write at the end: "one single photograph, not a grid, not a sheet,
-no panels, no labels, no text, no colour swatches, no second angle of
-the same person"
-
-⚠️ Why this matters: character sheets, grids, turnarounds and collages
-   are for ME to look at. They must NEVER be uploaded into the video
-   tool. The model reads an uploaded image as the whole look of the
-   frame — give it a grid and it renders a flat, drawn, cardboard
-   version of everything. Upload the clean portrait only.
-
-═══════════════════════════════════════════════════════════
-RULE 9 — STEP LOCK  ⭐ v9 (ye step sirf CHEHRE aur JAGAH ka hai)
-═══════════════════════════════════════════════════════════
+━━━ ⛔ RULE 0 — STEP LOCK (ye step sirf CHEHRE aur JAGAH ka hai) ━━━
 This step makes characters and places. Nothing else. Not one thing else.
 
-  ✅ ALLOWED in this answer:
+  ✅ ALLOWED in your answer:
      · the story read back in eight lines
+     · the style test prompts (STYLE-A2 / STYLE-A)
+     · the cast list
      · the DNA line for every person
      · the location DNA line for every place
      · the palette
-     · ONE portrait image prompt per person
+     · ONE upload portrait prompt per person
+     · the character sheet and world sheet prompts (planning only)
+     · the opening frame prompt
      · the upload list
 
-  ❌ NOT ALLOWED in this answer, not even as an example, not even in a
-     small box, not even "just to show you":
+  ❌ NOT ALLOWED in this answer, not even as an example, not even in
+     a small box, not even "just to show you":
      · any video prompt
-     · any camera movement, lens, or camera height
+     · any camera movement, lens or camera height for a shot
      · any timestamp like [00:00-00:02]
      · any shot list, shot number or shot card
+     · any beat timeline
      · any music, caption or hashtag
 
-If even one video prompt or one camera move appears in your answer, the
-whole answer is wrong. Throw it away and write the answer again using
-the allowed list only.
+If even one video prompt or one camera move for a shot appears in
+your answer, the whole answer is wrong. Throw it away and write it
+again using the allowed list only.
 
-⭐ And finish your answer with this exact line, so I always know what is
-next:
+⭐ And finish your answer with this exact line, so I always know what
+is next:
 
    "STEP 2 POORA. Ab PROMPT 3 paste karo — shot cards wahi banayega.
     Us se pehle koi video prompt nahi banega."
 
-═══════════════════════════════════════════════════════════
-NOW GIVE ME
-═══════════════════════════════════════════════════════════
-1. THE STORY IN EIGHT LINES (proof you understood)
-2. THE DNA LINE for every character, in the exact format above, ready
-   to copy. Label each one clearly: RADHA = ... · KRISHNA = ...
-3. THE LOCATION DNA LINE for every place.
-4. THE PALETTE — 4 or 5 colours, and where each one appears.
-5. ONE PORTRAIT IMAGE PROMPT per character, in a labelled box:
+━━━ FIRST: THE STYLE ━━━
+Do not ask me what style I want, and do not ask me for a reference.
+YOU choose one single moment from this film to use as the style
+test — pick the strongest emotional moment from the STORY LOCK, one
+character, one clear action. State which moment you picked and why,
+in one line.
 
-   ───── IMAGE PROMPT — RADHA PORTRAIT ─────
-   [the full prompt]
-   Save the result as: CHAR-radha.png
-   ─────────────────────────────────────────
+Then write TWO complete image prompts of THAT SAME moment — same
+character, same pose, same framing, same light. Only the visual
+treatment differs. Each prompt must fully describe the character,
+the place and the action on its own, because the image tool has
+seen nothing else.
 
-   ⭐ Only characters who actually appear in the film get a portrait.
-   ⭐ Only ONE portrait per character. Not three. Not a sheet.
+Label them clearly and give each a filename:
+STYLE-A2.png, STYLE-A.png
 
-6. THE UPLOAD LIST — a short table saying exactly which file goes where:
-   | File | Used for |
+  STYLE A2 — MODERN LIVE ACTION ⭐ DEFAULT
+  A real actor photographed on location on a modern digital cinema
+  camera, ARRI Alexa 35 with Cooke S7 anamorphic lenses, clean and
+  sharp. ONE motivated light source with a named direction, a clear
+  bright side and a clear shadow side on the face. Healthy skin with
+  fine natural texture and a light sheen on the forehead and
+  cheekbones, individually visible hair strands, crisp new fabric
+  with a soft sheen where it catches the light, bright polished
+  metal, true depth of field falloff, very deep blacks, clean bright
+  highlights, strong contrast, and a restrained colour palette where
+  most of the frame sits near grey and only ONE colour is allowed to
+  be strong. Looks like a frame from a film released this year.
 
-7. ⭐ WHAT I WILL UPLOAD — write it as plain English, so there is no
-   confusion: "Image prompt ke liye sirf CHAR-radha.png upload karo.
-   Video ka kaam agle step me hai; wahan us shot ki still upload hogi."
+  STYLE A — HIGH CONTRAST CINEMA
+  The same capture discipline and the same modern cleanliness, one
+  motivated light source, deeper shadows, stronger contrast, shallow
+  depth of field. Bolder and more graphic, still a photograph.
 
-8. ⭐ Then the STEP 2 POORA line from Rule 9. Nothing after it.
+Tell me: "Generate these two images, look at them, and tell me which
+you prefer — A2 or A?" Then WAIT for my answer.
+Do not continue to the character sheets until I have replied.
 
-═══════════════════════════════════════════════════════════
-BEFORE YOU SEND — CHECK YOUR OWN WORK
-═══════════════════════════════════════════════════════════
-  1. Does every DNA line start with an age?
-  2. Any banned word anywhere — old, faded, glowing, aura, 8K, epic,
-     tarnished, weathered, grain? Remove all of them.
-  3. Any deity name inside an image prompt? Replace with appearance.
-  4. Is any prompt negative ("no ...")? Rewrite it positive.
-  5. Does every portrait say "one person, one photograph, no grid"?
-  6. Did you invent a character, place or object I never gave you? If
-     yes, cut it.
-  7. Is any DNA line shortened anywhere? Make them all identical?
-  8. ⭐ Does your answer contain a video prompt, a camera move, a lens,
-     a timestamp or a shot number ANYWHERE? Delete it. That work belongs
-     to the next step and it is not allowed here.
-  9. ⭐ Is the "STEP 2 POORA" line the last thing in the answer?
+⚠️ THERE IS NO "DIVINE GLOW" STYLE AND YOU MUST NOT INVENT ONE.
+A glow style is how a film turns into calendar art. If a divine
+register is needed, it is carried by MATERIALS, not by light — see
+the rule below.
 
-Fix everything, then send the corrected version only.
+━━━ THEN: THE IMAGE PROMPTS ━━━
+Once I pick, write me the actual copy-paste image prompts. I will
+paste each one into an image tool myself. Number them and give me a
+filename for each so the files stay organised.
+
+⚠️ IF THE REGISTER IS DIVINE OR ROYAL, read this first. It is the
+single easiest way to wreck a film, and almost everyone wrecks it.
+
+THE RULE: DIVINITY COMES FROM MATERIALS, NEVER FROM LIGHT.
+
+A god looks divine because of what he is WEARING and what he is MADE
+of — heavy raw silk with a deep sheen, bright worked gold with sharp
+deep engraving that catches the light, big uncut gems, dense fresh
+flowers, skin lit like skin. He does not look divine because the air
+is full of golden mist. He looks divine because he is wearing more,
+and better, than anyone else in the frame.
+
+The moment you add glow, the image stops being a photograph. These
+words are what produce that plastic, computer-rendered, calendar-art
+result, and they are BANNED in every prompt you write:
+
+  glowing skin · luminous · radiant · aura · halo · god rays ·
+  light shafts · sunbeams through trees · golden mist · golden haze ·
+  divine light · ethereal · dreamlike · otherworldly · magical ·
+  shimmering · sparkling · floating petals · floating particles ·
+  light bloom · lens flare · backlit glow · rim glow · heavenly
+
+Also banned, because they make a god look poor rather than real:
+  simple · plain · ordinary · rustic · humble · unadorned ·
+  weathered · faded · coarse cotton · no jewellery
+
+So: how a divine character is built instead.
+
+  ❌ CALENDAR ART: "Krishna with glowing luminous blue skin, divine
+     aura, god rays streaming through the trees, golden mist,
+     floating petals, ethereal dreamlike atmosphere"
+
+  ✅ A PHOTOGRAPH OF A DIVINE FIGURE: "a man of about twenty-two,
+     his skin an even deep blue-grey, smooth and unlined with fine
+     natural texture and a light sheen along the cheekbone, lit from
+     the front left by low sun so the right side of his face falls
+     into real shadow; a heavy saffron raw-silk dhoti with a
+     hand-woven gold zari border, the silk falling in sharp folds; a
+     gold crown of worked metal, bright and polished, the engraving
+     cut deep and catching the light, and one peacock feather with
+     separated barbs; a thick garland of fresh marigolds and tulsi"
+
+  Read them again. The second one has MORE gold, MORE silk, MORE
+  ornament. It is more divine, not less. It just refuses to glow.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⭐ MUTED IS NOT THE SAME AS FADED — AND THIS TRIPS EVERYONE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Expensive modern footage is NOT colourful. Look at any big film of
+the last ten years and most of the frame sits near grey, with one
+colour allowed to be strong — skin, or fire, or one piece of cloth.
+That is not the same thing as looking old.
+
+  MODERN AND EXPENSIVE          OLD AND CHEAP
+  colour pulled toward grey     colour washed out everywhere
+  blacks are deep and solid     blacks are grey and lifted
+  highlights clean and bright   highlights dull and flat
+  sharp, no grain               soft, grainy, hazy
+  one strong accent colour      no colour anywhere
+  → looks like this year        → looks like a scanned photo
+
+So write: a restrained palette near grey, ONE strong accent colour,
+very deep blacks, clean bright highlights, strong contrast, sharp.
+Never write: faded, washed, muted-and-soft, grainy, hazy, dusty,
+low contrast.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⭐ THE AGE LINE — WHY EVERYONE COMES OUT LOOKING OLD
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+If you do not state an age, the model picks one, and it almost
+always picks older than you meant. Worse, every word used to make
+an image look real — pores, lines, weathered, tarnish, worn,
+faded, grain, muted — is also a word that means OLD. Use them on a
+young character and a twenty-year-old comes back at forty-five,
+and the whole film looks like it was shot decades ago.
+
+So every character DNA line MUST open with an age, in years, and
+with the words that go with that age:
+
+  ✅ "a woman of about nineteen, smooth unlined skin with fine
+     natural texture and a light sheen on the cheekbone, full
+     cheeks, bright clear eyes, thick glossy black hair"
+  ✅ "a man of about twenty-two, a lean jaw with faint stubble
+     only along the edge, smooth forehead, bright clear eyes"
+  ✅ "a woman of about sixty, deep lines across the forehead and
+     at the eyes, thinning grey-streaked hair, loose skin at the
+     throat"   ← ageing words ONLY when the character IS old
+
+For anyone under thirty, these words are banned from the DNA line
+and from every image prompt: pores, wrinkles, lines, crow's feet,
+weathered, leathery, sun-damaged, rough, coarse, gaunt, sagging,
+grey hair, sunken, tired, aged, elderly, mature.
+
+AND THE SAME FOR THE WORLD. If the film is set today, say so in the
+world DNA and say it in the picture: clean modern clothing with
+sharp new stitching, undamaged paint, working electric light,
+present-day haircuts, glass, steel, fresh fabric dye. If the film
+is set in the past, say WHICH period and say it through objects —
+never through decay. A period is a set of things, not a layer of
+dust. Faded, peeling, cracked and crumbling do not say "old era",
+they say "low budget".
+
+⚠️⚠️ AND THE BIGGEST ONE: NEVER WRITE THE DEITY'S NAME IN AN IMAGE
+OR VIDEO PROMPT.
+
+Write "Krishna" and the model does not picture a person. It reaches
+for everything ever labelled Krishna in its training — and that is
+overwhelmingly devotional poster art, temple calendars, glowing
+murals and 3D devotional renders. The name alone summons the style,
+and no amount of camera wording afterwards will beat it. The same is
+true of Radha, Shiva, Ram, Hanuman, Durga, and of "Lord", "Shri",
+"deity", "divine figure", "God".
+
+So the name lives in the STORY, the plan and the shot titles — where
+it belongs and where it helps me follow along. It NEVER appears
+inside a prompt I paste into a tool.
+
+Inside a prompt, the character is only ever a physical human being:
+
+  ❌ "Lord Krishna standing under a kadamba tree, divine, devotional"
+  ✅ "a young man of about twenty, lean and broad-shouldered, skin an
+     even deep blue-grey, shoulder-length curling black hair, a tall
+     worked-gold crown holding one peacock feather, a saffron
+     raw-silk dhoti with a woven gold border, a bamboo flute in both
+     hands, standing under a broad kadamba tree"
+
+Everything that makes him recognisable is still there — the blue
+skin, the crown, the peacock feather, the flute, the dhoti. Any
+viewer knows exactly who he is. The model, meanwhile, has been handed
+a photograph brief instead of a poster brief.
+
+This is what the CHARACTER DNA LINE is for. Write the DNA line so it
+never contains the name, then paste it as-is. Put the name only in
+the card heading, like "SHOT 07 — Krishna under the kadamba".
+
+⚠️ ALSO BANNED, for the same reason — these are poster words, not
+photography words, and every one of them pulls toward a render:
+  8K · 4K · ultra-realistic · hyper-realistic · ultra-detailed ·
+  highly detailed · masterpiece · premium · devotional · spiritual ·
+  majestic · epic · breathtaking · stunning · beautiful ·
+  cinematic (used on its own as an adjective) · high budget ·
+  IMAX quality · poster · artwork · rendering
+Say the lens, the film stock and the light instead. Those are what a
+real photograph is described by.
+
+Every divine woman still needs at least: kohl-lined eyes, bindi,
+maang tikka, nath, jhumka, choker plus a long necklace, bajuband,
+bangles, mehndi, payal, zari silk, a gold-bordered dupatta, fresh
+flowers in the hair.
+Every divine man still needs at least: a jewelled mukut, tilak,
+kundal, vaijayanti mala, kantha, bajuband, kada, zari dhoti,
+kamarbandh, anklets, and his signature object.
+Describe each of those as a real physical object with a weight, a
+weave, a finish and a small imperfection. Never as something that
+shines by itself.
+
+━━━ 2A. CAST LIST ━━━
+List EVERY person who appears — even for one shot. Parents, friends,
+elders, servants. Anyone without a sheet will change face between
+shots. For each: name, role in a line, three trait words, age.
+
+⚠️ AGE STAGES: if the film spans time, the SAME character needs a
+SEPARATE sheet for EACH age. State explicitly which features carry
+across all ages — eye shape, face structure, skin tone, marks — so
+it reads as one person growing up, not three different people.
+
+━━━ 2B. THE UPLOAD PORTRAIT — make this one FIRST ━━━
+
+⚠️ READ THIS BEFORE THE SHEET. It prevents two real failures: faces
+that come out looking cartoonish, and having to upload a pile of
+images for every shot.
+
+For each character produce TWO different things, and they have
+different jobs:
+
+  1. THE UPLOAD PORTRAIT — one clean photographic portrait: a single
+     frame filling the whole image, one person, every surface blank
+     and unmarked. THIS is the only file that ever gets uploaded into
+     an image or video tool. Filename: CHAR-[name].png
+
+  2. THE CHARACTER SHEET — the labelled multi-view grid in 2C below.
+     This is a PLANNING document for me to look at and for you to
+     write the DNA line from. It is NEVER uploaded into a tool.
+
+⚠️ WHY THIS SPLIT EXISTS — THE CARTOON FACE BUG
+A model reads an uploaded reference as a whole frame and copies its
+LOOK, not just its content. A character sheet is a designed artifact:
+a grid, flat studio lighting, labels, colour swatches, several heads
+floating on one canvas. Upload that into a video tool and it faithfully
+reproduces exactly those qualities — flat, graphic, illustrated. That
+is the "it started looking like a cartoon" failure, and it is caused
+by the reference, not the prompt. Nothing you write in words will
+outvote it.
+
+So the upload portrait must look like a photograph of a real person
+and nothing else. Write its prompt like this:
+
+   Photographed on a modern digital cinema camera, 85mm lens at
+   f/2.8, eye level, camera height [n] centimetres. A single portrait
+   of one person, vertical 9:16, three-quarter view from the waist up.
+   Lit by soft window light from the front left at 45 degrees, so the
+   left of the face is bright and the right falls into gentle real
+   shadow; weak bounce fill from the right. Daylight temperature.
+   [the character's full description]
+   Standing relaxed against a plain mid-grey wall, facing camera,
+   eyes looking into the lens, a calm natural expression, lips
+   closed.
+   Exactly one person in this frame, no one else, no duplicate, no
+   second figure, nobody in the background.
+   [the full positive closing block]
+   One single frame filling the whole image, one continuous plain
+   wall behind, every surface blank and unmarked.
+   ⚠️ Write NO ban list here. A tool with one text box reads "no
+   grid, no labels, no glow" as a request for grids, labels and
+   glow. State only what IS in the frame.
+
+   SAVE AS: CHAR-[name].png
+   ✅ DEKHO: ye ek asli insaan ki photo lagni chahiye. Agar isme
+   grid, label ya flat studio look hai, dobara banao — wahi cartoon
+   wali galti karega.
+
+⚠️ AND NEVER STACK REFERENCES
+One upload is stronger than four. Each extra reference image adds its
+own texture and style to the blend, and the more you stack the further
+the result drifts from photographic. Never upload the character sheet,
+the world sheet, the style image and the shot still all together.
+ • IMAGE prompts: upload the character portrait only. One per
+   character actually in the shot. Nothing else.
+ • VIDEO prompts: upload the shot still only — plus the next shot's
+   still if, and only if, you are pinning a last frame.
+ • The world sheet and style image are for YOU to look at while
+   writing. They are never uploaded.
+
+━━━ 2C. CHARACTER SHEET PROMPTS (planning only, never uploaded) ━━━
+One per character per age stage. Write each as a ready-to-paste
+prompt. Use this exact structure and fill in the character:
+
+   Create a CHARACTER SHEET in one single image, 2:3 portrait, on a
+   plain light grey studio backdrop with even soft lighting.
+   CHARACTER: [name, age, role]
+   [full description — face, build, costume, every ornament, colours,
+    skin tone, distinguishing marks]
+   TOP ROW — four views, identical face in all four:
+     1. FACE, head and shoulders, looking at lens
+     2. FRONT, full body, standing
+     3. BACK, full body from directly behind — hair, braid, the back
+        of the costume and how the garment falls
+     4. SIDE, full profile
+   BOTTOM ROW — five tight macro tiles:
+     1. TILAK or forehead marking — exact shape and colour
+     2. HAIR — ornament, braid pattern, parting
+        (for a man: TURBAN or CROWN detail)
+     3. JEWELLERY — ear, neck and arm, clearly readable
+     4. HAND — bangles, mehndi, rings, nails
+     5. FEET — anklets, toe rings, sole
+        (for a man: his SIGNATURE OBJECT)
+   Label every view and tile with small text underneath.
+   Below the tiles, a bar of five colour swatches from this
+   character: skin, main garment, accent, metal, accessory.
+   The face must be IDENTICAL in every view and tile.
+   Photographic realism, word for word: "healthy skin with fine
+   natural texture and a light sheen on the forehead and cheekbones,
+   individually visible hair strands, crisp new fabric with a soft
+   sheen where it catches the light, bright polished metal with deep
+   sharp engraving, clean modern digital capture, very deep blacks,
+   strong contrast, a restrained palette with one strong colour"
+   [STYLE LINE FROM MY PICK — paste it as WORDS. Never upload the
+    style image itself; an uploaded style reference drags its own
+    texture into the result.]
+
+Under each sheet prompt, print that character's DNA LINE in its own
+separate block, clearly marked, like this:
+
+   ╔══════════════════════════════════════════════════╗
+   ║  DNA — RADHA                                     ║
+   ║  the heading names her so I can follow along.    ║
+   ║  the LINE below never says her name — copy the   ║
+   ║  line only, whole, into every prompt she is in   ║
+   ╠══════════════════════════════════════════════════╣
+   a young Indian woman of about eighteen, slender, a soft
+   oval face with a rounded chin and long dark eyes, fair
+   golden-brown skin with fine natural texture, very long jet black
+   hair in one thick braid bound with gold cord and threaded with
+   white jasmine buds, a deep rose pink silk lehenga with dense gold
+   zari embroidery along the hem, a fitted matching choli, a pale
+   gold silk dupatta over her left shoulder, a gold maang tikka with
+   a pearl drop, a small red bindi, a gold nath with a fine pearl
+   chain to her ear, large gold jhumkas, a pearl and emerald choker,
+   gold armlets, stacked gold and red glass bangles on both wrists, a
+   fine gold waist chain, heavy silver anklets with small bells
+   ╚══════════════════════════════════════════════════╝
+
+That is the format and roughly the length. One unbroken line. It
+must name, in this order: age and build · face shape and skin tone ·
+hair, how it is tied, what is in it · every garment with colour and
+fabric and how it sits · every ornament item by item · anything
+always in their hand.
+
+⚠️ Notice what the line does NOT contain: her name, and any word
+like goddess, divine or devotional. The heading above the box is
+where the name lives. The line itself describes a human being only —
+that is what keeps the output a photograph instead of poster art.
+
+⚠️ WHY THIS MATTERS MORE THAN ANYTHING ELSE
+This exact line gets pasted, word for word, into EVERY image prompt
+that character appears in, for every shot, right to the end of the
+film. Never shorten it. Never reword it. Never replace it with "the
+same woman as before" or "the same person from the uploaded image".
+
+Repeating the whole line every time is the only thing that keeps the
+face the same in shot 15 as in shot 1. Changing even a few words is
+exactly what makes the face drift halfway through a film.
+
+(The VIDEO prompt for the same shot works the other way round — see
+PROMPT 3, BLOCK 0. There the uploaded still already carries the face,
+so the video prompt carries a SHORT lock, not the full line. Full
+line in image prompts. Short lock in video prompts. Never mix them up.)
+
+Then give me the filename: CHAR-[name]-[age].png
+
+━━━ 2D. WORLD SHEET PROMPTS (planning only, never uploaded) ━━━
+One per location. Same format:
+
+   Create a LOCATION REFERENCE SHEET in one image — a clean grid of
+   ten photographic tiles of the SAME place, labelled underneath.
+   LOCATION: [name, era, season, time of day]
+   1  WIDE ESTABLISHING, hero light
+   2  THE SAME PLACE FROM THE OPPOSITE SIDE
+   3  THE SECONDARY AREA
+   4  ONE SIGNATURE DETAIL of this world, close
+   5  GROUND OR WATER LEVEL, lowest possible camera
+   6  TEXTURE MACRO — the actual surface material
+   7  SHOT THROUGH A FOREGROUND — past trees, pillars, reeds
+   8  HIGH VIEW looking down
+   9  THE SAME PLACE AT [other time of day]
+   10 SKY REFERENCE — cloud, haze, sun position
+   Along the right edge, six colour swatches labelled: earth, water,
+   trees, [signature element], sky, stone.
+   Every tile the same place, same season, same era, consistent
+   light direction. Photographic, natural light, real texture.
+   [STYLE LINE FROM MY PICK]
+
+Filename: WORLD-[place].png
+Under it, print the LOCATION DNA LINE — one unbroken line naming the
+place, era, season, time of day, the ground, the main structures,
+the materials, and what is growing or hanging there.
+
+━━━ 2E. THE COLOUR PALETTE ━━━
+From the sheets, write out the film's palette — six colours with
+what each comes from. Then state: "This palette is now law. No
+colour outside it may enter any frame."
+Also mark which SINGLE colour is allowed to be loud, and where in
+the film it appears.
+
+━━━ 2F. THE OPENING FRAME ━━━
+One finished, full-quality frame of the film's opening image — not a
+reference, the actual frame as it will appear. Write it as a ready
+prompt. Filename: HERO-opening.png
+Tell me: "This is the quality bar. If any later frame is weaker than
+this one, regenerate that frame."
+
+━━━ FINISH WITH THIS ━━━
+Print a numbered checklist of every image I must now generate, in
+order, with its filename, in two groups:
+   GROUP 1 — the style test (2 images, then WAIT for my pick)
+   GROUP 2 — everything else (portraits, sheets, world, hero frame)
+Then say:
+
+"✅ Generate these images now, one at a time, and save them with
+these exact filenames. When they are done, paste PROMPT 3 together
+with the STORY LOCK."
+
+And remember the last line of Rule 0 — the STEP 2 POORA line.

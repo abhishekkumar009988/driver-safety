@@ -1,480 +1,1835 @@
-You are a first assistant director and a storyboard artist for a photoreal
-film.
+Now turn the STORY LOCK into shot cards I can follow without
+thinking.
 
-I will paste this into an AI tool myself. You are WRITING prompts, not
-making pictures and not making clips. Never ask me for a reference image
-or an upload — I have nothing to give you.
+Do not ask me anything at all. If something is missing, state an
+assumption and continue. Never ask me to upload, provide or identify
+a reference image or an example — I have nothing to give you, and
+the reference images already exist with the filenames from PROMPT 2.
+You are WRITING the prompts I will paste; you are not generating
+anything yourself.
 
-═══════════════════════════════════════════════════════════
-PRODUCTION LOCK — paste from PROMPT 1
-═══════════════════════════════════════════════════════════
-[YAHAN STORY LOCK KA POORA BLOCK PASTE KARO]
+━━━ FIRST, PROVE YOU STILL HAVE THE STORY ━━━
+In eight lines: what this film is about · what physically happens
+first to last · every character and what each wants · the turning
+point · how it ends and what the audience feels · what they feel at
+start, middle and end · the one image they must remember · the five
+things that must not change.
+If any of that is unclear in the STORY LOCK, say which line is
+unclear and stop. Do not guess. Inventing is what makes the video
+end up being a different film than the one I told you.
 
-This STORY LOCK is the truth. Translate it. Do not improve it, do not
-add a scene, do not add a character, do not add a prop. If a line is
-unclear, say which line and stop.
+⚠️ THE STORY LOCK IS THE TRUTH. Translate it into shots. Never
+improve it, reinterpret it, or add events. If a shot you want to
+write is not in the event chain, you may not write it.
 
-═══════════════════════════════════════════════════════════
-RULE 1 — SHOT LIST FIRST, CARDS SECOND
-═══════════════════════════════════════════════════════════
-Step one: give me the numbered SHOT LIST only — one line per shot:
+⭐ AND THE NEW RULE THAT GOVERNS THIS WHOLE PROMPT — THE TRACE LAW.
+Every card must be traceable back to MY words. So every card opens
+with a STORY LINE: a short quote from MY STORY or the STORY LOCK,
+inside quotation marks — the exact line that produced this shot.
 
-  07 | 8s | C | close on hands | "grip" | phase 2 | emotion: want
-
-  number | seconds | camera setup letter | what we see | one-word name |
-  emotion phase | what the audience feels
-
-Then Stop. Say: "Shot list ready. Say GO and I will write the cards."
-When I say GO, or if the list was already given in PROMPT 1, write every
-card. No further questions.
-
-═══════════════════════════════════════════════════════════
-RULE 2 — THE CARD FORMAT (copy this exactly, every shot)
-═══════════════════════════════════════════════════════════
-
-  ══════════ SHOT 07 — "GRIP" ══════════
-  STORY LINE (mine, quoted): "her fingers close on the cloth and she
-  does not let go"        ← the only reason this shot exists
-  Phase: 2 (want)   |   Emotion the audience gets: hope rising
-  Camera: setup C — chest height, 50mm, handheld micro-drift
-  Duration: 8s, one generation (Extend if the beat needs more)
-
-  ATMOSPHERE (start → end): smoke 2 → smoke 1 · two wisps at chest
-  height, drifting left to right at walking pace, lit from behind by the
-  lamp; ends as the column thins and clears her eyes and mouth.
-  FRAME INVENTORY: 1 person (centre, 1.5 m) · 2 light sources (oil lamp,
-  left, 1 m; fire, back right, 4 m) · 3 objects (one brass thali, one
-  folded cloth, one rope) · 2 pieces of cloth on her
-  FACE REVEAL: yes / no — if yes, the movement, the direction and the
-  two seconds in which the face becomes clear.
-
-  ACTION-ATTACH IN:  Shot 06 ends with her fingers touching the cloth.
-  ACTION-ATTACH OUT: This shot ends with her fingers closed around it and
-  her weight already moving left. Shot 08 must start exactly there.
-
-  NOT ADDED: nothing in this frame comes from my own imagination. Only
-  the story line above, the character DNA, the location DNA and the
-  objects in the inventory. Any small choice I had to make is listed at
-  the very end under MY ASSUMPTIONS.
-
-  IMAGE PROMPT (make the still first):
-  <one paragraph: camera + subject + action + context + light + look>
-  <identity block, word for word from PROMPT 2>
-  <location block, word for word>
-  Every object in this sentence must also be in the FRAME INVENTORY.
-  Nothing else may be written into the frame.
-  <one person / one photograph / not a grid, if it is a portrait>
-
-  VIDEO PROMPT — MOTION ONLY (the still is the truth):
-  ⭐ Never describe the place, the clothes or the face again. The
-     uploaded still already carries all of it, and writing it a second
-     time is exactly how the face and the scene start to change.
-  Keep identical to the still: face, clothes, colours, light,
-  background, number of people, position in frame.
-  Only these change, in this order:
-  [00:00-00:02] <the movement that finishes the last shot>
-  [00:02-00:05] <the main action>
-  [00:05-00:08] <the reaction, one beat late, and the new position>
-  <one sentence of sound — what we hear, no music>
-  Negative list: <comma-separated list of unwanted things — see Rule 10>
-
-  INGREDIENTS (max 3, in this order): CHAR-radha.png, LOC-chowk.png,
-  still-s07.png
-
-═══════════════════════════════════════════════════════════
-RULE 3 — ACTION-ATTACH LAW  ⭐ v9 ("action attach nahi lag raha" ka fix)
-═══════════════════════════════════════════════════════════
-The reason clips look like separate singles is that every clip started
-and ended at rest. This is the fix. It is the most important rule here.
-
-  1. NO SHOT STARTS AT REST and NO SHOT ENDS AT REST, except the very
-     first and the very last shot of the film.
-  2. The LAST 0.5 second of every video prompt must describe a movement
-     that is still going when the clip ends. Write it in present tense:
-     "she is still turning as the shot ends".
-  3. The FIRST 0.5 second of the next video prompt must complete that
-     same movement, from the same body position, same hand, same side.
-  4. Write the position in words, both times, and make them identical:
-     "right hand at chest height, elbow bent, weight on the left foot".
-  5. Moving camera continues: if a shot ends mid-pan, the next shot
-     starts mid-pan in the same direction, same speed.
-  6. Eyeline carries: whoever was looking left at the end, the next shot
-     must cut to what was on their left — and that person is looking
-     back, one beat late.
-
-If two consecutive cards cannot be joined this way, the shot list is
-wrong. Fix the shot list, not the cards.
-
-═══════════════════════════════════════════════════════════
-RULE 4 — 4–6 CAMERA SETUPS, ALL ANGLES VERIFIED  ⭐ v9
-═══════════════════════════════════════════════════════════
-Choose 4 to 6 setups for the whole film and never invent a seventh.
-
-  A — WIDE / master: the whole place, tiny people, one landmark visible
-  B — MEDIUM: waist-up, two people if they are together
-  C — CLOSE: face, or hands doing the important thing
-  D — OVER-SHOULDER: we look past one person at the other
-  E — HIGH or TOP-DOWN: the ground, the spread, the arrangement
-  F — LOW: from knee height looking up, for power moments only
-
-Camera height must be written in every card, in centimetres:
-  ground 0 · knee 45 · chest 120 · eye 160 · high 250 · top 300+
-
-Laws:
-  · Every scene must be covered from at least FOUR of the setups.
-  · Never two shots in a row from the same setup, unless the second is a
-    deliberate hold on the same face.
-  · Exactly ONE bold camera move in the entire film (a fast push, a
-    whip, a rise). Everything else is a slow drift, a slow push or a
-    locked frame. Write which shot has the bold move, and mark it.
-  · After a bold move, the next shot is locked or nearly locked.
-  · I am checking for this myself. If a setup is used fewer than four
-    times, or a scene sits in one setup, say so and fix it before
-    sending.
-
-═══════════════════════════════════════════════════════════
-RULE 5 — HOLD, DRAPE AND WEAR MECHANICS  ⭐ v9
-═══════════════════════════════════════════════════════════
-This is where AI clips fall apart. Never write "they embrace" or
-"she adjusts her dupatta". Write the physical steps, in order, with
-the limbs named.
-
-  HOLDING:   which hand, where it grips, how hard, and what the other
-             hand does at the same time.
-             "Her left hand closes on his right forearm just below the
-             elbow, thumb on the outside; her right hand stays at her
-             side."
-  DRAPING:   lift → travel → land. Three steps, three timestamps.
-             "She lifts the cloth with her right hand to shoulder
-             height, carries it across her chest, and lays it over the
-             left shoulder; it settles and stays."
-  WEARING:   what moves when the body moves. Sleeve, hem, veil, hair.
-             "When she turns, the hem sweeps a quarter turn behind her
-             and settles."
-  TOUCHING:  contact must be visible for at least one full second, and
-             the second person must react to it — a breath, a blink, a
-             small change of weight.
-
-Never let a cloth, a hand or a garland pass through a body, and never
-let it change from one shoulder to the other between shots.
-
-═══════════════════════════════════════════════════════════
-RULE 6 — MID-SCENE MERGE SHOTS  ⭐ v9 ("beech beech ke seenshots")
-═══════════════════════════════════════════════════════════
-Between two scenes, and between two big emotions inside one scene,
-insert ONE short shot, about 4 to 6 seconds, that belongs to both
-sides. It must contain two of these at the same time:
-
-  · the same movement continuing (a turn that becomes another turn)
-  · the same shape (a circle, a line, a curve repeating)
-  · the same colour passing from one object to another
-  · the same action done by two different people
-  · the same eyeline handed over
-  · the same emotion changing owner
-
-Say in the card: JOINS Scene 2 → Scene 3. Name which two of the six
-devices it uses. If it does not join two things, it is not a merge
-shot — cut it.
-
-═══════════════════════════════════════════════════════════
-RULE 7 — COSTUME IS AN ACTOR
-═══════════════════════════════════════════════════════════
-Never write "she wears the same clothes as before". Write what the
-clothing is DOING in this shot, and keep the state continuous:
-
-  · at the start of a scene, the state it entered with (wet hem, loose
-    sash, hair forward on the left)
-  · what it does during the shot
-  · the exact state it leaves in, so the next card can start there
-
-═══════════════════════════════════════════════════════════
-RULE 8 — A DETAIL SHOT MUST DO TWO JOBS
-═══════════════════════════════════════════════════════════
-Every close-up of an object must (a) be the RESULT of the previous
-shot and (b) SET UP the next one. Write both jobs on the card:
-
-  DOES:  the knot is already tightening because of Shot 05.
-  SETS:  the same rope is what Shot 06 pulls.
-
-A pretty object with no before and no after is filler. Delete it.
-
-═══════════════════════════════════════════════════════════
-RULE 9 — EMOTION PHASE SWITCHES THE LOOK  ⭐ v9
-═══════════════════════════════════════════════════════════
-The film has phases (for example: peace → want → test → break → grace).
-Every card states its phase, and every phase gets its own look, chosen
-automatically by the emotion — I do not want to decide it:
-
-  peace:  wide, soft light, greens and cream, slow drift, no VFX
-  want:   closer, warmer, one loud colour, light from one side, small
-          natural VFX already building (dust, drifting petals, heat)
-  test:   tighter, cooler, harder shadow, faster drift, weather VFX
-  break:  closest, darkest, hand-held, one big VFX event lands HERE
-  grace:  opens wide again, bright clean light, the loudest colour of
-          the film, calm locked frame
-
-Write the phase on every card and keep the look consistent inside a
-phase, so the change between phases is felt as a change in the film.
-
-═══════════════════════════════════════════════════════════
-RULE 10 — VEO GRAMMAR (this is how the video prompt gets written)
-═══════════════════════════════════════════════════════════
-  · One generation = 8 seconds. Longer beat = write it as the next
-    generation and use Extend; say "EXTEND" on the card.
-  · Timestamps in square brackets, 2 to 4 segments, shortest readable
-    beat is about 2 seconds: [00:00-00:02].
-  · One subject per shot. One action per segment.
-  · Repeat the identity block, the location block and the look block
-    WORD FOR WORD at the top of every single video prompt. Shortening
-    them is the number one cause of the face changing.
-  · Negatives are a plain LIST, never a sentence with "no" or
-    "don't":
-    Negative list: motion blur, face distortion, warping, morphing,
-    duplicate limbs, extra fingers, background shifting, text, logo,
-    plastic skin, glowing aura, cartoon, poster look
-  · Maximum 3 ingredients per generation, uploaded in this order:
-    character first, then location, then the still of this shot.
-  · Write sound as its own sentence, never as music: wind, cloth,
-    footsteps, breath, water, a bell. Music comes later.
-  · Keep the whole video prompt between roughly 120 and 300 words.
-    Under about 1000 tokens. Longer prompts do not work better; they
-    break the identity.
-
-═══════════════════════════════════════════════════════════
-RULE 11 — WHAT I UPLOAD FOR EACH SHOT
-═══════════════════════════════════════════════════════════
-On every card write the upload line in plain words, for example:
-
-  UPLOAD: CHAR-radha.png (character), LOC-chowk.png (place),
-  still-s07.png (this shot's still).
-
-═══════════════════════════════════════════════════════════
-RULE 12 — ATMOSPHERE NUMBER SYSTEM  ⭐ v9 (smoke · fog · dust · rain)
-═══════════════════════════════════════════════════════════
-"Some smoke" and "light fog" mean NOTHING to a video model. It guesses,
-and the guess is always too much smoke, too weak a face, and a new face
-invented behind the smoke. So every effect gets a NUMBER, and the number
-means exactly the same thing in every shot of this film.
-
-⭐ SMOKE LEVEL — write the number, then the look, then the direction
-
- 0 — no smoke at all.
- 1 — one wisp thinner than a wrist, one tenth of the frame at most.
-     The face is completely clean and sharp. Safe for every face shot.
- 2 — two or three wisps at chest height, drifting at walking pace.
-     The face stays clean; only the outline of the shoulders softens.
- 3 — a low band up to the waist, plus two moving columns. Eyes and mouth
-     staying sharp; the chin edge may soften. THIS IS THE HEAVIEST SMOKE
-     ALLOWED IN ANY SHOT THAT CONTAINS A READABLE FACE.
- 4 — smoke up to the neck, columns crossing the face. Eyes and brow
-     only. Never in a dialogue shot, never in a face close-up.
- 5 — the whole frame filled, the person is a silhouette. No face detail
-     of any kind.
-
-⭐ FOG LEVEL — the number is the height of the fog ON THE BODY
-
- 0 — none; ground and distance readable.
- 1 — ankle height; the feet disappear, the ground still readable.
- 2 — knee height; the legs vanish, the body fully clear.
- 3 — waist height; faces in the middle distance start to go soft. Any
-     face shot in fog must stay at 0, 1 or 2.
- 4 — chest height; the person's own face goes soft. Silhouettes and
-     wides only.
- 5 — full frame; no ground, no distance, no face. A dreamy or lost
-     moment only, never a plot action.
-
-⭐ DUST / HAZE 1 motes in a beam · 2 dust off the ground under
-   footsteps · 3 a beam thick enough to see the light itself · 4 the air
-   greys out and the distance is lost.
-
-⭐ RAIN 1 a few slow drops on skin, visible only against dark cloth ·
-   2 steady drops, visible against dark backgrounds · 3 heavy; water
-   standing on the ground, splash at the feet · 4 downpour; faces not
-   usable.
-
-⭐ FIRE / FLAME — write the count, the height in centimetres, and where
-   each one is: "two oil lamps, flame six centimetres, one left of frame
-   at chest height, one behind her at knee height."
-
-⭐ Every effect needs a SOURCE that is in the frame, or was in the frame
-   a moment ago: the fire that makes the smoke, the window that makes
-   the beam, the cloud that makes the rain, the breath that makes the
-   steam. Effect with no source reads as a computer mistake.
-
-═══════════════════════════════════════════════════════════
-RULE 13 — FACE REVEAL LAW  ⭐ v9 (chehra kab dikhega, kitna dikhega)
-═══════════════════════════════════════════════════════════
-A face hidden behind smoke is where identity dies: the model invents new
-features every time it has to guess. So:
-
- 1. Any shot where the audience must READ the face: smoke 0-2, fog 0-2,
-    rain 0-2, dust 0-2. Write the numbers.
- 2. The heavy levels (smoke 4-5, fog 4-5, rain 4) are for silhouettes,
-    wides and object shots ONLY.
- 3. A REVEAL is written as a MOVEMENT, with a direction and a duration:
-    "the smoke column drifts to the left and clears her eyes and mouth
-    within two seconds, and stays clear for the rest of the shot."
-    Never write "the smoke clears" with no direction and no time.
- 4. The reveal shot gets ONE light source at forty-five degrees from the
-    front, with its distance written: "a warm oil lamp, chest height,
-    left of camera, one and a half metres away." A face revealed
-    against the light stays a shadow, and the model fills that shadow
-    with a different face.
- 5. AFTER a reveal, the next two shots stay at smoke 0-1, so the face is
-    locked in the audience's memory. Never reveal and re-cover at once.
- 6. The level may change by ONE step between two shots, unless something
-    inside the shot causes the change — and then write the cause: the
-    door opens, the fire is thrown, the wind turns.
-
-═══════════════════════════════════════════════════════════
-RULE 14 — FRAME INVENTORY  ⭐ v9 (ginti likho, warna model bana dega)
-═══════════════════════════════════════════════════════════
-Every card carries a count. What is not counted does not exist in the
-frame, and if the model wants it, it must ask me first.
-
-  PEOPLE   — how many, and where each one stands (left / centre / right,
-             front / middle / back), with the distance in metres.
-  LIGHT    — how many sources, what each one is, where it is, and its
-             distance in metres.
-  OBJECTS  — every object, with its number.
-  CLOTH    — how many pieces on each person, and in what state.
-  DISTANCE — how far the camera is from the subject, in metres.
-  HEIGHT   — which part of the body sits at the centre of the frame.
-
-Write it straight onto the card:
-  FRAME INVENTORY — 2 people (her, centre, 1.5 m; him, left, 3 m) ·
-  2 lights (lamp, left, 1 m; fire, back right, 4 m) · 3 objects (one
-  brass thali, one folded cloth, one rope) · smoke level 2
-
-═══════════════════════════════════════════════════════════
-RULE 15 — THE TRACE LAW  ⭐ v9 (story kuch, image kuch — ye band)
-═══════════════════════════════════════════════════════════
-Every card must be traceable back to my words. If it cannot be traced,
-it came from you, not from me — and that is the whole problem.
-
-  1. Every card opens with STORY LINE: a short quote from MY STORY or
-     from the STORY LOCK, inside quotation marks.
-  2. If a card has no line, it does not exist. Either delete it, or mark
-     it as PURE TRANSITION and keep it to three seconds or less.
-  3. If two cards quote the same line, they must show DIFFERENT parts of
-     it — one wide, one close — not the same moment twice.
-  4. Never upgrade my words. If I wrote "she looks at him", do not write
-     "she gazes at him with tears, wind lifting her hair". My sentence is
-     the ceiling, not the floor.
-  5. Then, at the very end of all the cards, give me a short table:
+   · If a card has no line, it does not exist. Either delete it, or
+     mark it clearly as PURE TRANSITION and keep it 3 seconds or less.
+   · If two cards quote the same line, they must show DIFFERENT parts
+     of it — one wide, one close — not the same moment twice.
+   · Never upgrade my words. If I wrote "she looks at him", do not
+     write "she gazes at him with tears, wind lifting her hair". My
+     sentence is the ceiling, not the floor.
+   · At the end of all the cards, print this table:
 
      | Shot | Story line it came from | Invented? |
        01   | "she turns from the door" | no
        02   | —                          | PURE TRANSITION
        03   | "the cloth slips"          | no
 
-     Anything marked invented must be justified in one line, or cut.
+     Anything marked invented gets one line of justification, or it
+     gets cut.
 
-═══════════════════════════════════════════════════════════
-RULE 16 — THE STILL IS THE TRUTH  ⭐ v9 (video naya scene kyun banata hai)
-═══════════════════════════════════════════════════════════
-Three different things were being described three ways: the story, the
-image, and the video. That is why the film never matches. This rule makes
-them one chain:
+━━━ HOW MANY SHOTS ━━━
+Veo and most tools give 8 second clips. 20 clips × 8s = 160s of
+material for a 45s film — that is correct, you trim later.
+Work out the shot count from the runtime and tell me the maths.
 
-   STORY LINE  →  IMAGE PROMPT  →  VIDEO PROMPT
-   (my words)     (the still)       (motion only)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PLAN ALL OF THIS BEFORE WRITING ANY CARD
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  1. The IMAGE is generated from the story line plus the DNA blocks.
-     Nothing else goes into the image prompt.
-  2. The VIDEO asks for ONE thing only: movement. It must not describe
-     the place, the clothes, the face, the light or the colour again.
-     Those are in the still, and the model copies what it sees.
-  3. Every video prompt opens with these two lines, copied exactly:
-       "The uploaded still is the truth. Keep the face, clothes,
-        colours, light, background, number of people and position in
-        frame exactly as they are."
-       "Only these movements change:"
-  4. Then the timestamps. Then the sound sentence. Then the negative
-     list. Nothing else.
-  5. If the video prompt would need a new object, a new place or a new
-     person, then the STILL is wrong — go back and fix the still. Never
-     fix it inside the video prompt.
-  6. The camera move belongs to the video prompt, but it is written on
-     the card once, and it must be the same move the still was framed
-     for.
-  7. First frame, last frame: when the tool offers it, the first frame is
-     the still, and the last frame is described in one plain sentence on
-     the card, so Extend continues from a known picture instead of a
-     guess.
+① THE SHOT LIST — one row per shot, mapped to the event chain.
+   Every chain event gets a shot; every shot maps to an event.
+   Columns: # · ⭐ STORY LINE (my words, quoted) · chain event ·
+   location · who is on screen · shot size · camera move ·
+   ⭐ MOVEMENT THROUGH THE FRAME · ⭐ ENTERS FROM which edge ·
+   ⭐ EXITS AT which edge · body state at start · body state at end ·
+   what the face is doing · duration · CHAIN or CUT ·
+   ⭐ ATMOSPHERE (the smoke/fog/dust/rain number for this shot).
+   State the GENRE MODE from ⑩ above the table — it governs clip
+   length, which moves are allowed and how the light behaves.
+   Add a ⭐ MOVE column holding the exact named move from ⑧ for
+   every shot. Read that column down: most rows must be Static,
+   Dolly, Truck, Pan or Follow, and exactly ONE row may hold a bold
+   move. If two bold moves appear, the film is noise — downgrade one.
+   Plus two more columns: ⭐ WHAT IS BEHIND HER, and ⭐ FROM → TO
+   (where her body starts and ends, with a rough distance for any
+   travelling shot). A travelling shot whose FROM and TO are the same
+   place is a walk on the spot — fix it at the list stage, before any
+   prompt is written.
+   Add a ⭐ SHOT TYPE column using ⑱: hand · eyes · detail ·
+   silhouette · feet · back of head · wide · full body. Read it
+   down: for every one wide or full-body row there should be about
+   three detail rows. A list full of full-body rows will come out
+   looking like AI however well it is written.
+   Add a ⭐ HANDOFF column from ⑰ — at least two rows in the film
+   must hand over through a moving object, and one of them at the
+   hardest jump in place or time.
+   Add a ⭐ BIG EFFECT column. Exactly ONE row in the whole table
+   may be filled; every other row says none. Put it on the story's
+   peak. A film with no spectacle shot is a film nobody forwards.
+   Add a ⭐ FACE FROM → TO column: what the expression is at the
+   start of the shot and what it has become by the end. If a row
+   has the same word twice, that shot has no acting in it.
+   State the film's one travel direction above the table.
+   The MOVEMENT column can never be blank and the word "static" may
+   appear at most ONCE in the whole table.
+   Read the BEHIND HER column straight down. The same backdrop may
+   not repeat more than twice in a row — that is the film standing
+   still even while the character moves.
 
-═══════════════════════════════════════════════════════════
-RULE 17 — NOTHING ADDED  ⭐ v9 (apni marzi se cheezein jodna band)
-═══════════════════════════════════════════════════════════
-What is not in my story, my STORY LOCK or my inventory does not go into
-the frame. Not a prop, not an animal, not a visitor, not weather, not a
-crowd, not a decoration in the corner to "fill the frame".
+② WHO IS IN EACH SHOT — an exact name list per shot. Anyone not
+   named may not appear. Nobody appears before their ARRIVES event.
 
-Birth, death, wedding, farewell and other ritual steps: use only the
-steps I actually described. Never add a ritual step that I did not write,
-and never invent a religious object that I did not mention.
+③ THE DISTANCE PLAN — for every shot, how much of the frame height
+   the figure fills. Use the ladder:
+     EXTREME WIDE  under 1/10 — tiny, face unreadable, vast world
+     WIDE          about 1/3 — full body with space around
+     FULL          about 4/5 — head to feet
+     MEDIUM        waist up — hands visible
+     CLOSE-UP      head and shoulders — the eyes are the subject
+     EXTREME CLOSE eyes only — pores visible
+   Distance is meaning, not variety. Loneliness = wide, figure tiny.
+   Feeling = close. Choose from the story, then say why.
 
-If something is genuinely missing and the shot cannot be built without it,
-do NOT invent it silently. Do this instead:
+④ THE CAMERA PLAN — pick every angle from the emotion:
+     any reaction → CLOSE-UP, static
+     strongest feeling → EXTREME CLOSE-UP, camera stops
+     hiding something → CLOSE, slightly off-axis
+     power or divinity → LOW ANGLE looking up
+     shame or defeat → HIGH ANGLE looking down
+     a relationship → TWO-SHOT or over-the-shoulder
+     someone unobserved → shot from behind cover
+     loneliness → WIDE, camera pulling away
+   For every shot also state FACE ANGLE (full front / three-quarter
+   / profile / from behind) and EYE HEIGHT (at eye level / below /
+   above). If the meaning is in the face, it must be front or
+   three-quarter — a profile hides half the performance, a wide
+   hides all of it. Never leave height unstated; it renders flat.
+   State the emotional reason for every angle. "Variety" is not one.
+   Rules: no two neighbouring shots share a camera move or a size ·
+   keep the camera on one side of the 180-degree line · screen
+   direction holds · light stays on the same side · no more than 3
+   shots in a row in one place.
+   ⭐ AND USE 4 TO 6 CAMERA SETUPS FOR THE WHOLE FILM — see ㉕.
 
-  1. Build the shot using the most plain, most neutral choice possible.
-  2. Write that choice at the end, in a block called MY ASSUMPTIONS, one
-     line each:
-       MY ASSUMPTIONS — 1. she is standing, not sitting (story did not
-       say). 2. the doorway is wooden (the location DNA did not say).
-  3. Keep that block at the very end of your answer, after the cards.
+⑤ THE PERFORMANCE PLAN — the most important thing in this film.
+   A small story with great faces works. A great story with blank
+   faces does not.
+   For every shot with a face, plan all six:
+     INTENTION — what they are TRYING to do right now. A want, not
+        a feeling. "to make him look away first."
+     PUBLIC FACE — what they are deliberately showing.
+     PRIVATE TRUTH — what is leaking underneath. The gap between
+        these two IS the performance.
+     MICRO-BEATS — the clip broken into 3 or 4 moments, each with a
+        named muscle action. Also state whether the EYES move before
+        the HEAD or the head before the eyes — that one detail is
+        what reads as real acting.
+     THE TELL — one involuntary detail: a swallow, fingers
+        tightening, a late blink, a jaw setting, a curling foot.
+     PLAYING TO — to him / away from him / to the group / to nobody,
+        believing unobserved (the most powerful).
 
-I will read it and correct it. A written assumption I can fix in one
-minute. A silent invention costs me a whole day of failed generations.
+   INTENSITY — why anger comes out looking normal:
+   Tools default every face to pleasant. Write "angry" and you get
+   mildly displeased. Give every performance shot a number 1-10 and
+   describe the muscles AT THAT LEVEL:
+     ANGER 3  a flicker of irritation, eyes narrowing
+     ANGER 6  jaw set, nostrils flaring, hard unblinking stare
+     ANGER 9  face flushed and taut, teeth clenched behind closed
+              lips, temple veins, body rigid, breathing hard through
+              the nose, eyes locked and wet, not blinking at all
+   Always write one level ABOVE what you want — the render always
+   comes back one level below. Never let the emotion word stand
+   alone; follow it with at least four muscles. Strong emotion needs
+   a close-up. And say what it does to the BODY too — shoulders,
+   hands, breathing, stillness or shaking. A face alone reads flat.
 
-⭐⭐ ONE MORE THING — the reverse also matters. If I wrote something and
-   it is missing from your cards, that is the same crime. Before you
-   send, list every item of MY THINGS from PROMPT 1 and point to the
-   shot number where it appears. Any item with no shot is a missing
-   piece — add it or tell me the reason.
+   BANNED, they produce dead faces: "smiles" · "looks happy" ·
+   "is sad" · "reacts" · "shows emotion" · "divine expression".
 
-═══════════════════════════════════════════════════════════
-BEFORE YOU SEND — CHECK YOUR OWN WORK
-═══════════════════════════════════════════════════════════
-  1. Does any shot start at rest or end at rest, apart from the first
-     and the last of the film?
-  2. Is the ending position of every shot written, and is the starting
-     position of the next shot identical to it?
-  3. Are there 4 to 6 setups, is each used at least four times, and is
-     any scene stuck in one setup?
-  4. Is there exactly one bold camera move, and is it marked?
-  5. Is there a camera height in centimetres on every card?
-  6. Does every hold, drape or touch have named hands and three steps?
-  7. Does every detail shot have DOES and SETS written?
-  8. Does every card carry its phase, and does the look follow the
-     phase table?
-  9. Is the identity block, location block and look block word for word
-     the same on every card?
- 10. Is any prompt negative, or does it contain a deity name, or the
-     word old, glowing, aura, grain, epic? Remove them.
- 11. Is the video prompt between roughly 120 and 300 words?
- 12. Is there a sound sentence and a negative list on every card?
- 13. ⭐ Does EVERY effect carry a number — smoke 0-5, fog 0-5, dust 0-4,
-     rain 0-4, and the flame count for every fire? Is any shot left
-     saying "some smoke" or "light fog"?
- 14. ⭐ Does any shot with a readable face sit above smoke 2, fog 2 or
-     rain 2? Bring it down.
- 15. ⭐ Does every face reveal have a direction, a movement and a
-     duration, plus one front light source with its distance?
- 16. ⭐ Does every card carry a FRAME INVENTORY with real counts — people,
-     lights, objects, cloth, distance, height?
- 17. ⭐ Does every shot start at the exact atmosphere level that the
-     previous shot ended on, and does any level change of more than one
-     step have a written cause?
- 18. ⭐ TRACE: does every card open with a quoted STORY LINE, and is at
-     the end-of-cards table there with the invented column filled?
- 19. ⭐ STILL IS THE TRUTH: does every video prompt begin with the two
-     locked lines, and does it describe MOVEMENT ONLY — no place, no
-     clothes, no face, no light described a second time?
- 20. ⭐ NOTHING ADDED: is there any object, person, animal, weather or
-     ritual step in any card that is not in my story or my STORY LOCK?
-     Cut it, or move it into MY ASSUMPTIONS.
- 21. ⭐ Is every item of MY THINGS pinned to a shot number in the
-     coverage table? Any item without a shot is a missing piece.
+   THE REACTION RULE: the event is not the drama, the FACE receiving
+   it is. Every significant event needs two shots — the event, then
+   the face. Cut to the reaction a beat late.
 
-Fix all of it, then send the corrected cards only.
+   ⭐ THE CHANGE RULE — the difference between an actor and a
+   mannequin. A still frame can carry one expression. A CLIP cannot.
+   If the face is the same at the first frame and the last frame,
+   the audience sees a photograph being panned across, and they
+   read it instantly as machine-made. So for every shot with a face,
+   write the expression as a JOURNEY: where it starts, the exact
+   second it turns, and where it ends. Then write the THOUGHT
+   behind it in the character's own words — that is what fills the
+   eyes. Then one involuntary LEAK. Then give the hands something
+   to do. Those four are carried into the video prompt as BLOCK 2B.
+
+   ⭐ AND SUPPRESS IT. Tools render emotion as performance: the
+   mouth opens, the brows go up, the whole face announces itself.
+   Real screen acting is the opposite — a person holding something
+   down while one part of them gives it away. Write the holding
+   down, and write the one place it escapes. A person trying not to
+   cry reads real. A person crying reads like an AI.
+
+⑥ TRAVEL THROUGH THE FRAME ⭐ THE BIGGEST FIX OF ALL
+   A shot where a person stands in one place and only their hand, their
+   earring or their hair moves is a DEAD SHOT. It reads as a photograph
+   with a filter running on it. It will never cut together with the shot
+   before or after it, however good the prompt is.
+
+     ❌ DEAD: "she sits by the mirror and her earring sways"
+     ❌ DEAD: "she stands under the tree and her dupatta lifts"
+     ✅ ALIVE: "she rises and leaves the top of frame"
+     ✅ ALIVE: "she enters frame left, crosses, exits frame right"
+     ✅ ALIVE: "she walks toward the lens and passes it"
+
+   So for EVERY shot, write one line called MOVEMENT THROUGH THE FRAME,
+   chosen from these — the frame itself must change during the clip:
+     she enters frame left and exits frame right
+     she walks toward the camera and passes the lens
+     she walks away from the camera and gets smaller
+     she rises up out of the top of frame
+     the camera tracks alongside her and the background streaks past
+     the camera follows behind her as she pulls away
+     the camera pushes in / pulls back / orbits, so the background moves
+     her feet or hands travel through the frame and out of it
+
+   HARD LIMIT: at most ONE shot in the entire film may stay still, and
+   it must be the single biggest emotional close-up, where the feeling
+   moves instead of the body. Every other shot travels. If your shot
+   list has two static shots, you have a slideshow — fix it now.
+
+   Also: a character must EXIT a place on screen and ENTER the next one
+   on screen. The last second of a shot in place A should already be
+   her leaving; the first second in place B should already be her
+   arriving. Never let a shot simply begin with someone standing there.
+
+   ⭐ AND TRAVELLING MEANS COVERING GROUND, NOT JUST MOVING
+   There is a second kind of dead shot, and it is harder to spot: the
+   character walks convincingly for the whole clip and ends up exactly
+   where she started. Legs moving, hips moving, braid swinging — and
+   the same wall behind her at the last frame as the first. A walk on
+   a treadmill.
+
+   It happens because the shot was planned as "she walks" instead of
+   "she gets from here to there". A walk is a body doing something. A
+   travelling shot is a body CHANGING PLACE. Only the second one moves
+   a film forward.
+
+   So plan every travelling shot as a JOURNEY WITH TWO ENDS:
+       FROM: level with the blue door
+       TO:   under the neem tree, about eight metres on
+       PASSES ON THE WAY: the stacked clay pots, the tethered cow
+   Then the beats can be written against real landmarks, and the
+   audience can see how far she has come.
+
+   Three rules that make ground-covering visible on screen:
+     1. SOMETHING MUST LEAVE THE FRAME BEHIND HER. If nothing exits
+        the back of the shot, she has not gone anywhere. Name the
+        thing and the second it disappears.
+     2. SOMETHING MUST GROW AHEAD OF HER. The tree, the gate, the
+        ghat — small at 0s, large at the end. That growth IS the
+        distance, as far as the viewer is concerned.
+     3. HER SIZE OR POSITION IN FRAME MUST CHANGE, unless the camera
+        is deliberately matching her pace. Walking away, she gets
+        smaller. Walking past a locked camera, she crosses it and
+        exits. Only a tracking camera holds her the same size — and
+        then the BACKGROUND has to carry the whole job.
+
+   Write the FROM, the TO and the metres on every travelling shot
+   before you write a word of its prompt.
+
+⑦ SCREEN DIRECTION ⭐ WHY TWO CLIPS MERGE OR CLASH
+   This is the real editing rule behind "the frames don't feel joined".
+
+   Pick ONE travel direction for the whole film — normally LEFT to RIGHT
+   — and hold it. If she exits a shot at frame right, she enters the
+   next shot from frame left, still travelling right. The eye then
+   already knows where she is going before the new shot is understood,
+   and the cut disappears.
+
+   Break it and the audience feels she turned around for no reason —
+   that is exactly the "alag-alag video" feeling.
+
+   Rules:
+   - State the direction once, at the top of the shot list, and put the
+     entry edge and exit edge on every single shot row.
+   - Never flip the direction unless you SHOW her turning around inside
+     a shot, or you place a neutral shot (walking straight at or
+     straight away from the lens) between the two sides.
+   - The same applies to eyelines. If she looks off frame right in one
+     shot, the thing she is looking at appears from frame left in the
+     next.
+   - Never cut between two camera positions less than 30 degrees apart.
+     That is a jump cut and it reads as a mistake, not a cut.
+
+⑧ THE CAMERA MOVE — USE THE REAL NAME ⭐ THE HIGGSFIELD METHOD
+   There is a reason footage from camera-control platforms looks
+   directed rather than drifting, and it is not a secret model. It
+   is that every shot is assigned ONE NAMED, REAL CAMERA MOVE from a
+   fixed list — the same words a camera operator says on a set.
+
+   Those names are standard cinematography terms, so every video
+   model already knows them from its training. Describing a move in
+   your own words gets you drift. Naming it gets you the move.
+
+     ❌ "the camera moves quickly towards her face"
+     ✅ "crash zoom in on her face"
+
+     ❌ "the camera goes around him in a circle"
+     ✅ "360 orbit around him, moving left to right"
+
+     ❌ "the camera follows her while the background stretches"
+     ✅ "dolly zoom in — camera pushes forward while the lens zooms
+        out, so she stays the same size and the background stretches
+        behind her"
+
+   Pick ONE move per shot from this list, write its exact name, then
+   add the direction and the speed. Nothing else.
+
+   ── EVERYDAY MOVES — these carry most of a film ──
+     Static              camera locked off, subject moves in frame
+     Dolly In / Out      camera travels toward or away, on a track
+     Super Dolly In/Out  the same, longer and more dramatic
+     Truck Left / Right  camera slides sideways, staying parallel
+     Pan Left / Right    camera pivots in place, horizontally
+     Tilt Up / Down      camera pivots in place, vertically
+     Handheld            small natural shake, human and unstaged
+     Follow / Head Tracking  camera holds behind or on the subject
+                         at their pace as they travel
+
+   ── MOVES WITH SHAPE — one or two in a film ──
+     Crane Up / Down     camera rises or falls vertically, high arc
+     Jib Up / Down       a shorter, gentler crane
+     Arc Left / Right    camera sweeps a partial curve around
+     360 Orbit           a full circle around the subject
+     Lazy Susan          the subject turns, the camera holds
+     Boom Down           camera descends, often following stairs
+     Push to Glass       camera moves in until it meets a surface
+     Through Object      camera passes through a gap, door or window
+
+   ── BOLD MOVES — ⚠️ AT MOST ONE IN THE WHOLE FILM ──
+     Crash Zoom In/Out   violent fast zoom, for one reaction or
+                         reveal only
+     Dolly Zoom (Vertigo) push in + zoom out together; subject fixed,
+                         background warps. Dread, realisation.
+     Bullet Time         time nearly frozen while the camera arcs
+     Whip Pan            a blur-fast pan, usually hiding a cut
+     Snorricam           camera locked to the body, world swings
+     FPV Drone           fast flying path, dives and climbs
+     YoYo Zoom           in then straight back out
+     3D Rotation         the frame itself rotates
+
+   ⚠️ THE DISCIPLINE THAT MATTERS MOST
+   A bold move is a punch. Throw one and it lands. Throw six and the
+   film is noise and nobody feels anything. Most shots in a good film
+   are Static, Dolly, Truck, Pan or Follow. Reserve exactly ONE bold
+   move for the single biggest beat, and write in the plan which shot
+   gets it and why.
+
+   NEVER stack two moves. "Orbit while zooming and craning up" gives
+   you mush — the model picks one or blends them into drift. One
+   named move, one direction, one speed.
+
+   Every shot's move line is written like this:
+       MOVE: Dolly In · slow · 1 metre of travel
+       MOVE: Truck Right · matching her walking pace
+       MOVE: Crash Zoom In · fast · on her eyes      ← the one bold
+       MOVE: Static · locked off, she crosses the frame
+
+   And the speed word is never optional. "Slow", "steady",
+   "matching her pace", "fast" — a move with no speed renders at the
+   model's default, which is usually too fast and reads as cheap.
+
+⑨ SPEED RAMPS — where the film breathes
+   Real action films do not run at one speed. They ramp: normal
+   speed into slow motion at the peak, then back. Choose the ONE
+   moment in this film that slows down, and state it:
+       "Shot 11 ramps: normal speed for 0-2s, then slows to 40% for
+        the turn, then returns to normal."
+   One ramp per film. Two is a music video; three is a mess.
+
+⑩ GENRE MODE — set it once, obey it everywhere
+   A camera-control platform asks you to pick a genre before you
+   generate anything, because genre decides pacing, light and how
+   much the camera is allowed to move. Pick ONE for this film and
+   write it at the top of the shot list. Then every shot obeys it.
+
+     DRAMA    long takes, slow dolly, soft directional light,
+              the camera waits on faces
+     ACTION   shorter clips, handheld and follow moves, hard light,
+              one crash zoom allowed
+     EPIC     wide lenses, cranes and slow reveals, big landscape,
+              low horizon
+     NOIR     static and slow, hard single-source light, deep black
+              shadow, the frame half dark
+     INTIMATE close lenses, almost no camera movement, window light,
+              faces fill the frame
+     FOLK / DEVOTIONAL  steady unhurried moves, natural light only,
+              real materials, the camera respectful and never showy
+
+   Write: "GENRE: Drama. Clips run 4-6s, moves are slow dolly and
+   static, light is one soft source, the camera holds on faces."
+   And remember: the EMOTION PHASES from the story (㉘) override the
+   genre inside the phase they belong to.
+
+⑪ EFFECTS — THE SMALL ONE IN EVERY SHOT, AND THE ONE BIG ONE
+   Effect-heavy platform footage looks rich for two separate
+   reasons, and most prompts only ever get the first one.
+
+   ① THE SMALL EFFECT — one in every single shot.
+   Physical things in the air catching the light. Every shot names
+   ONE element in motion:
+
+     dust lifting from under a heel · smoke drifting across a beam ·
+     water droplets thrown off a turn · cloth snapping in wind ·
+     dry leaves skidding over stone · sand scuffing outward ·
+     river spray · embers from a fire · rain on a shoulder ·
+     a flock lifting off in the background · steam off hot metal
+
+   Each is a real object with weight that light falls on. They add
+   depth and motion and they cost nothing in realism.
+   ⭐ And every one of these carries a NUMBER from ⑲. "Smoke drifts"
+   is not enough; "smoke level 2, two wisps at chest height drifting
+   left to right at walking pace" is.
+
+   ② ⭐ THE BIG EFFECT — EXACTLY ONE SHOT IN THE FILM.
+   This is the shot people remember and the shot they send to
+   someone else. A film with no spectacle shot is a film nobody
+   forwards, however beautiful the rest of it is. Plan ONE, on the
+   story's peak, on the same beat as the one bold camera move.
+
+   Choose one, and take it from the story — never decoration:
+
+     FIRE        a wall of flame going up, sparks carried sideways,
+                 heat shimmer bending the air behind it
+     LIGHTNING   a strike that throws hard white light across her
+                 face for a fraction of a second, then darkness
+     WATER       a river surging, a wave breaking over stone, water
+                 thrown upward in a sheet, rain starting all at once
+     WIND        a storm front hitting, cloth and hair pulled flat
+                 in one direction, leaves and grit driven past
+     EARTH       stone cracking, ground splitting, a shockwave of
+                 dust rolling outward along the floor
+     SCALE       the camera pulls back and she is tiny against
+                 something enormous that was there all along
+     TIME        everything in the air freezes mid-fall and the
+                 camera moves through it, then it drops
+     SKY         clouds moving at impossible speed above a still
+                 figure, the light on the ground racing with them
+     RISE        ash, petals or embers lifting UPWARD off the ground
+                 all at once, against gravity
+
+   ⭐ HOW TO WRITE IT SO IT DOES NOT COME OUT AS A CARTOON. Never
+   describe the effect as an effect. Describe it as something that
+   happened in front of a real camera, and spend most of the words
+   on its CONSEQUENCES on the person:
+
+     ❌ "a magical divine energy blast with glowing particles"
+     ✅ "the water goes up in a solid sheet two metres high and
+        falls back; the spray hits the left side of her face and
+        her eye on that side closes against it; her wet hair is
+        pulled flat to her cheek; the light off the water throws a
+        moving bright patch across her jaw; the ground around her
+        darkens as it lands"
+
+   Four things make an effect photographic, and all four must be
+   in the prompt:
+     • WHAT IT DOES TO THE LIGHT on her face, and from which side
+     • WHAT IT MOVES on her — hair, cloth, eyelids, her balance
+     • WHAT IT LEAVES BEHIND — wet stone, scattered dust, a mark
+     • HER FACE RECEIVING IT — she flinches, squints, braces. An
+       effect nobody reacts to reads as pasted on.
+
+   And give it room: the effect shot is usually the longest clip in
+   the film and almost always needs a reaction shot straight after.
+
+   ⚠️ What is still NOT allowed, ever: glow, aura, halo, god rays,
+   light shafts, golden mist, lens flare, bloom, sparkle, floating
+   luminous particles, divine energy. Those are the calendar-art
+   tells. The difference is simple — an EVENT is allowed, a GLOW is
+   not. Fire is an event. Lightning is an event. A shining aura is
+   not an event, it is a filter. And if a face is behind the effect,
+   read ⑳ before you write it.
+
+⑫ THE MOTION PLAN — this is what stops it looking like a slideshow.
+   Never write a shot as a POSE. A pose does not move; two poses in
+   a row is a swap, not a film.
+     ❌ "She kneels at the water, praying."
+     ✅ "Already kneeling, she lowers the last flower onto the water,
+        her hand staying out over the surface as the ripples spread."
+   Three rules for every shot:
+     1. START MID-MOTION. The first frame is already moving.
+        "already lowering…", "still rising…". Never "she stands".
+     2. END MID-MOTION. Never let a clip settle and stop — that full
+        stop is exactly what the eye reads as a cut.
+     3. THE HANDOVER. The movement at the end of shot N must be the
+        SAME movement continuing at the start of shot N+1, seen from
+        a new angle. The eye completes it across the cut and the
+        join disappears.
+          N   ends : "weight shifting onto her right foot, knee
+                     beginning to straighten"
+          N+1 starts: "from lower, the same knee still straightening"
+   Build a handover table: for each shot, the motion at its first
+   frame, the motion at its last frame, and that same motion restated
+   as the next shot's first frame. The last-frame motion you write
+   here becomes BLOCK 3 (the end state) on that shot's card, and the
+   next shot's BLOCK 2 must open on that same movement. They must
+   match word for word — that is what makes the two clips read as
+   one piece. If the motion does not literally
+   reappear, that join will look like a swap — rewrite the pair.
+
+   If a join still feels wrong, NEVER add a filler clip. Fix the two
+   shots: extend the action so they overlap · re-angle further ·
+   move the cut into the busiest part of the movement · let the
+   camera keep travelling in the same direction across the cut ·
+   carry the ambient sound across.
+
+⑬ THE BEAT TIMELINE — the cure for "it starts right then goes wrong".
+   A video tool fills every second it is given. If your prompt runs
+   out of instructions at second 3 of a 6-second clip, the tool
+   invents seconds 4, 5 and 6 by itself — a second action, a head
+   turn nobody asked for, a hand that wanders, a face that changes.
+   The clip did not drift. It ran out of script.
+
+   So for every shot, book every single second before writing the
+   card. One line per second, and the number of lines must equal
+   the clip length exactly:
+       4-second clip = 4 lines
+       6-second clip = 6 lines
+       8-second clip = 8 lines
+   Each line is one small physical fact — a hand, a foot, an eye,
+   a breath, a shift of weight. Not a feeling. Not a repeat.
+
+   ⭐ AND IF THE SHOT IS A TRAVELLING SHOT, EVERY LINE MUST ALSO SAY
+   HOW FAR SHE HAS GOT. This is the difference between a person
+   walking and a person walking on the spot.
+
+   A model given only body facts — "her foot lifts", "her braid
+   swings", "her arm swings" — will animate a perfect walk that
+   covers no ground at all. The legs move, the hips move, and she
+   stays exactly where she started, like a treadmill. Everything you
+   wrote happened. You just never said she got anywhere.
+
+   So on a travelling shot, every beat names a LANDMARK she reaches,
+   passes or leaves behind:
+
+   ❌ WALKING ON THE SPOT — body facts only:
+       0-1s: her rear foot pushes off the ground
+       1-2s: her braid swings across her shoulder
+       2-3s: her lehenga hem sways with her stride
+       3-4s: her arm swings forward again
+     Every line is true and the clip will go nowhere.
+
+   ✅ ACTUALLY TRAVELLING — distance in every line:
+       0-1s: she starts level with the blue door and moves off,
+             the door sliding behind her right shoulder
+       1-2s: she passes the stacked clay pots, which leave the
+             frame behind her
+       2-3s: the tethered cow that was far ahead is now beside her
+             and falls back out of frame
+       3-4s: the neem tree that was a small shape ahead now fills
+             the left of frame as she reaches it
+     Same walk. Now she has crossed a real piece of ground.
+
+   THE TEST: read your beats and ask "where is she at 0 seconds, and
+   where is she at the end?" If the honest answer is "the same place",
+   rewrite every line with landmarks.
+
+   HOW TO WRITE IT, three parts per travelling beat:
+     1. WHAT SHE PASSES — something in the world going by
+     2. WHERE IT GOES — behind her, out of frame left, past her
+        shoulder. Things she passes must LEAVE the frame.
+     3. WHAT GROWS AHEAD — the thing she is walking toward getting
+        bigger, nearer, more detailed
+
+   Also state it once in the prompt, in plain words:
+     "She covers real ground — roughly [n] metres across this clip.
+      She does not walk on the spot. The background slides past her
+      and does not repeat."
+
+   And add to the negatives of every walking clip (in the separate
+   negative box if the tool has one, as positives if it does not):
+     "no walking on the spot, no treadmill walk, no foot sliding, no
+      repeating background, no looping scenery, the subject must
+      change position relative to the background"
+
+   Worked example, a 4-second clip that is NOT travelling — here
+   body facts alone are correct, because she stays put on purpose:
+       0-1s: her fingers close around the door handle
+       1-2s: her wrist turns and the latch gives
+       2-3s: the door starts to swing inward, her weight follows it
+       3-4s: her front foot crosses the threshold, still moving
+   Now the tool has nothing to invent.
+
+   ⚠️ If you cannot fill every second with something real, the clip
+   is too long for that action. Shorten it. A 3-second clip that is
+   fully booked beats an 8-second clip that is half empty. Long
+   clips with thin instructions are where drift lives.
+
+⑭ THE CONSTANTS AND THE VARIABLES — per shot, two short lists.
+   The tool changes whatever you left unstated, so state it.
+
+   CONSTANTS — must be identical at the first frame and the last:
+     the face and its bone structure · hairstyle and how it is tied ·
+     every garment and its exact state (pallu on the head or off the
+     shoulder — say which) · every piece of jewellery · what each
+     hand is holding · the light direction · the time of day
+   VARIABLES — the only things allowed to change in this clip:
+     usually just the one action, the expression moving one step,
+     and the single camera move.
+
+   Write the constants into the card so the lock line can name them.
+   ⚠️ If something must genuinely change during the clip — a dupatta
+   slipping, a lamp being set down — it goes in the VARIABLES list
+   AND in the beat timeline at the exact second it happens. Anything
+   that changes without being written in one of those two places is
+   a defect.
+   ⭐ And every garment state is also carried shot to shot — see ㉗.
+
+⑮ THE THREAD — five things that make it one film, not clips:
+   ONE TRAVELLING OBJECT in 5+ shots, changing as the story changes ·
+   ONE REPEATING FRAME, ideally the first and last shot ·
+   LIGHT MOVING ONE WAY ONLY, never backwards ·
+   ONE AMBIENT SOUND in every shot so audio never resets ·
+   ONE COLOUR ACCENT only on things that matter.
+   State all five, then honour them in every shot.
+
+⑯ THE JOIN PLAN — do this for EVERY pair of neighbouring shots.
+   This is the single biggest reason films feel like stitched
+   clips instead of one piece. Make a table, one row per join:
+
+     JOIN 01→02 · 02→03 · 03→04 ... one row for every pair.
+     Columns:
+       • LAST THING MOVING in shot A (the exact body part or object
+         and which direction it is travelling)
+       • FIRST THING MOVING in shot B (must be the SAME movement,
+         continuing, seen from a new angle — or the direct physical
+         result of it)
+       • WHAT CARRIES ACROSS — tick at least TWO of:
+           the same movement continuing
+           the same object, still in the same hand
+           the same sound running underneath
+           the same light direction
+           an eyeline in shot A answered by what we see in shot B
+           a shape or colour in the same screen position
+       • JOIN TYPE: CHAIN (continuous time) or CUT (new time/place)
+       • If CUT: which THRESHOLD shot sits between them
+
+   ⚠️ THE ARRIVAL LAW — no scene may simply begin.
+   Every new place must be ENTERED on screen by a person. If shot 07
+   is the first shot in a new place, then shot 06 or 07 must contain
+   the entering — a door pushed, a gate opened, feet stepping in, a
+   curtain moved aside, a body walking into frame from the edge.
+   Never open a new place on a static waiting frame. The audience
+   must feel they walked in with the character.
+
+   ⚠️ THE EXIT LAW — no scene may simply stop.
+   Before leaving a place, we see the character begin to leave:
+   standing up, turning away, walking out of frame, reaching for
+   the way out. The film must never blink from place to place.
+
+   Worked example of a correct join chain:
+     shot 4: she fastens her earring, then her eyes flick to the door
+     shot 5: her hand closes on the door handle, pulls  ← her look in
+             4 is answered by 5; same room, same light
+     shot 6: from outside, the door opens and she steps through  ←
+             the same door movement, new angle: THRESHOLD
+     shot 7: her feet come down onto the road, camera rising with her
+             ← the same step continuing
+     shot 8: the road opens ahead of her, she stops, breathes  ←
+             arrival completed, now the new scene may start
+   Five shots to walk out of a house. That is correct. That is what
+   makes it feel like one film.
+
+   Fill the join table completely before writing any card. Any row
+   where you cannot tick two "carries across" boxes is a broken
+   join — fix it by re-angling, by overlapping the action, or by
+   adding the missing threshold shot, then renumber.
+   ⭐ And between two SCENES, plan the merge shot from ㉓.
+
+⑰ THE OBJECT HANDOFF — the best join there is, and it is free.
+   The joins above are good. This one is the one people replay and
+   send to somebody. It works like this:
+
+     A glass slips out of a hand. We cut while it is still falling.
+     It is STILL FALLING in the next shot — but that shot is a
+     different place, a different year, a different scene. The
+     glass carried us there.
+
+   One object in motion is the only thing that matches across the
+   cut. Everything else changes. The eye follows the object, does
+   not notice the change of world, and the two places become one
+   piece of film. Nothing else joins two places this strongly.
+
+   PLAN AT LEAST TWO OF THESE PER FILM, and one of them at the
+   hardest join — wherever the story jumps place or time.
+
+   WHAT CAN CARRY A HANDOFF:
+     something FALLING    a glass, a cloth, a coin, a sword, ash,
+                          water poured, a body going down
+     something THROWN     a stone, a lamp, a spear, a bundle
+     something PASSING    a horse, a cart, a crowd, a bird, a hand
+                          sweeping through the near foreground
+     something SWALLOWING dust rolling in, smoke, water filling the
+                          frame, a cloak crossing the lens, a door
+                          swinging shut into the camera
+     something TURNING    a wheel, a grinding stone, a spinning
+                          coin, a head turning — cut on the turn
+
+   HOW TO WRITE IT, AND IT MUST BE WRITTEN IN BOTH SHOTS:
+     • Shot A's END STATE: name the object, which direction it is
+       travelling, how fast, and where it sits in the frame at the
+       final frame. "The glass has left his fingers and is falling
+       through the lower right of the frame, turning slowly."
+     • Shot B's FIRST frame: the SAME object, SAME direction, SAME
+       speed, SAME part of the frame — but the world behind it is
+       the new place. "A falling glass turns slowly through the
+       lower right of the frame; behind it, a stone courtyard at
+       night instead of the hall."
+     • Four things must match or the trick collapses: the object,
+       the direction of travel, the speed, and its position in the
+       frame. Nothing else needs to match. Nothing else should.
+
+   ⚠️ DO NOT try to make one clip contain both places. That is the
+   mush problem again. Generate TWO clips and cut between them in
+   the editor, on the frame where the object is in the same spot in
+   both. The cut is free; the effect is not.
+
+   ⚠️ And the object must be in the story. A falling glass only
+   works if somebody was drinking. An object inserted purely to
+   make a clever cut reads as a trick.
+
+⑱ THE SAFE SHOT LADDER — where generators never fail.
+   There are shots a generator gets right every single time, and
+   shots it gets wrong every single time. Most of a convincing AI
+   film is built out of the first kind. This is not a limitation to
+   work around; it is the actual craft.
+
+   ALWAYS RIGHT — build the film out of these:
+     • HANDS doing one thing — closing, releasing, tying, pouring,
+       gripping a hilt, trembling. A hand carries emotion and has
+       no face to get wrong.
+     • EYES ONLY — an extreme close-up at the level of the eyes.
+     • A DETAIL OF AN OBJECT — engraving, a buckle, a bead of water,
+       a blade's edge, a thread pulling loose. (But every detail shot
+       must do TWO jobs — see ㉖.)
+     • A FULL SILHOUETTE against a bright sky or doorway.
+     • FEET on ground — stepping, sliding, stopping.
+     • SOMETHING FALLING or BLOWING past the lens.
+     • THE BACK OF A HEAD with the world in front of it.
+
+   USUALLY WRONG — use rarely and keep them short:
+     • a full body walking at medium distance, seen head to toe
+     • two people interacting in the same frame
+     • any crowd where faces are visible
+     • hands doing something complicated — writing, counting
+     • a face talking
+
+   ⭐ THE RULE THAT FOLLOWS: for every one wide shot, give the film
+   three detail shots. Then the wide shot only has to survive two
+   seconds, and the close work carries the emotion. A film built
+   out of hands, eyes, objects and silhouettes reads as expensive
+   and controlled. A film built out of people walking around in
+   full view reads as AI, no matter how good the prompt is.
+
+   And it solves the travel problem too. The FILM must travel —
+   through cuts, new places and changing backgrounds. Every SHOT
+   must have motion. But motion does not have to mean a full body
+   walking: a hand opening, a horse rearing in silhouette, ash
+   lifting, a head turning — all of those are motion, and all of
+   them are safe.
+
+⑲ ATMOSPHERE NUMBER SYSTEM ⭐ (kitna smoke? kitna fog? — andaza nahi)
+   "Some smoke" and "light fog" mean NOTHING to a video model. It
+   guesses, and the guess is always too much smoke, too weak a face,
+   and a new face invented behind the smoke. So every effect gets a
+   NUMBER, and the number means exactly the same thing in every shot
+   of this film. The story already chose these numbers in PROMPT 1 —
+   your job here is to write the number on every card.
+
+   ⭐ SMOKE LEVEL — the number, then the look, then the direction
+
+    0 — no smoke at all.
+    1 — one wisp thinner than a wrist, one tenth of the frame at
+        most. The face is completely clean and sharp. Safe for every
+        face shot.
+    2 — two or three wisps at chest height, drifting at walking pace.
+        The face stays clean; only the outline of the shoulders
+        softens.  ✅ THIS IS THE HEAVIEST SMOKE ALLOWED IN ANY SHOT
+        THAT CONTAINS A READABLE FACE.
+    3 — a low band up to the waist, plus two moving columns. Eyes and
+        mouth staying sharp; the chin edge may soften.
+    4 — smoke up to the neck, columns crossing the face. Eyes and
+        brow only. Never in a dialogue shot, never in a face close-up.
+    5 — the whole frame filled, the person is a silhouette. No face
+        detail of any kind.
+
+   ⭐ FOG LEVEL — the number is the height of the fog ON THE BODY
+
+    0 — none; ground and distance readable.
+    1 — ankle height; the feet disappear, the ground still readable.
+    2 — knee height; the legs vanish, the body fully clear.
+        ✅ Faces must stay at 0, 1 or 2 in fog.
+    3 — waist height; faces in the middle distance start to go soft.
+    4 — chest height; the person's own face goes soft. Silhouettes
+        and wides only.
+    5 — full frame; no ground, no distance, no face. A dreamy or lost
+        moment only, never a plot action.
+
+   ⭐ DUST / HAZE  1 motes in a beam · 2 dust off the ground under
+   footsteps · 3 a beam thick enough to see the light itself · 4 the
+   air greys out and the distance is lost.
+
+   ⭐ RAIN  1 a few slow drops on skin, visible only against dark
+   cloth · 2 steady drops, visible against dark backgrounds · 3 heavy;
+   water standing on the ground, splash at the feet · 4 downpour;
+   faces not usable.
+
+   ⭐ FIRE / FLAME — the count, the height in centimetres, and where
+   each one is: "two oil lamps, flame six centimetres, one left of
+   frame at chest height, one behind her at knee height."
+
+   ⭐ Every effect needs a SOURCE that is in the frame, or was in the
+   frame a moment ago: the fire that makes the smoke, the window that
+   makes the beam, the cloud that makes the rain, the breath that
+   makes the steam. An effect with no source reads as a computer
+   mistake.
+
+   ⭐ And the atmosphere is CONTINUOUS: every shot starts at the
+   level the previous shot ended on. A change is allowed, but never
+   more than one step between two shots, unless something inside the
+   shot causes it — and then write the cause: the door opens, the
+   fire is thrown, the wind turns.
+
+⑳ FACE REVEAL LAW ⭐ (chehra kab dikhega, kitna dikhega)
+   A face hidden behind smoke is where identity dies: the model
+   invents new features every time it has to guess. So:
+
+   1. Any shot where the audience must READ the face: smoke 0-2,
+      fog 0-2, rain 0-2, dust 0-2. Write the numbers.
+   2. The heavy levels (smoke 4-5, fog 4-5, rain 4) are for
+      silhouettes, wides and object shots ONLY.
+   3. A REVEAL is written as a MOVEMENT, with a direction and a
+      duration: "the smoke column drifts to the left and clears her
+      eyes and mouth within two seconds, and stays clear for the rest
+      of the shot." Never write "the smoke clears" with no direction
+      and no time.
+   4. The reveal shot gets ONE light source at forty-five degrees
+      from the front, with its distance written: "a warm oil lamp,
+      chest height, left of camera, one and a half metres away." A
+      face revealed against the light stays a shadow, and the model
+      fills that shadow with a different face.
+   5. AFTER a reveal, the next two shots stay at smoke 0-1, so the
+      face is locked in the audience's memory. Never reveal and
+      re-cover at once.
+
+㉑ THE TRACE LAW — already stated at the top; this is how it lands
+   on the cards.
+   • Every card opens with STORY LINE, quoted from my story.
+   • Every item of MERI CHEEZEIN from PROMPT 1 must point to a shot
+     number. Print that coverage table at the end, like this:
+
+     | MERI CHEEZEIN item | Shot where it appears |
+        the flood         | 09, 10, 11
+        her silver payal  | 03, 07 (close), 18
+        ...               | —
+
+     Any item with no shot is a missing piece — add it now, or write
+     one line saying why it cannot be filmed.
+   • And the invented table from the top of this prompt, filled.
+
+㉒ NOTHING ADDED ⭐ (apni marzi se cheezein jodna band)
+   What is not in my story, my STORY LOCK or my inventory does not go
+   into the frame. Not a prop, not an animal, not a visitor, not
+   weather, not a crowd, not a decoration in the corner to "fill the
+   frame".
+
+   Birth, death, wedding, farewell and other ritual steps: use only
+   the steps I actually described. Never add a ritual step that I did
+   not write, and never invent a religious object that I did not
+   mention.
+
+   If something is genuinely missing and the shot cannot be built
+   without it, do NOT invent it silently. Do this instead:
+
+     1. Build the shot using the most plain, most neutral choice
+        possible.
+     2. Write that choice at the end, in a block called MY ASSUMPTIONS,
+        one line each:
+          MY ASSUMPTIONS — 1. she is standing, not sitting (story did
+          not say). 2. the doorway is wooden (the location DNA did
+          not say).
+     3. Keep that block at the very end of your answer, after the
+        cards and after the tables.
+
+   I will read it and correct it. A written assumption I can fix in
+   one minute. A silent invention costs me a whole day of failed
+   generations.
+
+㉓ MERGE SHOTS — the short shot that joins two scenes ⭐
+   (Tumhara "beech beech ke seenshots" — ye device hai.)
+   Between two scenes, and between two big emotions inside one scene,
+   insert ONE short shot, about 4 to 6 seconds, that belongs to both
+   sides. It must contain two of these at the same time:
+
+     · the same movement continuing (a turn that becomes another turn)
+     · the same shape (a circle, a line, a curve repeating)
+     · the same colour passing from one object to another
+     · the same action done by two different people
+     · the same eyeline handed over
+     · the same emotion changing owner
+
+   Say in the card: JOINS Scene 2 → Scene 3. Name which two of the
+   six devices it uses. If it does not join two things, it is not a
+   merge shot — cut it.
+
+㉔ HOLD, DRAPE AND WEAR MECHANICS ⭐
+   (Tumhara "kab kaise kisko hold krna hai kaise odhna hai" — yahi hai.)
+   This is where AI clips fall apart. Never write "they embrace" or
+   "she adjusts her dupatta". Write the physical steps, in order, with
+   the limbs named.
+
+   HOLDING: which hand, where it grips, how hard, and what the other
+            hand does at the same time.
+            "Her left hand closes on his right forearm just below the
+            elbow, thumb on the outside; her right hand stays at her
+            side."
+   DRAPING: lift → travel → land. Three steps, three timestamps.
+            "She lifts the cloth with her right hand to shoulder
+            height, carries it across her chest, and lays it over the
+            left shoulder; it settles and stays."
+   WEARING: what moves when the body moves. Sleeve, hem, veil, hair.
+            "When she turns, the hem sweeps a quarter turn behind her
+            and settles."
+   TOUCHING: contact must be visible for at least one full second,
+            and the second person must react to it — a breath, a
+            blink, a small change of weight.
+
+   Never let a cloth, a hand or a garland pass through a body, and
+   never let it change from one shoulder to the other between shots.
+
+㉕ CAMERA COVERAGE — 4 TO 6 SETUPS, VERIFIED ⭐
+   Choose 4 to 6 setups for the whole film and never invent a seventh.
+
+     A — WIDE / master: the whole place, tiny people, one landmark
+     B — MEDIUM: waist-up, two people if they are together
+     C — CLOSE: face, or hands doing the important thing
+     D — OVER-SHOULDER: we look past one person at the other
+     E — HIGH or TOP-DOWN: the ground, the spread, the arrangement
+     F — LOW: from knee height looking up, for power moments only
+
+   Camera height must be written in every card, in centimetres:
+     ground 0 · knee 45 · chest 120 · eye 160 · high 250 · top 300+
+
+   Laws:
+     · Every scene must be covered from at least FOUR of the setups.
+     · Never two shots in a row from the same setup, unless the second
+       is a deliberate hold on the same face.
+     · Exactly ONE bold camera move in the entire film (see ⑧).
+     · After a bold move, the next shot is locked or nearly locked.
+     · Print a small coverage table at the end: setup letter × how
+       many shots use it. Any setup used fewer than four times, or a
+       scene sitting in one setup, is a defect — fix it.
+
+㉖ A DETAIL SHOT MUST DO TWO JOBS ⭐
+   Every close-up of an object must (a) be the RESULT of the previous
+   shot and (b) SET UP the next one. Write both jobs on the card:
+
+     DOES:  the knot is already tightening because of Shot 05.
+     SETS:  the same rope is what Shot 06 pulls.
+
+   A pretty object with no before and no after is filler. Delete it.
+
+㉗ THE COSTUME STATE LINE ⭐ (kapda actor hai, lock nahi)
+   Never write "she wears the same clothes as before". Write what the
+   clothing is DOING in this shot, and keep the state continuous:
+
+     · at the start of the shot, the state it entered with (wet hem,
+       loose sash, hair forward on the left, pallu on the head)
+     · what it does during the shot
+     · the exact state it leaves in, so the next card can start there
+
+   Print it on every card as: CLOTH STATE — starts / changes / ends.
+   If two neighbouring cards disagree about a garment's state, that
+   is a defect — fix the pair.
+
+㉘ THE PHASE ENGINE ⭐ (quality, VFX aur look story ke emotion se
+   automatically badle — tumhara main point)
+   The film has 3 to 5 EMOTION PHASES, already named in the STORY
+   LOCK. They are law. Every card states its phase, and the phase
+   chooses the look for you — I do not want to decide it shot by shot:
+
+     peace:  wide, soft light, greens and cream, slow drift, no VFX
+     want:   closer, warmer, one loud colour, light from one side,
+             small natural VFX already building (dust, drifting petals,
+             heat)
+     test:   tighter, cooler, harder shadow, faster drift, weather VFX
+     break:  closest, darkest, hand-held, the ONE big VFX event lands
+             HERE
+     grace:  opens wide again, bright clean light, the loudest colour
+             of the film, calm locked frame
+
+   Rules:
+     · The phase overrides the genre mode: inside "break", the light
+       is harder and the moves are shorter even if the genre is Drama.
+     · The look must stay consistent INSIDE a phase, so the audience
+       feels the change when the phase changes.
+     · A phase change lands on a shot, not in the middle of one, unless
+       the change is caused by something inside that shot — and then
+       write the cause.
+     · Print the phase on every card, and print a small phase table
+       before the cards: phase · shots · look · effects.
+
+㉙ FRAME INVENTORY ⭐ (ginti likho, warna model bana dega)
+   Every card carries a count. What is not counted does not exist in
+   the frame, and if the model wants something, it must ask me first.
+
+     PEOPLE   — how many, and where each one stands (left / centre /
+                right, front / middle / back), with the distance in
+                metres.
+     LIGHT    — how many sources, what each one is, where it is, and
+                its distance in metres.
+     OBJECTS  — every object, with its number.
+     CLOTH    — how many pieces on each person, and in what state.
+     DISTANCE — how far the camera is from the subject, in metres.
+     HEIGHT   — which part of the body sits at the centre of the frame.
+
+   Write it straight onto the card:
+     FRAME INVENTORY — 2 people (her, centre, 1.5 m; him, left, 3 m) ·
+     2 lights (lamp, left, 1 m; fire, back right, 4 m) · 3 objects
+     (one brass thali, one folded cloth, one rope) · smoke level 2
+
+   AND THE RULE THAT MAKES IT WORK: whatever the Image prompt says
+   must already be in this inventory. If the image prompt mentions an
+   object that is not counted here, the card is wrong — either count
+   it, or take it out of the prompt.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NOW WRITE ONE CARD PER SHOT, IN THIS EXACT FORMAT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+I will follow these cards literally. Everything I need must be on
+the card. Never write "same as above". Never abbreviate.
+
+┌──────────────────────────────────────────────────────┐
+  SHOT 04 of 20        3 seconds        CHAIN from 03
+  ⭐ STORY LINE (mine, quoted): "her fingers close on the cloth
+     and she does not let go"   ← the only reason this shot exists
+  PHASE: 2 "chaah"      SHOT TYPE: hands + close        SETUP: C
+──────────────────────────────────────────────────────
+  JOINS FROM: [what was still moving at the end of shot 03,
+  and how this shot catches that same movement — e.g.
+  "her hand was closing on the door handle; this shot
+  opens on that same hand, from outside, still pulling"]
+  HANDS TO: [what is still moving as this shot ends, so
+  shot 05 can pick it up — e.g. "the door is swinging
+  inward and her weight is already shifting forward"]
+
+  🎥 MOVE: [the exact named move from ⑧, then direction, then
+  speed. e.g. "Dolly In · slow · 1 metre" / "Truck Right · matching
+  her pace" / "Static · locked off". One move only, never two. Mark
+  it ⭐ if this is the film's single bold move.]
+  💨 ATMOSPHERE (start → end): [the numbers from ⑲, then the look,
+  then the direction — e.g. "smoke 2 → smoke 1: two wisps at chest
+  height drifting left to right at walking pace, lit from behind by
+  the lamp; ends as the column thins and clears her eyes and mouth"]
+  ✨ PRACTICAL ELEMENT: [one physical thing moving in the air or on
+  the ground in this shot — dust, smoke, spray, cloth, leaves. One
+  only. Never a glow or a light ray.]
+  🔗 HANDOFF: [if this shot hands over to the next one through a
+  moving object, name the object, its direction, its speed and
+  where it sits in the frame at the last frame — and write the
+  same four things as the first frame of the next shot. Otherwise
+  write "normal join".]
+  🌋 BIG EFFECT: [only on the film's ONE effects shot — the physical
+  event that happens in front of the camera, and what it does to
+  her: the light it throws on her face, what it moves in her hair
+  or cloth, what it displaces on the ground. Write "none" on every
+  other shot.]
+  👁 FACE REVEAL: [yes / no. If yes: which way the smoke or veil
+  moves, how many seconds until the eyes and mouth are clear, and
+  the one front light source with its distance. See ⑳.]
+  👗 CLOTH STATE: [starts → changes → ends. Which garment, on which
+  shoulder, wet or dry, how it moves during the shot, and the exact
+  state it leaves in. See ㉗.]
+  🎭 ACTING: [THOUGHT — one line of what she is thinking, in her own
+  words. TURN — from what to what, and the second it turns. LEAK —
+  the one involuntary thing. BUSY BODY — what her hands are doing
+  while her face feels. Never one held expression.]
+
+  🚶 MOVEMENT THROUGH THE FRAME: [one line — she enters frame left
+  and exits frame right / she walks toward the lens and passes it /
+  the camera pulls back and she shrinks. Never blank.]
+  ENTERS FROM: [which edge]    EXITS AT: [which edge]
+  🏞️ BEHIND HER: [what fills the background in this shot, and how it
+  differs from the previous shot. If it is the same as the last two
+  shots, this shot is stalling — move her on.]
+  📏 DISTANCE COVERED: [for a travelling shot: where her body is at
+  the first frame, where it is at the last frame, and roughly how
+  many metres apart those are. Then name the landmarks she passes
+  on the way. If the honest answer is "the same place", this shot
+  is walking on the spot — rewrite it. Write "none, she stays put"
+  only for a shot that is deliberately stationary.]
+  📍 DESTINATION: [how far away the film's destination is now, and
+  whether it is visible in this frame]
+  📦 FRAME INVENTORY: [people (how many, where, how far) · lights
+  (how many, what, where, how far) · objects (each, with its number)
+  · cloth pieces · camera distance · frame centre height. Nothing
+  may appear in the prompts below that is not counted here.]
+
+  STAYS THE SAME ALL CLIP: [face, hairstyle, each garment and
+  its exact state, each piece of jewellery, what each hand
+  holds, light direction. These must be identical in the first
+  and last frame.]
+  ONLY THING THAT CHANGES: [the one action, plus the expression
+  moving one step. Nothing else.]
+
+  STORY: [one plain sentence — what is happening in the
+  film right now and why it matters. A stranger must
+  understand this line on its own.]
+
+  JUST BEFORE: [the previous event]
+  JUST AFTER:  [the next event]
+  AUDIENCE FEELS: [what they feel watching this]
+  ⛔ NOT ADDED: [nothing in this frame comes from your own
+  imagination. Only the story line above, the character DNA, the
+  location DNA and the objects in the inventory. Any small choice
+  you had to make goes to MY ASSUMPTIONS at the end.]
+
+──────── STEP 1 — MAKE THE FRAME ────────
+  UPLOAD: CHAR-radha.png only — the upload portrait, nothing else.
+  [Name only the characters actually visible in this shot. Never the
+  world sheet, never the character sheet grid, never the style image.
+  One portrait per visible character, and no more. Stacking
+  references is what makes a face come out cartoonish.]
+  SAVE AS:      SHOT-04.png
+
+  PASTE THIS INTO THE IMAGE TOOL:
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  [The complete image prompt, written in THIS ORDER. The order is
+   not decoration — an image model weights the words nearest the
+   start most heavily. A realism instruction parked at the end
+   arrives too late to stop the model rendering calendar art. So
+   the capture comes FIRST and the description second.
+
+   1. THE CAPTURE, first words of the prompt:
+      "Photographed on a modern digital cinema camera, ARRI Alexa
+       35, Cooke S7 anamorphic [n]mm lens at T2.8, [shot size],
+       camera height [n] centimetres, [angle], clean and sharp with
+       deep blacks."
+
+   2. THE LIGHT, second — one source, named, with a dark side:
+      "Lit by [one named source] from [exact direction], so the
+       [named] side of the face is bright and the [named] side
+       falls into real shadow. Colour temperature [warm low sun /
+       cool overcast / warm lamplight]."
+      ⚠️ ONE source only. Light arriving evenly from everywhere is
+      the number one reason an image reads as a 3D render. There
+      must be a bright side and a shadow side on every face.
+      ⚠️ Never light a FACE only from behind. Backlight hides skin
+      texture, and hidden texture is what makes skin look like
+      plastic. If the sun is behind them, name the front fill too.
+      ⭐ THE EXCEPTION — go all the way to a FULL SILHOUETTE. Let
+      the figure go completely black against a bright sky or a
+      bright doorway and backlight becomes the strongest shot a
+      generator can make: no skin, no face, no detail left to get
+      wrong, just a perfect black shape. One of these per film, on
+      a big moment, is almost free quality. What fails is the
+      half-measure — a backlit face that is still half-visible.
+      Either light the face properly, or kill it completely.
+
+   3. ⭐ the FULL DNA LINE for every character in this shot, pasted
+      word for word from PROMPT 2. The whole line, every garment,
+      every ornament. Never a shortened version, never "the same
+      person as before". This is an IMAGE prompt — there is no
+      picture for the tool to work from, so the complete line is
+      what holds the face across the whole film.
+
+   4. the exact number of people: "EXACTLY ONE PERSON IS IN THIS
+      FRAME: [name]. No one else, no second figure, no duplicate,
+      no reflection, nobody in the background."
+
+   5. the figure size: "the figure fills about one-third of the
+      frame height"
+
+   6. THE FACIAL EXPRESSION AT FULL STRENGTH, written as muscles —
+      the still must ALREADY carry the performance
+   7. "a clear, strongly readable facial expression, not neutral,
+      not a blank passport expression, the emotion visible in the
+      eyes, brow and mouth at once"
+   8. the exact body posture and what each hand holds
+   9. the location DNA line, and the palette
+  10. the ATMOSPHERE with its numbers, written as positive fact:
+      "smoke level 2 — two thin wisps at chest height drifting
+       left to right; her eyes and mouth completely clear"
+  11. 9:16 vertical
+
+  12. THE TEXTURE. A model left alone renders skin as smooth
+      plastic. Texture is what makes it a photograph — but texture
+      is not AGE. Never write pores, wrinkles, weathered, tarnish,
+      faded, worn, slub or film grain for a young character; those
+      words are what make a twenty-year-old come back looking fifty,
+      and what makes a new film look like an old one. Include
+      instead, word for word: "healthy skin with fine natural
+      texture and a light sheen on the forehead and cheekbones,
+      individually visible hair strands, fine soft hair at the
+      hairline, crisp new fabric with a soft sheen where it catches
+      the light, bright polished metal with deep sharp engraving,
+      true depth of field falloff, clean modern digital capture,
+      very deep blacks, clean bright highlights, strong contrast, a
+      restrained palette sitting near grey with one colour allowed
+      to be strong"
+
+  13. ⚠️⚠️ THE CLOSING LINES — AND READ THIS WARNING FIRST.
+
+      DO NOT WRITE A LIST OF "no this, no that" INTO THE PROMPT.
+
+      This is the most damaging mistake in AI image work and almost
+      every guide gets it wrong. Most tools people actually use —
+      ChatGPT, Gemini and the rest — have NO separate negative box.
+      There is only one text field. Whatever you type goes in as
+      things to DRAW. These models cannot process "no", "not",
+      "without" or "avoid"; the words simply register as content.
+
+      Write "no god rays, no glowing skin, no floating petals" and
+      you have just asked, in plain language, for god rays, glowing
+      skin and floating petals. Ask for "a field with no horses" and
+      you get horses. The longer your ban list, the more of the
+      forbidden thing you are ordering.
+
+      ✅ SO STATE EVERY CONSTRAINT AS A POSITIVE FACT INSTEAD.
+        instead of "no plastic skin, no waxy skin"
+          → "healthy skin with fine natural texture, a light sheen
+             on the forehead and cheekbones"
+        instead of "no god rays, no glow, no aura, no haze"
+          → "clear dry air; every surface lit only by direct light
+             and its own cast shadow; the darkest areas stay dark"
+        instead of "no floating petals, no particles, no sparkles"
+          → simply do not mention petals or particles at all.
+        instead of "no duplicate person, no extra people"
+          → "exactly one person is in this frame and the space
+             behind is empty"
+        instead of "no text, no watermark, no logo"
+          → "every surface in the frame is blank and unmarked"
+
+      So the prompt ENDS with this positive closing block, word for
+      word, and with no ban list anywhere:
+
+      "Healthy skin with fine natural texture, a light sheen on the
+       forehead and cheekbones and soft fine hair at the hairline.
+       Clear air; every surface lit only by direct light and its own
+       cast shadow, and the shadow side stays genuinely dark. A
+       restrained palette sitting near grey with one colour allowed
+       to be strong, very deep blacks, clean bright highlights,
+       strong contrast. Crisp new woven fabric falling in sharp
+       folds with a soft sheen where it catches the light. Bright
+       polished metal with deep sharp engraving. Clean modern
+       digital capture, sharp through the eyes. Every surface in the
+       frame is blank and unmarked."
+
+      🔻 ONLY IF YOUR TOOL HAS A SEPARATE NEGATIVE BOX 🔻
+      A few tools do have a real, separate negative field. If and
+      only if you are using one, put a SHORT list in that box —
+      never in the main prompt, and never more than about six terms:
+        "3d render, cgi, illustration, calendar art, plastic skin,
+         extra limbs"
+      If you are pasting into ChatGPT or anything with a single text
+      box, use nothing from this line.
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+
+  ✅ CHECK BEFORE MOVING ON: cover the body and look only at the
+  face. Can you name the emotion? If not, regenerate with stronger
+  muscles. A beautiful frame with a blank face is a failed frame.
+  [Also state what specifically to look for in this frame.]
+
+──────── STEP 2 — MAKE THE VIDEO ────────
+  UPLOAD: SHOT-04.png as the FIRST FRAME
+          [ONLY if this shot and the next are in the SAME place with
+           almost the same framing: SHOT-05.png as the LAST FRAME.
+           If the next shot is in a different place, or the framing
+           jumps, upload the first frame ONLY — see the rule below.]
+
+  ⚠️ UPLOAD NOTHING ELSE. One image, or two if you pinned the last
+  frame. Do not add the character sheet, the world sheet, the style
+  image or the previous clip on top.
+
+  ⭐ WHEN TO PIN A LAST FRAME — AND WHEN IT RUINS THE CLIP
+  Many tools accept a first frame AND a last frame. Used correctly it
+  is the strongest continuity tool there is. Used wrongly it is the
+  reason a clip suddenly CUTS to a different scene halfway through.
+
+  ⚠️ THE RULE: pin a last frame ONLY when the two stills are the same
+  place, the same framing class and only a small change apart.
+
+  A video model treats the two pinned frames as one continuous motion
+  path. If they are far apart — different location, wide to extreme
+  close-up, subject on the left then on the right — the model cannot
+  travel between them in four seconds, so it does the only thing it
+  can: it invents a camera move that does not exist, or it dissolves
+  and morphs one scene into the other. On screen that reads as the
+  clip changing scene in the middle. That is not the tool failing.
+  That is two endpoints too far apart.
+
+  ✅ PIN THE LAST FRAME when:
+     • both stills are in the SAME location
+     • the shot size changes by at most one step (medium → medium
+       close, never wide → extreme close-up)
+     • the subject stays on roughly the same side of the frame
+     • the light direction and colour are identical
+     • the whole change is something a body could really do in the
+       clip's length
+
+  ❌ DO NOT PIN A LAST FRAME when:
+     • the next shot is in a DIFFERENT PLACE. This is the big one.
+       Never pin across a location change. Let the clip end on its
+       own end state and make a normal cut in the edit.
+     • the framing jumps more than one step
+     • the subject crosses to the other side of the frame
+     • the light changes
+     In all of those, give the tool the FIRST FRAME ONLY and write
+     BLOCK 3, the end state, with real care.
+
+  IF YOUR TOOL ONLY TAKES A FIRST FRAME:
+   • Press EXTEND on the previous clip instead of starting fresh.
+   • Failing that, take the last frame of the previous clip, upload it
+     as this clip's first frame.
+   • Then BLOCK 3 below must be written with real care, because the
+     end state is the only destination the model is given.
+
+  THE BEATS — one line per second, all of them filled:
+    0-1s: [one small physical fact]
+    1-2s: [one small physical fact]
+    2-3s: [one small physical fact]
+    [as many lines as the clip has seconds — never fewer]
+
+  PASTE THIS INTO THE VIDEO TOOL:
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  [Write it in the blocks below, in this exact order, every time.
+   Never skip a block.
+
+   ⭐ THE LAW OF THIS BLOCK: THE STILL IS THE TRUTH.
+   The uploaded still has already decided the face, the clothes, the
+   place, the framing and the light. So the video prompt asks for ONE
+   thing only: MOVEMENT. It must not describe the place, the clothes,
+   the face, the light or the colour again. Those are in the still,
+   and the model copies what it sees. Re-describing them is exactly
+   how the face and the scene start to change.
+
+   Write it in the SEVEN BLOCKS below.
+
+   BLOCK 0 — THE IDENTITY LINE.
+     Write the identity as a SHORT LOCK, not a full re-description:
+
+       "The woman in the uploaded first frame. Her face, hair,
+        lehenga, dupatta and every ornament stay exactly as they
+        are in that frame."
+
+     Then add ONLY the identity facts the still cannot show because
+     they are out of frame or about to enter it — for a close-up of a
+     face, name the braid and the anklets if the body enters later.
+
+     WHEN TO PASTE THE FULL DNA LINE INSTEAD (three cases only):
+       • the shot is a CUT to a new place, where you are NOT feeding
+         the previous clip's last frame
+       • the tool ignores the upload and invents its own person
+       • the character is partly out of frame in the still and walks
+         fully into view during the clip
+
+   BLOCK 0B — MOVEMENT THROUGH THE FRAME, one line, from ⑥.
+     "She enters frame left, crosses, and exits frame right."
+     "She walks toward the camera and passes the lens."
+     Never leave this out. A clip with no travel is a dead clip.
+
+   BLOCK 1 — THE ONE ACTION, in five words or fewer.
+     "She pulls the door open." "He lifts his head."
+     One verb. If you need "and", it is two shots, not one.
+
+   ⚠️ There is no word limit on this prompt. The old advice to keep
+   video prompts to 25-45 words is WRONG for this workflow and it is
+   what caused faces to change mid-film. Length spent on identity and
+   on the second-by-second beats is never wasted; only vague words
+   are wasted.
+
+   BLOCK 2 — THE BEAT TIMELINE, one line per second of the clip.
+     This is what stops the clip inventing a different action
+     halfway. An unbooked second is a second the tool fills itself.
+     ⭐ EVERY LINE HAS TWO HALVES: the BODY, then the FACE. A beat
+     line with no face in it is a second of dead acting.
+       0-1s: her fingers close on the handle — her eyes are still
+             down, mouth closed, holding
+       1-2s: her wrist turns, the door starts to swing — her chin
+             lifts a little, her eyes come up to the gap
+       2-3s: she steps forward through the opening — her brows
+             pull together, her lips part slightly as she sees
+     Every second of the clip length must have a line. A 4-second
+     clip gets 4 lines. An 8-second clip gets 8.
+     ⭐ On a travelling shot, every line also says HOW FAR she has
+     got, with a named landmark (see ⑬).
+
+   BLOCK 2B — THE PERFORMANCE. ⭐ THIS IS WHY ACTING LOOKS FAKE.
+     A face that holds one expression for the whole clip is what a
+     bad new actor does. A real actor's face CHANGES, and the
+     change is the performance. Write all four, every clip:
+
+     THE THOUGHT — one line of what is going through her head
+       during this clip, in her own words. Not an emotion word, a
+       thought. "He is going to say no and I already know it."
+
+     THE TURN — the face must travel FROM one state TO another,
+       and you must name the second it turns:
+         "she begins almost blank, controlled; at 1.6 seconds her
+          eyes narrow and her jaw sets and she stays there"
+       Never the same expression at the first frame and the last.
+
+     THE LEAK — one small involuntary thing the body does that
+       she is not choosing: a swallow, a late blink, breath caught
+       and released, nostrils widening, a lip pressed flat,
+       fingers tightening on cloth, eyes going wet without a tear
+       falling. One only.
+
+     THE BUSY BODY — what her hands or body are doing while her
+       face is feeling. A character who only emotes, with still
+       hands, reads as generated.
+
+     ⚠️ SUPPRESSION BEATS EXPRESSION. Wherever the emotion is big,
+     write her TRYING TO HIDE IT and failing in one place.
+
+     ⚠️ Never: smiling at the camera · looking into the lens ·
+     a nod at the end · an expression that arrives and then holds
+     for the rest of the clip.
+
+   BLOCK 3 — THE END STATE. Say exactly where the body is at the
+     final frame. This is the single biggest cause of a clip that
+     starts right and goes wrong: the tool finishes what you
+     described, finds it still has seconds left, and invents
+     something to fill them. Booking the final frame stops that.
+     ⚠️ END STATE does NOT mean "stops moving". The body must
+     still be in motion at the last frame — but it must be THIS
+     motion, at a stated point, not a new one:
+       ✅ "at the final frame her front foot is landing on the road
+           and her weight is still travelling forward"
+       ✅ "the last frame catches the door still swinging inward,
+           halfway open"
+       ❌ "then she settles and holds still"  ← puts a full stop in
+           the middle of your film and kills the join
+     Only a shot that truly ends the film may come to rest.
+
+   BLOCK 4 — ONE camera move, measurable, and nothing else.
+     ⭐ Use the EXACT NAMED MOVE from ⑧, not a description of it.
+       "Dolly In, slow, about one metre of travel"
+       "Truck Right, matching her walking pace"
+       "Static, camera locked off"
+     Always name the move, then the direction, then the speed.
+     Never two moves stacked.
+     ⚠️ WHEN BOTH THE CAMERA AND THE SUBJECT MOVE, SAY HOW THEY
+     RELATE: "the camera follows behind her at her walking pace,
+     holding the same distance, while the lane slides past on both
+     sides." Say what the camera does RELATIVE TO HER.
+
+   BLOCK 5 — ONE environment motion, WITH ITS NUMBER from ⑲.
+     "Smoke level 2 — two thin wisps at chest height, drifting left
+      to right at walking pace, lit from behind by the lamp."
+     "Rain level 1 — a few slow drops on her shoulder, visible
+      against the dark cloth."
+     One element. A real physical thing. Never a glow or a ray.
+
+   BLOCK 6 — THE LOCK LINE, word for word, every single clip:
+     "This is the same person as in the uploaded frame — the same
+      bone structure, the same eyes, the same nose, the same lips,
+      the same age, the same skin. Same clothes, same jewellery,
+      same hair from the first frame to the last. Her EXPRESSION
+      changes exactly as described above; her identity does not.
+      She performs this one action and this action only. The camera
+      makes this one move and holds it. One continuous unbroken
+      take in real time; everything visible at the first frame is
+      still there at the last."
+
+   ⚠️⚠️ THE REASON ACTING LOOKS FAKE — READ THIS.
+   The old version of this line said "the face holds exactly as it
+   is in the uploaded frame for the whole clip". That line locks
+   the PERFORMANCE, not just the identity. A tool given that line
+   does the only thing it can: it holds one frozen expression for
+   four seconds while the body moves underneath. On screen that is
+   exactly a beginner actor holding a face and waiting for the
+   director to say cut. Lock WHO the person is. Never lock what
+   their face is doing.
+
+   Write positively throughout. Never "don't move the camera" —
+   write "the camera is locked and still".]
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  SAVE AS: CLIP-04.mp4
+
+  ✅ CHECK: [what must be true in this clip]
+  IF IT FAILS: [a simpler fallback prompt for this exact shot]
+
+──────── THEN ────────
+  ➡️ NEXT: go to SHOT 05.
+  [If the next shot chains: "Screenshot the LAST FRAME of CLIP-04
+   first — shot 05 needs it."]
+└──────────────────────────────────────────────────────┘
+
+━━━ RULES FOR THE CARDS ━━━
+- One clip = ONE action. If a description needs "and" between two
+  physical actions, split it into two shots. A clip asked to do
+  three things will skip two.
+- Clip length: 3-4s for a look, a blink, a turn, a reaction ·
+  5s for walking or reaching · 8s for approaching or a full beat.
+  Shorter clips drift less. Reactions are best at 3-4s.
+- CHAIN inside a continuous moment. CUT only for a new time or
+  place. Say which on every card.
+- Body state at the end of a shot must equal the body state at the
+  start of the next. If they differ, the change must be shown —
+  that is a missing shot, add it to the chain and renumber.
+- Nothing held may vanish or swap hands unexplained.
+- No dialogue. The film must work on mute. Give ambient sound per
+  shot instead.
+- Everything must be supported by the research and the chain.
+- EVERY CARD CARRIES ITS JOIN. On every card, under the header,
+  write two lines:
+     JOINS FROM: what was moving at the end of the previous shot,
+     and how this shot picks that same movement up.
+     HANDS TO: what is still moving as this shot ends, so the next
+     shot can catch it.
+  Shot 01 writes "JOINS FROM: film opens" and still writes HANDS TO.
+- NO SHOT MAY START FROM STILL unless the previous shot ended with
+  that same body already still. Movement at the cut is what makes
+  two clips read as one continuous piece.
+- A NEW PLACE IS ALWAYS ENTERED ON SCREEN. If this card is the first
+  in a new location, the character must physically come into it in
+  this shot or the one before. Never a waiting frame.
+- THRESHOLD SHOTS ARE REAL SHOTS. Doors, gates, steps, paths,
+  corners get their own card with their own image and video prompt.
+  They are not optional and they are not filler — they are the
+  glue. A person must be doing something physical in every one.
+- EVERY SHOT CARRIES ITS PHASE from ㉘ and its numbers from ⑲.
+  A card with no phase, or with "some smoke" instead of a level,
+  is an unfinished card.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔁 BEFORE YOU SHOW ME ANYTHING — RUN THIS LOOP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+You are not finished when the cards are written. You are finished
+when they survive this. Run it yourself, silently. Do not show me a
+draft and ask if it is right. Fix it, then show me.
+
+PASS 0 — IS THIS STILL MY FILM?
+  Put the STORY LOCK beside the cards. Same events, same order, same
+  people, same feeling, same ending? Every difference is a defect and
+  the lock always wins. You may not improve the story.
+
+PASS 1 — READ IT AS A FILM
+  Read only the STORY lines of every card, in order, as one
+  paragraph. Does it read as ONE event a camera followed, or as
+  separate pictures? Every place it reads as separate is a defect.
+
+PASS 1B — THE TRACE AND THE ADDITIONS ⭐
+  • Does every card open with a quoted STORY LINE? Any card without
+    one is invented — delete it or mark it PURE TRANSITION.
+  • Is the invented table printed and filled?
+  • Is the MY CHEEZEIN coverage table printed, with every item
+    pointing to a shot? Any item with no shot is a missing piece.
+  • Is any object, person, animal, weather or ritual step in any
+    card that is NOT in my story or the STORY LOCK? Cut it, or move
+    it into MY ASSUMPTIONS.
+  • Is MY ASSUMPTIONS printed at the very end, one line per choice?
+
+PASS 2 — THE MOTION HANDOVER
+  For each pair, put shot N's closing motion beside shot N+1's
+  opening motion. Not merely compatible — the SAME movement from
+  two angles. Any pair where it is not is a defect.
+
+PASS 2B — THE JOINS AND THE THRESHOLDS
+  Walk the film as a route, out loud, in one sentence:
+  "she is HERE, then she goes THROUGH here, then she is HERE."
+  If you cannot say it without the word "then suddenly", the film is
+  not connected. Defects: any new location not physically ENTERED on
+  screen · any place left without seeing her begin to leave · any
+  A→B move with no threshold shot of a real physical action · any
+  join row with fewer than two things carrying across · any
+  threshold that is scenery with nobody in it.
+  Fix by writing the missing threshold shot and renumbering.
+  ⭐ And between two SCENES: is the merge shot from ㉓ there, with
+  its two named devices?
+
+PASS 2C — THE OPENING
+  Look only at shot 01 and shot 02. Is something already moving at
+  0.0s, or does the film warm up? Does shot 02 physically grow out
+  of shot 01? A slow establishing wide, an empty landscape, a fade
+  in, or a static frame waiting for someone to enter is a defect.
+
+PASS 2D — HANDOFFS AND SAFE SHOTS
+  • Read the SHOT TYPE column down. Count wide and full-body rows
+    against detail rows (hands, eyes, objects, silhouettes, feet,
+    backs of heads). If detail shots are not roughly three to one,
+    rewrite until they are. This one ratio decides whether the film
+    reads as expensive or as AI.
+  • Is there at least one full silhouette, on a big moment?
+  • Are there at least TWO object handoffs, one on the hardest jump
+    in place or time? For each, do all four things match across the
+    cut — the object, the direction, the speed, the position in
+    frame? Is the handoff object already in the story?
+  • Is any full-body walking shot longer than two seconds? Cut it
+    down or replace it with feet, or with a silhouette.
+
+PASS 3 — THE ACTING
+  Does every face shot state what the character wants, what the face
+  shows, what it hides, and one tell? Is the expression written as
+  muscles at full strength, so the still already carries it? Any
+  named emotion left standing alone is a defect.
+
+PASS 3A — THE PERFORMANCE SWEEP
+  Every shot with a face, check all six:
+  • Does the face CHANGE during the clip, with a named second where
+    it turns? One held expression across a whole clip is the single
+    biggest reason acting reads as AI.
+  • Is there a THOUGHT written in the character's own words?
+  • Is there exactly one LEAK? Not three.
+  • Are the hands and body doing something while the face feels?
+  • Is the big emotion HELD DOWN rather than performed?
+  • Does any video prompt still say the face holds exactly as it is
+    in the uploaded frame? Delete that wording now.
+
+PASS 3B — THE CALENDAR ART SWEEP
+  • Does every image prompt OPEN with the capture — camera, lens,
+    aperture, shot size, camera height? If the realism wording is
+    parked at the end, move it to the front.
+  • Is the word "photorealistic" used as a magic word? Delete it.
+  • Is there ONE named light source with a direction, a bright side
+    AND a shadow side? Is anyone lit only from behind and still
+    half-visible? Either add a named front fill, or push it all the
+    way to a full black silhouette.
+  • Does the film have ONE full silhouette shot on a big moment?
+  • Search every prompt and delete: glowing, luminous, radiant,
+    aura, halo, god rays, light shafts, sunbeams, golden mist,
+    golden haze, divine light, ethereal, dreamlike, otherworldly,
+    magical, shimmering, sparkling, floating petals, floating
+    particles, bloom, lens flare, backlit glow, rim glow, heavenly.
+  • Divine characters: is the divinity carried by MATERIALS (heavy
+    silk, worked gold, uncut gems, fresh flowers) and not by light?
+  • Is the TEXTURE there — fine skin texture, a sheen on the
+    cheekbone, separate hair strands, real fabric?
+  • ⚠️ Is any AGEING language there — pores, wrinkles, weathered,
+    tarnish, faded, worn, slub, film grain, muted? On a young
+    character every one of those is a defect.
+  • ⚠️⚠️ Is there a BAN LIST in any prompt? Search for "no ", "not ",
+    "without", "avoid". Every one is a defect. Rewrite each as a
+    positive fact. The only exception is a real separate negative
+    box, no more than six terms, in that box only.
+  • ⚠️ Does any prompt contain a DEITY'S NAME — Krishna, Radha,
+    Shiva, Ram, Hanuman, Durga — or Lord, Shri, deity, divine, God?
+    Delete every one and write the physical description instead.
+  • Any poster buzzword — 8K, 4K, ultra-realistic, masterpiece,
+    premium, devotional, majestic, epic, breathtaking, cinematic,
+    poster, artwork, rendering? Delete and put a lens or a light in
+    its place.
+  • Is the colour restrained, or is everything saturated gold?
+
+PASS 3C — THE CAMERA SWEEP
+  • Does every shot name an EXACT move from ⑧, with a DIRECTION and
+    a SPEED?
+  • Count the bold moves — exactly ONE in the whole film.
+  • Is any shot stacking two moves? Do two neighbouring shots use
+    the same move AND the same size?
+  • Does the film keep to 4-6 setups (㉕), each used at least four
+    times, and is any scene stuck in one setup?
+  • Is the GENRE MODE stated, and does every clip length, move and
+    light choice obey it — with the PHASES (㉘) overriding inside
+    each phase?
+  • Is there exactly one speed ramp, on the peak?
+  • Does every shot name ONE practical element, and is it a real
+    physical thing rather than a glow or ray?
+
+PASS 3D — MODERN AND BIG
+  • Does every character DNA line open with an AGE IN YEARS?
+  • Search every prompt for: pores, wrinkles, lines, weathered,
+    worn, faded, tarnish, slub, grain, muted, aged, dusty, peeling,
+    cracked. On a young character or a present-day setting, every
+    one is a defect.
+  • Is the capture line modern — digital cinema camera, clean and
+    sharp — rather than film stock and grain?
+  • Exactly ONE big effect shot, on the peak. Not zero. Not three.
+    Is it written as a physical event with its light on her face,
+    what it moves on her, what it leaves behind, and her face
+    receiving it? Does a reaction shot follow it?
+  • Would someone scrolling stop on this? If no single frame is
+    worth stopping for, build the peak.
+
+PASS 3E — THE ATMOSPHERE AND FACE SWEEP ⭐
+  • Does EVERY effect carry a number — smoke 0-5, fog 0-5, dust
+    0-4, rain 0-4, and the flame count for every fire? Any shot
+    left saying "some smoke" or "light fog" is a defect.
+  • Does any shot with a readable face sit above smoke 2, fog 2 or
+    rain 2? Bring it down.
+  • Does every face reveal have a direction, a movement and a
+    duration, plus one front light source with its distance? Are the
+    two shots after a reveal at smoke 0-1?
+  • Does every shot start at the exact level the previous shot ended
+    on, and does any change of more than one step have a cause?
+
+PASS 3F — THE MECHANICS SWEEP ⭐
+  • Does every hold, drape or touch have named hands and the three
+    steps (lift → travel → land)? Does contact last a full second,
+    with the other person reacting?
+  • Does any cloth, hand or garland pass through a body, or change
+    shoulder between shots?
+  • Does every detail shot have DOES and SETS written?
+  • Does every card carry a CLOTH STATE (starts → changes → ends),
+    and do neighbouring cards agree?
+  • Does every card carry a FRAME INVENTORY with real counts, and is
+    everything in the prompts counted there?
+
+PASS 4 — THE REST CHECK
+  Any shot that begins or ends at rest is a defect — apart from the
+  very first and the very last shot of the film.
+
+PASS 4B — THE SECOND-BY-SECOND AUDIT
+  • Count the beat lines. Does the count equal the clip length in
+    seconds? Fill them or shorten the clip.
+  • Is any second empty, vague, or a repeat of the one before?
+  • Does BLOCK 3 state exactly where the body is at the final frame,
+    still in motion?
+  • Does any beat line contain a SECOND action? Split it.
+  • Does the STAYS THE SAME list name the face, hair, every garment
+    with its state, every piece of jewellery and what each hand
+    holds?
+  • Does anything change in the beats that is not in the ONLY THING
+    THAT CHANGES list?
+  • ⭐ Does the video prompt re-describe her face, clothes or the
+    place? Delete those words. That is the "still is the truth"
+    law — re-describing is what makes the face change mid-clip.
+  • Is more than one camera move asked for? Is the clip longer than
+    the action needs?
+
+PASS 4C — THE DEAD SHOT SWEEP
+  Does the FRAME change during each clip, or is a person standing in
+  one spot while a small part of them moves? Any shot whose only
+  movement is a hand, an earring, hair, cloth or a blink, with no
+  travel, is a DEAD SHOT — rewrite it. Count the still shots: more
+  than one in the film is a defect. Does every card have a MOVEMENT
+  THROUGH THE FRAME line, an ENTERS FROM and an EXITS AT? Does the
+  travel direction hold across the film? Any two neighbouring camera
+  positions less than 30 degrees apart is a jump cut.
+
+PASS 4D — THE TREADMILL SWEEP
+  For every travelling card: where is her body at 0 seconds, and
+  where at the last second? If it is the same place, rewrite it.
+  Does the card state FROM, TO and metres? Does something LEAVE the
+  frame behind her, named, with the second it goes? Does something
+  GROW ahead? Do the beats name landmarks rather than only body
+  parts? Does her size or position change — or, if the camera
+  matches her pace, does the background clearly slide past? Does the
+  prompt state the camera-to-subject relationship?
+
+PASS 4E — THE PROGRESS SWEEP
+  Read only the BEHIND HER column, top to bottom. Does the backdrop
+  change at least every two shots? Is the destination visible and
+  getting closer? Does the ground underfoot change? Could any two
+  shots be swapped without anyone noticing — if yes, rewrite both.
+  Do two neighbouring shots share both size and move?
+
+PASS 4F — THE HANDOFF SWEEP
+  For every pair: is shot N's last frame the same picture as shot
+  N+1's first frame? If the tool takes a last frame, is it said
+  explicitly on the card? Does every still work as the previous
+  shot's destination — same light direction, same distance class,
+  body caught mid-movement? Does any video prompt describe the
+  endpoints instead of the journey?
+
+PASS 4G — THE DNA SWEEP
+  IMAGE prompts: full DNA line, word for word, every time; never
+  shortened to "the same person as before"; full location DNA line.
+  VIDEO prompts: SHORT LOCK, not a full re-description — with the
+  full line only in the three justified cases. Does every video
+  prompt end with the face lock line? Getting this split wrong in
+  either direction is a defect.
+
+PASS 4H — THE UPLOAD SWEEP
+  Does any card ask me to upload more than one portrait per visible
+  character? Does any card ask for a character sheet grid, a world
+  sheet or a style image? Remove them from every upload line.
+  Does every video card upload the shot still and nothing else,
+  except a legitimately pinned last frame? Is the total number of
+  images I must make as small as it can be?
+
+PASS 4I — THE LAST FRAME SWEEP
+  For every card that pins a last frame: same location? framing
+  within one step? subject on the same side? same light? a change a
+  real body could make in this clip's length? Any "no" means unpin
+  it and write the end state properly instead.
+
+PASS 5 — THE FULL AUDIT
+  STORY: every character arrives and leaves on screen · nobody
+  appears before their ARRIVES event · no action happens twice ·
+  every object tracked · a stranger could never ask "how did they
+  get there?"
+  CONTINUITY: body state, hands, wardrobe and light checked shot to
+  shot · light only moves forward.
+  CAMERA: 180-degree line held · screen direction held · eyelines
+  match · every angle given an emotional reason · camera height
+  stated everywhere.
+  FRAMING: every shot states the headcount and rules out duplicates ·
+  every shot states the figure size.
+  PERFORMANCE: every event has a reaction shot · no two consecutive
+  shots hold the same expression · every character's face is
+  different at the end than at the beginning.
+  CLIP DISCIPLINE: every second booked · constants named · stated
+  final frame.
+  ROUTE: film travels one way · every place entered and left on
+  screen · no place holds more than 3 shots in a row.
+  OPENING: opens mid-movement, no warming up.
+  THREAD: travelling object in 5+ shots · repeating frame · one
+  ambient sound · colour accent.
+
+PASS 6 — FIX
+  Rewrite the offending shots. Fix by rewriting the pair — extend
+  the action, re-angle, move the cut into the motion, carry the
+  camera, carry the sound. Never by inserting filler clips.
+
+PASS 7 — RUN AGAIN
+  Go back to PASS 0. Keep looping until a full pass finds ZERO
+  defects. Three or four rounds is normal. Do the work.
+
+Then print at the top of your output:
+  CORRECTION LOOP: [n] rounds.
+  Fixed: [one line each]
+  Final pass: 0 defects.
+  This film plays as: [one sentence — the single continuous event
+  the viewer experiences]
+
+If you cannot honestly write "0 defects", you are not finished.
+
+━━━ AFTER THE CARDS ━━━
+Print, in this order:
+  1. THE TABLES — invented table · MY CHEEZEIN coverage · camera
+     coverage (setup × count) · phase table · join table summary.
+  2. THE ORDER OF WORK — make every frame first, then every clip.
+     Never alternate. List the exact sequence of files.
+  3. TRIM PLAN — clips × 8s versus target runtime, and how many
+     seconds to keep from each clip. Mark the 3 shots that stay
+     long. ⚠️ NEVER TRIM AWAY A THRESHOLD SHOT. When the film runs
+     long, shorten the long middle shots — never delete the door,
+     the gate, the steps or the entrance. A threshold may be cut to
+     1 second, but it may not be removed. Confirm the opening still
+     begins mid-movement after the trim.
+  4. SOUND — ambient per shot, and one score prompt for Suno or Lyria.
+  5. EDIT SETTINGS — grain 8-15%, saturation −10 to −15%, warm
+     shadows, cool highlights, vignette, 24fps, 0.3s dissolves.
+  6. MY ASSUMPTIONS — the full list, at the very end.
+  7. FINAL CHECK — a short list of what must be true before posting.

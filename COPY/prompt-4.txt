@@ -1,134 +1,180 @@
-You are a release manager for a short photoreal film that will be posted
-on YouTube Shorts, Instagram Reels and Facebook Reels, for viewers in
-Nepal and the Hindi belt of India.
+You are a release strategist for short vertical video. Your job is
+distribution: who sees this film, and how it reaches them.
 
-I will do everything myself. You give me a plan, not questions. Never ask
-me for analytics, a link, or an upload. Work from the STORY LOCK below.
+TURN ON WEB SEARCH. Do not answer from memory. Every trend, song
+and number you give me must come from a search you actually ran
+today, and you must print the date you ran it.
 
-═══════════════════════════════════════════════════════════
-PRODUCTION LOCK — paste from PROMPT 1
-═══════════════════════════════════════════════════════════
-[YAHAN STORY LOCK KA POORA BLOCK PASTE KARO]
+I have finished a short vertical film. The story is in the STORY
+LOCK at the bottom. Read it first. Everything below is derived from
+that story.
 
-═══════════════════════════════════════════════════════════
-RULE 1 — THE SONG (music that matches the phase curve)
-═══════════════════════════════════════════════════════════
-Do not name a copyrighted track. Give me a SEARCH BRIEF I can use in a
-royalty-free or licensed library, and a structure to cut to:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🚫 DO NOT ASK ME ANY QUESTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Never ask me about my channel, my brand, my follower count, my
+niche or what I am selling. I am selling nothing. This is a film.
+Everything you need is in the STORY LOCK. Derive it.
 
-  · mood words for the search, in order of the film's phases
-    (for example: "devotional, warm, solo flute and tabla")
-  · tempo in BPM for the first half and the second half, and where the
-    change happens
-  · where the main lift lands — it must land inside the phase I marked
-    as "break" or "grace", not at the start
-  · which THREE moments in the film need a sound accent (a hit, a drop,
-    a silence) and what happens on screen at each
-  · one full second of near-silence somewhere, and exactly where
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔎 RESEARCH YOU MUST RUN BEFORE YOU WRITE ANYTHING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Run these searches now, in this order. Print one line of what you
+found under each before you move on.
 
-Also give me the alternative: an original description I could send to a
-music generator — instruments, tempo, mood, structure, in one paragraph.
+1. The subject of my story + "trending reel song [current month]
+   [current year]"
+2. The subject + "trending audio Instagram reels" and the same for
+   "YouTube Shorts"
+3. The subject + "new song [current year]" — releases from the last
+   90 days only
+4. The subject in Hindi script + "गाना" / "भजन" + the current year
+5. The subject + "Nepali song" and the subject + "Nepali bhajan"
+6. Google Trends style check: which spelling of the subject gets
+   searched more — English, Hinglish, or Devanagari
+7. "best time to post reels India" and "best time to post YouTube
+   Shorts India" for the current year
+8. Any festival, anniversary, fast day, full moon or temple event
+   connected to my story that falls in the next 45 days
 
-═══════════════════════════════════════════════════════════
-RULE 2 — TITLE + FIRST FRAME (this decides whether anyone watches)
-═══════════════════════════════════════════════════════════
-  · Give me five title options, each under 45 characters, in Hindi (Roman
-    script) with an English version beside it. No clickbait, no fake
-    claims, no all-caps shouting.
-  · Tell me which single frame of the film should be the thumbnail and
-    why: it must have one face, one emotion, and one unanswered question.
-  · Tell me the best opening 1.5 seconds: which shot, and what must be
-    moving in it.
+If a search returns nothing current, say "no current data" for that
+line. Never invent a song title, a view count or a chart position.
 
-═══════════════════════════════════════════════════════════
-RULE 3 — CAPTION
-═══════════════════════════════════════════════════════════
-Write three captions, same film, different tone:
-  1. Emotional — first line in Hindi, second line in English
-  2. Question — asks the viewer something the film answers
-  3. Short and plain — two lines, no emoji
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GIVE ME THESE TEN THINGS, IN THIS ORDER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Rules for all three:
-  · first line must work even if the viewer reads nothing else
-  · 2 emoji maximum, and only if they fit the story
-  · no "please like and subscribe" inside the caption
-  · end with one clean call-to-action: a question to answer in comments
+──────────────────────────────
+① NICHE LOCK — one line
+──────────────────────────────
+Write one plain sentence describing what this film is about, in the
+words a viewer would use, not the words a film-maker would use.
+This single sentence is the category the recommendation system will
+file the film under. Then list the five topics a person who would
+love this film already watches.
 
-═══════════════════════════════════════════════════════════
-RULE 4 — HASHTAGS
-═══════════════════════════════════════════════════════════
-Give me 12 hashtags in three groups, and tell me which 5 to put in the
-first comment if the platform hides them:
+──────────────────────────────
+② THE SOUND — five candidates, honestly labelled
+──────────────────────────────
+First write a one-line MUSIC BRIEF derived from the story: tempo in
+BPM, the emotional arc of the film in three words, the instrument
+the story is asking for, and whether the peak of the film needs the
+music to drop out or to swell.
 
-  · 4 broad (large audience, still honest to the topic)
-  · 4 middle (devotional / cultural / regional)
-  · 4 small and specific (Nepali and Hindi words, place names, festival)
+Then give me FIVE songs that fit that brief, as a table:
 
-Rules: no hashtag that does not describe the actual film. No repeated
-hashtags across the three platforms — rotate them so the posts do not
-look like copies.
+| # | Song and artist | Why it fits this story | Where it is rising | Search this exact text in the app |
 
-═══════════════════════════════════════════════════════════
-RULE 5 — UPLOAD TIMING (Nepal + India, same clock)
-═══════════════════════════════════════════════════════════
-Nepal and India run on the same time for practical purposes here, so give
-me one schedule and mark the difference where it matters.
+Rules you must follow:
+• Only songs released or revived in the last 120 days, plus at most
+  one timeless track as a safe fallback.
+• For each, write the exact words I should type into the in-app
+  audio search, because titles are spelt differently in every app.
+• Mark each one VERIFY. I will confirm it in the app myself.
+• Then write the verification rule for me as four lines:
+  – a sound with the little rising arrow and under 5,000 uses is the
+    best possible pick
+  – 5,000 to 10,000 uses means use it today or not at all
+  – over 10,000 uses means I am late and the push is gone
+  – the arrow beats the number: a rising sound at 50,000 outperforms
+    a flat sound at 500,000
+• Add one line on where the song should enter and where it should
+  change, matched to the beats of my story.
+• Add a two-line fallback: if nothing fits, what instrumental mood
+  to use instead, and why original audio also earns distribution.
 
-  · Give me TWO posting windows per platform, with the clock time in NPT,
-    and a one-line reason for each.
-  · Give me the best weekday and the worst weekday for this kind of film,
-    with the reason.
-  · Tell me the gap between the first post and the second post, and the
-    gap before the same film is reposted on another platform.
-  · Tell me what to do in the first 60 minutes after posting, and what
-    NOT to do (deleting and reposting, editing the caption, spamming
-    comments).
+──────────────────────────────
+③ WHAT PEOPLE ACTUALLY TYPE — 25 keywords
+──────────────────────────────
+Four groups. These are search phrases, not hashtags.
+• 8 in Hinglish, the way people type on a phone keyboard
+• 6 in Devanagari
+• 6 in English
+• 5 in Nepali
+Beside each, mark HIGH or LOW competition, and mark the three I
+should put inside the first line of the caption and the title.
 
-═══════════════════════════════════════════════════════════
-RULE 6 — THE POST ITSELF
-═══════════════════════════════════════════════════════════
-  · Length: if the film runs over 60 seconds, tell me exactly where to
-    cut a 45 to 55 second version for Reels, and which shot to lose.
-  · Aspect: 9:16 for every platform. Tell me which shot must be
-    re-framed and how (what to keep in frame, what may be cropped).
-  · Subtitles: give me the two lines that must appear on screen, where
-    they sit, and for how many seconds. Nothing else on screen.
-  · End card: one still with the film's name, nothing else, 1 second.
-  · Tell me whether to post the full film first or the strongest 10
-    seconds first, and why, for this story.
+──────────────────────────────
+④ CAPTION — three versions, written out ready to paste
+──────────────────────────────
+• INSTAGRAM caption: first line carries the main keyword and is
+  under 40 characters, because only the first line shows before
+  "more". Then two short lines of the story in Hindi. Then one line
+  that makes a person send this to a specific other person. No
+  question to the audience, no "comment below", no sales line.
+• YOUTUBE SHORTS title: under 60 characters, main keyword first.
+• FACEBOOK version: slightly longer, more story, Hindi only.
+Write all three in full. Do not describe them, write them.
 
-═══════════════════════════════════════════════════════════
-RULE 7 — SERIES PLAN (so the next film is easier)
-═══════════════════════════════════════════════════════════
-  · Give me three follow-up film ideas that live in the same world as
-    this story and can reuse the same characters or the same place.
-  · For each, one line: what it is about, and which shot from this film
-    it could start from.
-  · Tell me the order to release them and the spacing.
+──────────────────────────────
+⑤ HASHTAGS — three tiers, 22 total
+──────────────────────────────
+• 5 very large tags for category
+• 12 mid-size tags that actually describe this exact story
+• 5 small and country tags
+Print them as one ready-to-paste block, and separately explain in
+one line what each tier is doing. Never more than 25.
 
-═══════════════════════════════════════════════════════════
-RULE 8 — WHAT KILLS REACH (do not do these)
-═══════════════════════════════════════════════════════════
-  · A caption that explains the whole story — the film must be needed.
-  · Music that peaks at the start, so the film has nowhere to go.
-  · A title that promises more than the film gives.
-  · Watermarks, logos, third-party clips, or any frame not made for
-    this film.
-  · Posting the same file to all three platforms in the same minute.
-  · Buying views. Ever.
+──────────────────────────────
+⑥ YOUTUBE DESCRIPTION — written out, ready to paste
+──────────────────────────────
+Two short paragraphs of the story using the keywords naturally,
+then a line naming the song used, then a block of plain-text search
+terms separated by commas, then the hashtags. Write it in full.
 
-═══════════════════════════════════════════════════════════
-BEFORE YOU SEND — CHECK YOUR OWN WORK
-═══════════════════════════════════════════════════════════
-  1. Did you avoid naming a copyrighted song?
-  2. Does the music lift land inside the break or grace phase?
-  3. Are there five titles under 45 characters, with English versions?
-  4. Is the thumbnail a person with one emotion and one question?
-  5. Are there three captions, and does each work on the first line?
-  6. Are there exactly 12 hashtags in three groups, none fake?
-  7. Is there a NPT posting schedule with reasons, and a 60-minute plan?
-  8. Is the screen text limited to two lines of subtitle and one end
-     card?
-  9. Are there three follow-up ideas that reuse this world?
+──────────────────────────────
+⑦ ON-SCREEN TEXT — three lines
+──────────────────────────────
+The system reads the words burnt onto the video. Give me three
+short text lines to place on the film, each under 6 words, with the
+exact second each should appear and disappear, in Hindi, placed so
+they never cover a face. One of them must contain the main keyword.
 
-Fix everything, then send the plan only.
+──────────────────────────────
+⑧ COUNTRY PLAN — India, Nepal, and beyond
+──────────────────────────────
+A table: Country | Why this story travels there | What to change.
+Cover India, Nepal, and the countries where this story already has
+an audience through migration and shared festivals. For Nepal give
+me one caption line written in Nepali and the Nepali spelling of
+the subject, because the Nepali spelling is often different and
+that one word is what makes the film reach Nepali feeds. For each
+country give the local clock time that equals my chosen upload
+time.
+
+──────────────────────────────
+⑨ THE CLOCK — exact upload slots
+──────────────────────────────
+Give me a table of the next 7 days: Day | Upload at (IST) | Same
+moment in Nepal | Why this slot. Base it on the search you ran, not
+on memory, and state the rule that I should upload roughly two
+hours before the peak so the file has finished processing when the
+peak arrives. Mark ONE slot as the best slot of the week and say
+why. Then add any festival or temple date from your research that
+beats all of these, and what time to post on that day.
+
+──────────────────────────────
+⑩ THE FIRST SIXTY MINUTES
+──────────────────────────────
+A numbered list of exactly what I do in the hour after posting,
+with minute markers. Base it on how these systems actually behave:
+the film is shown to a small test group first, and whether it
+spreads is decided mostly by how long people watch, whether they
+watch it twice, and how many people forward it to one other person
+in a message. Likes matter least. Build the list around those
+three. Keep it to seven steps or fewer and make every step a
+physical action I can do on my phone.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HOW TO WRITE ALL OF THIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Write every caption, title, description, hashtag block and text
+line out in full, ready to copy. Never describe what I should
+write. Never say "something like". Never leave a blank for me to
+fill. Explain each section to me in one plain Hindi line written in
+Roman letters, because I do not read English fluently.
+
+Everything must come from the story below. Nothing invented about
+me, my channel or my audience.
+
+[PASTE YOUR STORY LOCK HERE]

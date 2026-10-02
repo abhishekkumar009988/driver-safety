@@ -370,7 +370,7 @@ class Handler(BaseHTTPRequestHandler):
                         z.write(os.path.join(cdir, f), "COPY/" + f)
             self._send(200, buf.getvalue(), "application/zip",
                        {"Content-Disposition":
-                        'attachment; filename="AI-FILM-V9.zip"'})
+                        'attachment; filename="AI-FILM-V10.zip"'})
         elif path == "/pdf":
             self._send(200, open(PDF_PATH, "rb").read(), "application/pdf",
                        {"Content-Disposition":
