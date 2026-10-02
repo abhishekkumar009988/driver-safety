@@ -192,6 +192,8 @@ hissa, ek tap me copy</p>
   <b>&ldquo;Step 3 abhi nahi. Sirf portraits do.&rdquo;</b>
 </div>
 
+<a class="btn all" style="display:block;text-align:center;text-decoration:none"
+   href="/save">&#128190; FILE SAVE / DOWNLOAD karo</a>
 <button class="btn all" onclick="copyIt('allmd', this, 'POORI FILE COPY')">
 &#128203; POORI FILE COPY KARO (__ALLW__ words)</button>
 
@@ -204,11 +206,15 @@ __REST__
 </div>
 
 <p class="foot">
-  <a href="/zip">&#11015; SAARI FILES (zip)</a> &middot;
-  <a href="/prompts">PROMPTS-COPY.md</a> &middot;
-  <a href="/prompts-pdf">PROMPTS-COPY.pdf</a> &middot;
-  <a href="/pdf">PDF</a> &middot; <a href="/md">Markdown</a> &middot;
-  <a href="/all">poori file text</a><br>
+  <b>Download / save:</b>
+  <a href="/save">&#128190; SAVE page</a> &middot;
+  <a href="/zip" target="_blank" rel="noopener">zip</a> &middot;
+  <a href="/prompts" target="_blank" rel="noopener">PROMPTS-COPY.md</a> &middot;
+  <a href="/prompts-pdf" target="_blank" rel="noopener">PROMPTS-COPY.pdf</a><br>
+  nayi tab me kholo:
+  <a href="/view/prompts-md" target="_blank" rel="noopener">md text</a> &middot;
+  <a href="/view/prompts-pdf" target="_blank" rel="noopener">pdf</a> &middot;
+  <a href="/view/main-pdf" target="_blank" rel="noopener">poori file pdf</a><br>
   fixed file: <b>AI-FILM-PROMPTS.md</b> &mdash; purani file PURANI_FILES/ me hai
 </p>
 
@@ -319,6 +325,112 @@ def build_page():
                 .replace("__ALLMD__", html.escape(md)))
 
 
+SAVE_PAGE = """<!doctype html>
+<html lang="hi"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FILE SAVE / COPY &mdash; PROMPTS-COPY.md</title>
+<style>
+  :root{--bg:#0d1117;--card:#161b22;--line:#2a3038;--ink:#e8edf3;
+    --soft:#9aa7b4;--acc:#e8890c;--acc2:#ffb454;--ok:#2ea043}
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{margin:0;background:var(--bg);color:var(--ink);padding:14px 12px 70px;
+    font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+    "Noto Sans",sans-serif}
+  h1{font-size:21px;margin:2px 0 6px;color:var(--acc2)}
+  .kicker{color:var(--soft);font-size:13.5px;margin:0 0 16px}
+  .box{background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:13px 15px;font-size:14.5px;margin:0 0 14px}
+  .box b{color:var(--acc)}
+  .warn{border-left:3px solid var(--acc);background:#231a0f;border-radius:0 10px
+    10px 0;margin:0 0 16px;padding:10px 13px;font-size:14px;color:#ffd9a8}
+  .btn{display:block;width:100%;border:0;border-radius:12px;padding:17px;
+    font-size:17.5px;font-weight:700;background:var(--acc);color:#17130a;
+    cursor:pointer;margin:0 0 10px}
+  .btn:active{transform:scale(.985)}
+  .btn.ok{background:var(--ok);color:#fff}
+  .btn.ghost{background:#243040;color:#ffd79a;border:1px solid #37455a}
+  a.btn{text-decoration:none;text-align:center;display:block}
+  textarea{width:100%;height:38vh;background:#0b0f14;border:1px solid var(--line);
+    border-radius:10px;color:#c9d5e1;font:12px/1.45 ui-monospace,monospace;
+    padding:11px;white-space:pre;-webkit-user-select:text;user-select:text}
+  .foot{color:var(--soft);font-size:12.5px;text-align:center;margin-top:22px;
+    line-height:1.8}
+  h2{font-size:15px;color:var(--acc2);margin:22px 0 8px}
+</style></head><body>
+<h1>FILE SAVE / COPY</h1>
+<p class="kicker">PROMPTS-COPY.md &middot; __WORDS__ words &middot; __KB__ KB
+&middot; chaar prompt, chaar alag block</p>
+
+<div class="warn">
+  Preview ke andar download button block ho jaata hai — ye normal hai.
+  Neeche <b>3 tarike</b> diye hain. Koi ek chal jaayega.
+</div>
+
+<h2>Tarika 1 &mdash; TEXT COPY karo (sabse pakka)</h2>
+<div class="box">
+  Neeche poora file ka text hai. <b>SELECT ALL</b> dabao, phir <b>COPY</b>.
+  Uske baad Notes / Gmail / WhatsApp &ldquo;Saved messages&rdquo; me paste karke
+  save kar lo. Text wahi hai jo file me hai.
+</div>
+<button class="btn" onclick="selectAll(this)">1&#65039;&#8419; SELECT ALL</button>
+<button class="btn ghost" onclick="copyAll(this)">2&#65039;&#8419; COPY (pooora file)</button>
+<textarea id="ta" spellcheck="false" readonly>__TEXT__</textarea>
+
+<h2>Tarika 2 &mdash; nayi tab me kholo</h2>
+<div class="box">
+  Ye link nayi tab me kholta hai. Wahan browser ka apna
+  <b>Download / Share</b> button chalta hai.
+</div>
+<a class="btn ghost" href="/view/prompts-md" target="_blank" rel="noopener">
+  MD &mdash; nayi tab me kholo (text)</a>
+<a class="btn ghost" href="/view/prompts-pdf" target="_blank" rel="noopener">
+  PDF &mdash; nayi tab me kholo (browser PDF viewer)</a>
+<a class="btn ghost" href="/view/main-pdf" target="_blank" rel="noopener">
+  Poori file ka PDF &mdash; nayi tab me kholo</a>
+
+<h2>Tarika 3 &mdash; direct download try karo</h2>
+<a class="btn ghost" href="/prompts" download="PROMPTS-COPY.md">
+  &#11015; PROMPTS-COPY.md download</a>
+<a class="btn ghost" href="/prompts-pdf" download="PROMPTS-COPY.pdf">
+  &#11015; PROMPTS-COPY.pdf download</a>
+<a class="btn ghost" href="/zip" download="AI-FILM-V10.zip">
+  &#11015; SAARI FILES (zip)</a>
+
+<p class="foot">
+  <a href="/">&#8592; Copy Box (prompt-wise copy)</a>
+</p>
+
+<script>
+function selectAll(btn){
+  const ta = document.getElementById('ta');
+  ta.focus(); ta.select(); ta.setSelectionRange(0, ta.value.length);
+  btn.classList.add('ok'); btn.textContent = '✅ SELECT HO GAYA — ab COPY dabao';
+  try{ document.execCommand('copy'); btn.textContent = '✅ COPY HO GAYA'; }catch(e){}
+  setTimeout(()=>{ btn.classList.remove('ok'); btn.textContent = '1️⃣ SELECT ALL'; }, 3000);
+}
+async function copyAll(btn){
+  const ta = document.getElementById('ta');
+  const text = ta.value;
+  let ok = false;
+  try{ if(navigator.clipboard){ await navigator.clipboard.writeText(text); ok = true; } }catch(e){}
+  if(!ok){
+    ta.focus(); ta.select(); ta.setSelectionRange(0, text.length);
+    try{ ok = document.execCommand('copy'); }catch(e){}
+  }
+  btn.classList.add('ok');
+  btn.textContent = ok ? '✅ POORA FILE COPY HO GAYA — ab paste karo'
+                       : 'text select kiya — long-press → Copy';
+  setTimeout(()=>{
+    btn.classList.remove('ok');
+    btn.textContent = '2️⃣ COPY (pooora file)';
+  }, 3200);
+}
+</script>
+</body></html>
+"""
+
+
 # ------------------------------------------------------------------ server
 class Handler(BaseHTTPRequestHandler):
     server_version = "CopyBox/2.0"
@@ -337,6 +449,28 @@ class Handler(BaseHTTPRequestHandler):
             self.send_header(k, v)
         self.end_headers()
         self.wfile.write(body)
+
+    def _file(self, path, ctype, inline=False, filename=None):
+        if not os.path.exists(path):
+            self._send(404, "no file", "text/plain; charset=utf-8")
+            return
+        data = open(path, "rb").read()
+        extra = {}
+        if inline:
+            extra["Content-Disposition"] = "inline"
+        elif filename:
+            extra["Content-Disposition"] = 'attachment; filename="%s"' % filename
+        self._send(200, data, ctype, extra)
+
+    def _save_page(self):
+        md = ""
+        if os.path.exists(COPY_MD):
+            md = open(COPY_MD, encoding="utf-8").read()
+        esc_md = html.escape(md)
+        page = SAVE_PAGE.replace("__TEXT__", esc_md) \
+                        .replace("__WORDS__", str(len(md.split()))) \
+                        .replace("__KB__", str(round(len(md) / 1024)))
+        self._send(200, page)
 
     def do_GET(self):
         path = self.path.split("?")[0].rstrip("/") or "/"
@@ -379,6 +513,16 @@ class Handler(BaseHTTPRequestHandler):
             self._send(200, buf.getvalue(), "application/zip",
                        {"Content-Disposition":
                         'attachment; filename="AI-FILM-V10.zip"'})
+        elif path == "/save":
+            self._save_page()
+        elif path == "/view/prompts-md":
+            self._file(COPY_MD, "text/plain; charset=utf-8", inline=True)
+        elif path == "/view/prompts-pdf":
+            self._file(COPY_PDF, "application/pdf", inline=True)
+        elif path == "/view/main-md":
+            self._file(MD_PATH, "text/plain; charset=utf-8", inline=True)
+        elif path == "/view/main-pdf":
+            self._file(PDF_PATH, "application/pdf", inline=True)
         elif path == "/prompts":
             if os.path.exists(COPY_MD):
                 self._send(200, open(COPY_MD, "rb").read(),
