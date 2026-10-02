@@ -394,6 +394,8 @@ def build_flowables(blocks, doc_title="AI-FILM-PROMPTS"):
             flow.append(HRFlowable(width="100%", thickness=0.8, color=RULE))
             flow.append(Spacer(1, 9))
         elif kind == "h2":
+            plain2 = TOKEN_RE.sub(lambda m: m.group(0).strip("`*"), payload)
+            flow.append(Outline(plain2[:80], 1))
             flow.append(Paragraph(inline(payload), ST["h2"]))
         elif kind == "h3":
             flow.append(Paragraph(inline(payload), ST["h3"]))

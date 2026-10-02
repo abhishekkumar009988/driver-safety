@@ -29,6 +29,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, os.pardir))
 MD_PATH = os.path.join(ROOT, "AI-FILM-PROMPTS.md")
 PDF_PATH = os.path.join(ROOT, "AI-FILM-PROMPTS.pdf")
+COPY_MD = os.path.join(ROOT, "PROMPTS-COPY.md")
+COPY_PDF = os.path.join(ROOT, "PROMPTS-COPY.pdf")
 
 HEAD_RE = re.compile(r"^(#{1,6})\s+(.*)$")
 PROMPT_RE = re.compile(r"^\s*[1-4]?\ufe0f?\u20e3?\s*PROMPT\s*([1-4])\s*[\u2013\u2014\-]")
@@ -203,6 +205,8 @@ __REST__
 
 <p class="foot">
   <a href="/zip">&#11015; SAARI FILES (zip)</a> &middot;
+  <a href="/prompts">PROMPTS-COPY.md</a> &middot;
+  <a href="/prompts-pdf">PROMPTS-COPY.pdf</a> &middot;
   <a href="/pdf">PDF</a> &middot; <a href="/md">Markdown</a> &middot;
   <a href="/all">poori file text</a><br>
   fixed file: <b>AI-FILM-PROMPTS.md</b> &mdash; purani file PURANI_FILES/ me hai
@@ -361,6 +365,10 @@ class Handler(BaseHTTPRequestHandler):
                 z.write(MD_PATH, "AI-FILM-PROMPTS.md")
                 if os.path.exists(PDF_PATH):
                     z.write(PDF_PATH, "AI-FILM-PROMPTS.pdf")
+                if os.path.exists(COPY_MD):
+                    z.write(COPY_MD, "PROMPTS-COPY.md")
+                if os.path.exists(COPY_PDF):
+                    z.write(COPY_PDF, "PROMPTS-COPY.pdf")
                 box = os.path.join(ROOT, "COPY-BOX.html")
                 if os.path.exists(box):
                     z.write(box, "COPY-BOX.html")
@@ -371,6 +379,22 @@ class Handler(BaseHTTPRequestHandler):
             self._send(200, buf.getvalue(), "application/zip",
                        {"Content-Disposition":
                         'attachment; filename="AI-FILM-V10.zip"'})
+        elif path == "/prompts":
+            if os.path.exists(COPY_MD):
+                self._send(200, open(COPY_MD, "rb").read(),
+                           "text/markdown; charset=utf-8",
+                           {"Content-Disposition":
+                            'attachment; filename="PROMPTS-COPY.md"'})
+            else:
+                self._send(404, "no file")
+        elif path == "/prompts-pdf":
+            if os.path.exists(COPY_PDF):
+                self._send(200, open(COPY_PDF, "rb").read(),
+                           "application/pdf",
+                           {"Content-Disposition":
+                            'attachment; filename="PROMPTS-COPY.pdf"'})
+            else:
+                self._send(404, "no file")
         elif path == "/pdf":
             self._send(200, open(PDF_PATH, "rb").read(), "application/pdf",
                        {"Content-Disposition":
