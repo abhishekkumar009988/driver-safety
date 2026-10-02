@@ -16,6 +16,18 @@
 | **4** | gale tak, chehre ke aar-paar | chest tak | sirf aankhein — **kabhi baat-cheet ka shot nahi** |
 | **5** | poora frame | poora frame | sirf black silhouette — koi chehra nahi |
 
+===== 🔗 TEEN CHEEZEIN — EK CHAIN (story · image · video) =====
+TUMHARI KAHANI KI LINE          →   IMAGE (still)        →   VIDEO
+   "uske haath me kapda aa gaya"       STORY LINE +            SIRF MOVEMENT
+                                        DNA + inventory          (still hi sach hai)
+
+===== 🔗 TEEN CHEEZEIN — EK CHAIN (story · image · video) =====
+| | Kahan se banega | Kya NAHI likhna |
+|---|---|---|
+| **STORY LINE** | tumhare shabdon me, quotes me | apni kahani mat jodo |
+| **IMAGE** | sirf story line + DNA + inventory | jo inventory me nahi, wo frame me nahi |
+| **VIDEO** | sirf **movement** — still pehle se sab kuch hai | jagah/kapda/chehra dobara describe mat karo |
+
 ===== ⭐ v9 ME KYA BADLA (tumhari bataayi hui galtiyan) =====
 | # | Tumhari galti | v9 me fix |
 |---|---|---|
@@ -35,6 +47,9 @@
 | 14 | Smoke/fog ka amount koi nahi batata, face dhuyen me gayab | **ATMOSPHERE NUMBER SYSTEM** — smoke 0–5, fog 0–5. Level likha jaata hai, andaza nahi |
 | 15 | "Thoda fog" likha, model ne poora frame bhar diya | **FACE REVEAL LAW** — face ke shot me level 2 se zyada kabhi nahi. Reveal = movement + direction + 2 second |
 | 16 | Frame me kya-kya hai, ginti nahi | **FRAME INVENTORY** — har card par count: kitne log, kitni light, kitni cheezein, kitne metre |
+| 17 | **Story kuch aur, image kuch aur** | **TRACE LAW** — har card ke sabse upar STORY LINE, jis line se wo shot bana hai. Bina line = card delete |
+| 18 | **Video me naya scene ban jaata hai** | **STILL IS THE TRUTH** — video prompt sirf *movement* likhta hai. Dikhaawat dobara describe nahi hoti |
+| 19 | AI apni marzi se cheezein jod deta hai | **NOTHING ADDED** — jo tumne nahi bola wo frame me nahi. Kuch chahiye to ASSUMPTIONS me likho, banane se pehle |
 
 ===== 🗺️ FILM BANANE KA ORDER =====
 1. PROMPT 1 paste → STORY LOCK + shot list milega

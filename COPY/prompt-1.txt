@@ -419,6 +419,10 @@ NOW GIVE ME YOUR OUTPUT IN THESE FIVE PARTS
   WHAT IS BEHIND THEM  |  DURATION
 
   Rules for filling it:
+  - ⭐ NEW COLUMN — STORY LINE. Every shot must quote the words of MY
+    STORY that produced it, short, inside quotes: "she turns from the
+    door". If a shot has no line from my story, that shot is invented.
+    Delete it, or mark it clearly as PURE TRANSITION.
   - FROM → TO may never be the same place. If it is, that shot is
     wrong — give it real ground to cover.
   - Read the WHAT IS BEHIND THEM column top to bottom. If any

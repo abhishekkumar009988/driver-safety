@@ -70,20 +70,20 @@ hissa, ek tap me copy</p>
 </div>
 
 <button class="btn all" onclick="copyIt('allmd', this, 'POORI FILE COPY')">
-&#128203; POORI FILE COPY KARO (11034 words)</button>
+&#128203; POORI FILE COPY KARO (12393 words)</button>
 
 <h2 class="sec">4 main prompts</h2>
 <div class="card">
   <div class="head">
-    <span class="num">PROMPT 1 &middot; 3733 words</span>
+    <span class="num">PROMPT 1 &middot; 3782 words</span>
     <p class="title">STORY + PLAN</p>
     <p class="sub">STORY LOCK &middot; route &middot; shot list &mdash; apni kahani neeche likho</p>
   </div>
   <button class="btn" data-label="&#128203; COPY PROMPT 1"
-    onclick="copyIt('u4', this, '&#128203; COPY PROMPT 1')">
+    onclick="copyIt('u6', this, '&#128203; COPY PROMPT 1')">
     &#128203; COPY PROMPT 1</button>
   <details><summary>poora prompt padho</summary>
-    <pre id="u4">You are a film director, screenwriter, researcher and prompt engineer.
+    <pre id="u6">You are a film director, screenwriter, researcher and prompt engineer.
 
 I am making a short vertical film (9:16, Instagram Reel / YouTube Short).
 I will paste your prompts into an image tool and a video tool myself.
@@ -504,6 +504,10 @@ NOW GIVE ME YOUR OUTPUT IN THESE FIVE PARTS
   WHAT IS BEHIND THEM  |  DURATION
 
   Rules for filling it:
+  - ⭐ NEW COLUMN — STORY LINE. Every shot must quote the words of MY
+    STORY that produced it, short, inside quotes: &quot;she turns from the
+    door&quot;. If a shot has no line from my story, that shot is invented.
+    Delete it, or mark it clearly as PURE TRANSITION.
   - FROM → TO may never be the same place. If it is, that shot is
     wrong — give it real ground to cover.
   - Read the WHAT IS BEHIND THEM column top to bottom. If any
@@ -572,10 +576,10 @@ RUNTIME: 45 seconds</pre></details>
     <p class="sub">sirf portraits &amp; duniya &mdash; yahan video prompt nahi banta</p>
   </div>
   <button class="btn" data-label="&#128203; COPY PROMPT 2"
-    onclick="copyIt('u5', this, '&#128203; COPY PROMPT 2')">
+    onclick="copyIt('u7', this, '&#128203; COPY PROMPT 2')">
     &#128203; COPY PROMPT 2</button>
   <details><summary>poora prompt padho</summary>
-    <pre id="u5">You are a casting director and a costume designer for a photoreal film.
+    <pre id="u7">You are a casting director and a costume designer for a photoreal film.
 
 I will paste this into an image tool myself. You are WRITING image
 prompts, not making pictures. Never ask me for a reference image or an
@@ -848,15 +852,15 @@ Fix everything, then send the corrected version only.</pre></details>
 </div>
 <div class="card">
   <div class="head">
-    <span class="num">PROMPT 3 &middot; 3059 words</span>
+    <span class="num">PROMPT 3 &middot; 4065 words</span>
     <p class="title">SHOT CARDS</p>
     <p class="sub">har shot ka card &mdash; smoke/fog number, 4&ndash;6 camera, action-attach</p>
   </div>
   <button class="btn" data-label="&#128203; COPY PROMPT 3"
-    onclick="copyIt('u6', this, '&#128203; COPY PROMPT 3')">
+    onclick="copyIt('u8', this, '&#128203; COPY PROMPT 3')">
     &#128203; COPY PROMPT 3</button>
   <details><summary>poora prompt padho</summary>
-    <pre id="u6">You are a first assistant director and a storyboard artist for a photoreal
+    <pre id="u8">You are a first assistant director and a storyboard artist for a photoreal
 film.
 
 I will paste this into an AI tool myself. You are WRITING prompts, not
@@ -891,6 +895,8 @@ RULE 2 — THE CARD FORMAT (copy this exactly, every shot)
 ═══════════════════════════════════════════════════════════
 
   ══════════ SHOT 07 — &quot;GRIP&quot; ══════════
+  STORY LINE (mine, quoted): &quot;her fingers close on the cloth and she
+  does not let go&quot;        ← the only reason this shot exists
   Phase: 2 (want)   |   Emotion the audience gets: hope rising
   Camera: setup C — chest height, 50mm, handheld micro-drift
   Duration: 8s, one generation (Extend if the beat needs more)
@@ -908,17 +914,27 @@ RULE 2 — THE CARD FORMAT (copy this exactly, every shot)
   ACTION-ATTACH OUT: This shot ends with her fingers closed around it and
   her weight already moving left. Shot 08 must start exactly there.
 
+  NOT ADDED: nothing in this frame comes from my own imagination. Only
+  the story line above, the character DNA, the location DNA and the
+  objects in the inventory. Any small choice I had to make is listed at
+  the very end under MY ASSUMPTIONS.
+
   IMAGE PROMPT (make the still first):
   &lt;one paragraph: camera + subject + action + context + light + look&gt;
   &lt;identity block, word for word from PROMPT 2&gt;
   &lt;location block, word for word&gt;
+  Every object in this sentence must also be in the FRAME INVENTORY.
+  Nothing else may be written into the frame.
   &lt;one person / one photograph / not a grid, if it is a portrait&gt;
 
-  VIDEO PROMPT (use that still as the ingredient):
-  &lt;identity block, word for word&gt;
-  &lt;location block, word for word&gt;
-  &lt;look block, word for word&gt;
-  [00:00-00:02] &lt;what happens — the movement that finishes the last shot&gt;
+  VIDEO PROMPT — MOTION ONLY (the still is the truth):
+  ⭐ Never describe the place, the clothes or the face again. The
+     uploaded still already carries all of it, and writing it a second
+     time is exactly how the face and the scene start to change.
+  Keep identical to the still: face, clothes, colours, light,
+  background, number of people, position in frame.
+  Only these change, in this order:
+  [00:00-00:02] &lt;the movement that finishes the last shot&gt;
   [00:02-00:05] &lt;the main action&gt;
   [00:05-00:08] &lt;the reaction, one beat late, and the new position&gt;
   &lt;one sentence of sound — what we hear, no music&gt;
@@ -1193,6 +1209,93 @@ Write it straight onto the card:
   brass thali, one folded cloth, one rope) · smoke level 2
 
 ═══════════════════════════════════════════════════════════
+RULE 15 — THE TRACE LAW  ⭐ v9 (story kuch, image kuch — ye band)
+═══════════════════════════════════════════════════════════
+Every card must be traceable back to my words. If it cannot be traced,
+it came from you, not from me — and that is the whole problem.
+
+  1. Every card opens with STORY LINE: a short quote from MY STORY or
+     from the STORY LOCK, inside quotation marks.
+  2. If a card has no line, it does not exist. Either delete it, or mark
+     it as PURE TRANSITION and keep it to three seconds or less.
+  3. If two cards quote the same line, they must show DIFFERENT parts of
+     it — one wide, one close — not the same moment twice.
+  4. Never upgrade my words. If I wrote &quot;she looks at him&quot;, do not write
+     &quot;she gazes at him with tears, wind lifting her hair&quot;. My sentence is
+     the ceiling, not the floor.
+  5. Then, at the very end of all the cards, give me a short table:
+
+     | Shot | Story line it came from | Invented? |
+       01   | &quot;she turns from the door&quot; | no
+       02   | —                          | PURE TRANSITION
+       03   | &quot;the cloth slips&quot;          | no
+
+     Anything marked invented must be justified in one line, or cut.
+
+═══════════════════════════════════════════════════════════
+RULE 16 — THE STILL IS THE TRUTH  ⭐ v9 (video naya scene kyun banata hai)
+═══════════════════════════════════════════════════════════
+Three different things were being described three ways: the story, the
+image, and the video. That is why the film never matches. This rule makes
+them one chain:
+
+   STORY LINE  →  IMAGE PROMPT  →  VIDEO PROMPT
+   (my words)     (the still)       (motion only)
+
+  1. The IMAGE is generated from the story line plus the DNA blocks.
+     Nothing else goes into the image prompt.
+  2. The VIDEO asks for ONE thing only: movement. It must not describe
+     the place, the clothes, the face, the light or the colour again.
+     Those are in the still, and the model copies what it sees.
+  3. Every video prompt opens with these two lines, copied exactly:
+       &quot;The uploaded still is the truth. Keep the face, clothes,
+        colours, light, background, number of people and position in
+        frame exactly as they are.&quot;
+       &quot;Only these movements change:&quot;
+  4. Then the timestamps. Then the sound sentence. Then the negative
+     list. Nothing else.
+  5. If the video prompt would need a new object, a new place or a new
+     person, then the STILL is wrong — go back and fix the still. Never
+     fix it inside the video prompt.
+  6. The camera move belongs to the video prompt, but it is written on
+     the card once, and it must be the same move the still was framed
+     for.
+  7. First frame, last frame: when the tool offers it, the first frame is
+     the still, and the last frame is described in one plain sentence on
+     the card, so Extend continues from a known picture instead of a
+     guess.
+
+═══════════════════════════════════════════════════════════
+RULE 17 — NOTHING ADDED  ⭐ v9 (apni marzi se cheezein jodna band)
+═══════════════════════════════════════════════════════════
+What is not in my story, my STORY LOCK or my inventory does not go into
+the frame. Not a prop, not an animal, not a visitor, not weather, not a
+crowd, not a decoration in the corner to &quot;fill the frame&quot;.
+
+Birth, death, wedding, farewell and other ritual steps: use only the
+steps I actually described. Never add a ritual step that I did not write,
+and never invent a religious object that I did not mention.
+
+If something is genuinely missing and the shot cannot be built without it,
+do NOT invent it silently. Do this instead:
+
+  1. Build the shot using the most plain, most neutral choice possible.
+  2. Write that choice at the end, in a block called MY ASSUMPTIONS, one
+     line each:
+       MY ASSUMPTIONS — 1. she is standing, not sitting (story did not
+       say). 2. the doorway is wooden (the location DNA did not say).
+  3. Keep that block at the very end of your answer, after the cards.
+
+I will read it and correct it. A written assumption I can fix in one
+minute. A silent invention costs me a whole day of failed generations.
+
+⭐⭐ ONE MORE THING — the reverse also matters. If I wrote something and
+   it is missing from your cards, that is the same crime. Before you
+   send, list every item of MY THINGS from PROMPT 1 and point to the
+   shot number where it appears. Any item with no shot is a missing
+   piece — add it or tell me the reason.
+
+═══════════════════════════════════════════════════════════
 BEFORE YOU SEND — CHECK YOUR OWN WORK
 ═══════════════════════════════════════════════════════════
   1. Does any shot start at rest or end at rest, apart from the first
@@ -1225,6 +1328,16 @@ BEFORE YOU SEND — CHECK YOUR OWN WORK
  17. ⭐ Does every shot start at the exact atmosphere level that the
      previous shot ended on, and does any level change of more than one
      step have a written cause?
+ 18. ⭐ TRACE: does every card open with a quoted STORY LINE, and is at
+     the end-of-cards table there with the invented column filled?
+ 19. ⭐ STILL IS THE TRUTH: does every video prompt begin with the two
+     locked lines, and does it describe MOVEMENT ONLY — no place, no
+     clothes, no face, no light described a second time?
+ 20. ⭐ NOTHING ADDED: is there any object, person, animal, weather or
+     ritual step in any card that is not in my story or my STORY LOCK?
+     Cut it, or move it into MY ASSUMPTIONS.
+ 21. ⭐ Is every item of MY THINGS pinned to a shot number in the
+     coverage table? Any item without a shot is a missing piece.
 
 Fix all of it, then send the corrected cards only.</pre></details>
 </div>
@@ -1235,10 +1348,10 @@ Fix all of it, then send the corrected cards only.</pre></details>
     <p class="sub">gaana &middot; caption &middot; hashtag &middot; Nepal timing</p>
   </div>
   <button class="btn" data-label="&#128203; COPY PROMPT 4"
-    onclick="copyIt('u7', this, '&#128203; COPY PROMPT 4')">
+    onclick="copyIt('u9', this, '&#128203; COPY PROMPT 4')">
     &#128203; COPY PROMPT 4</button>
   <details><summary>poora prompt padho</summary>
-    <pre id="u7">You are a release manager for a short photoreal film that will be posted
+    <pre id="u9">You are a release manager for a short photoreal film that will be posted
 on YouTube Shorts, Instagram Reels and Facebook Reels, for viewers in
 Nepal and the Hindi belt of India.
 
@@ -1374,7 +1487,7 @@ BEFORE YOU SEND — CHECK YOUR OWN WORK
 Fix everything, then send the plan only.</pre></details>
 </div>
 
-<h2 class="sec">baaki sab &mdash; isi order me (5 parts)</h2>
+<h2 class="sec">baaki sab &mdash; isi order me (7 parts)</h2>
 <div class="card">
 <div class="row">
   <div class="meta">
@@ -1408,9 +1521,33 @@ Fix everything, then send the plan only.</pre></details>
 </div>
 <div class="row">
   <div class="meta">
+    <div class="t">🔗 TEEN CHEEZEIN — EK CHAIN (story · image · video)</div>
+    <div class="k">block &middot; 27 words</div>
+    <details><summary>dekho</summary><pre id="u2">TUMHARI KAHANI KI LINE          →   IMAGE (still)        →   VIDEO
+   &quot;uske haath me kapda aa gaya&quot;       STORY LINE +            SIRF MOVEMENT
+                                        DNA + inventory          (still hi sach hai)</pre></details>
+  </div>
+  <button class="mini" data-label="COPY"
+    onclick="copyIt('u2', this, 'COPY')">COPY</button>
+</div>
+<div class="row">
+  <div class="meta">
+    <div class="t">🔗 TEEN CHEEZEIN — EK CHAIN (story · image · video)</div>
+    <div class="k">table &middot; 65 words</div>
+    <details><summary>dekho</summary><pre id="u3">| | Kahan se banega | Kya NAHI likhna |
+|---|---|---|
+| **STORY LINE** | tumhare shabdon me, quotes me | apni kahani mat jodo |
+| **IMAGE** | sirf story line + DNA + inventory | jo inventory me nahi, wo frame me nahi |
+| **VIDEO** | sirf **movement** — still pehle se sab kuch hai | jagah/kapda/chehra dobara describe mat karo |</pre></details>
+  </div>
+  <button class="mini" data-label="COPY"
+    onclick="copyIt('u3', this, 'COPY')">COPY</button>
+</div>
+<div class="row">
+  <div class="meta">
     <div class="t">⭐ v9 ME KYA BADLA (tumhari bataayi hui galtiyan)</div>
-    <div class="k">table &middot; 409 words</div>
-    <details><summary>dekho</summary><pre id="u2">| # | Tumhari galti | v9 me fix |
+    <div class="k">table &middot; 503 words</div>
+    <details><summary>dekho</summary><pre id="u4">| # | Tumhari galti | v9 me fix |
 |---|---|---|
 | 1 | Acting nakli — chehra patthar jaisa | **PERFORMANCE ENGINE** — thought → eye → arrival → control → leak. Purani &quot;face holds exactly as it is&quot; line **poori tarah hata di** |
 | 2 | Character budha, modern nahi | **AGE LINE** — DNA umar se shuru. 30 se kam par &quot;wrinkled/weathered/aged&quot; ban |
@@ -1427,16 +1564,19 @@ Fix everything, then send the plan only.</pre></details>
 | 13 | **2nd prompt me hi video prompt de deta hai** | **STEP LOCK** — P2 sirf portrait banata hai. Video prompt ya camera move aaya to poora jawab reject |
 | 14 | Smoke/fog ka amount koi nahi batata, face dhuyen me gayab | **ATMOSPHERE NUMBER SYSTEM** — smoke 0–5, fog 0–5. Level likha jaata hai, andaza nahi |
 | 15 | &quot;Thoda fog&quot; likha, model ne poora frame bhar diya | **FACE REVEAL LAW** — face ke shot me level 2 se zyada kabhi nahi. Reveal = movement + direction + 2 second |
-| 16 | Frame me kya-kya hai, ginti nahi | **FRAME INVENTORY** — har card par count: kitne log, kitni light, kitni cheezein, kitne metre |</pre></details>
+| 16 | Frame me kya-kya hai, ginti nahi | **FRAME INVENTORY** — har card par count: kitne log, kitni light, kitni cheezein, kitne metre |
+| 17 | **Story kuch aur, image kuch aur** | **TRACE LAW** — har card ke sabse upar STORY LINE, jis line se wo shot bana hai. Bina line = card delete |
+| 18 | **Video me naya scene ban jaata hai** | **STILL IS THE TRUTH** — video prompt sirf *movement* likhta hai. Dikhaawat dobara describe nahi hoti |
+| 19 | AI apni marzi se cheezein jod deta hai | **NOTHING ADDED** — jo tumne nahi bola wo frame me nahi. Kuch chahiye to ASSUMPTIONS me likho, banane se pehle |</pre></details>
   </div>
   <button class="mini" data-label="COPY"
-    onclick="copyIt('u2', this, 'COPY')">COPY</button>
+    onclick="copyIt('u4', this, 'COPY')">COPY</button>
 </div>
 <div class="row">
   <div class="meta">
     <div class="t">🗺️ FILM BANANE KA ORDER</div>
     <div class="k">block &middot; 71 words</div>
-    <details><summary>dekho</summary><pre id="u3">1. PROMPT 1 paste → STORY LOCK + shot list milega
+    <details><summary>dekho</summary><pre id="u5">1. PROMPT 1 paste → STORY LOCK + shot list milega
 2. PROMPT 2 paste → har character ka ek portrait banao (CHAR-naam.png)
 3. PROMPT 3 paste → saare shot cards
 4. Saari IMAGES banao pehle (s01 → last)   ← beech me video mat banao
@@ -1445,13 +1585,13 @@ Fix everything, then send the plan only.</pre></details>
 7. PROMPT 4 → gaana + caption + timing</pre></details>
   </div>
   <button class="mini" data-label="COPY"
-    onclick="copyIt('u3', this, 'COPY')">COPY</button>
+    onclick="copyIt('u5', this, 'COPY')">COPY</button>
 </div>
 <div class="row">
   <div class="meta">
     <div class="t">✅ FILE KHATAM — AB YE KARO</div>
     <div class="k">block &middot; 64 words</div>
-    <details><summary>dekho</summary><pre id="u8">1. PROMPT 1 → STORY LOCK milega          (kahani likhna mat bhoolna)
+    <details><summary>dekho</summary><pre id="u10">1. PROMPT 1 → STORY LOCK milega          (kahani likhna mat bhoolna)
 2. PROMPT 2 → CHAR-naam.png portraits
 3. PROMPT 3 → saare shot cards
 4. Saari images  (s01 se last tak)       ← ek saath
@@ -1460,11 +1600,12 @@ Fix everything, then send the plan only.</pre></details>
 7. PROMPT 4 → gaana + caption + timing   (upload se pehle)</pre></details>
   </div>
   <button class="mini" data-label="COPY"
-    onclick="copyIt('u8', this, 'COPY')">COPY</button>
+    onclick="copyIt('u10', this, 'COPY')">COPY</button>
 </div>
 </div>
 
 <p class="foot">
+  <a href="AI-FILM-V9.zip">&#11015; SAARI FILES (zip)</a> &middot;
   <a href="AI-FILM-PROMPTS.pdf">PDF</a> &middot; <a href="AI-FILM-PROMPTS.md">Markdown</a> &middot;
   <a href="COPY/poori-file.txt">poori file text</a> &middot; <a href="COPY/prompt-1.txt">P1</a> &middot; <a href="COPY/prompt-2.txt">P2</a> &middot; <a href="COPY/prompt-3.txt">P3</a> &middot; <a href="COPY/prompt-4.txt">P4</a> &middot; <a href="COPY/baaki-parts.txt">baaki parts</a><br>
   fixed file: <b>AI-FILM-PROMPTS.md</b> &mdash; purani file PURANI_FILES/ me hai
@@ -1506,6 +1647,23 @@ Fix everything, then send the plan only.</pre></details>
 **Fire:** kitni lau + kitni unchi (cm me) + kahan. **Baarish:** 1–4 (3 = farsh par paani).
 **Reveal:** dhuan **left** jaayega, **2 second** me aankh+muh khulega, aur ek light **45° front** se, distance likho. Iske baad 2 shot tak smoke 0–1 hi rahega.
 
+### 🔗 TEEN CHEEZEIN — EK CHAIN (story · image · video)
+
+```
+   TUMHARI KAHANI KI LINE          →   IMAGE (still)        →   VIDEO
+   &quot;uske haath me kapda aa gaya&quot;       STORY LINE +            SIRF MOVEMENT
+                                        DNA + inventory          (still hi sach hai)
+```
+
+| | Kahan se banega | Kya NAHI likhna |
+|---|---|---|
+| **STORY LINE** | tumhare shabdon me, quotes me | apni kahani mat jodo |
+| **IMAGE** | sirf story line + DNA + inventory | jo inventory me nahi, wo frame me nahi |
+| **VIDEO** | sirf **movement** — still pehle se sab kuch hai | jagah/kapda/chehra dobara describe mat karo |
+
+**Niyam:** video prompt me naya object/chehra/jagah chahiye = **still galat hai** → still theek karo, video me kuch mat jodo.
+Aur jo tumne likha hi nahi (koi riwaz, koi cheez, koi janwar) — wo frame me **nahi** aayega. Zakoori ho to AI `MY ASSUMPTIONS` me likhega, chupke se nahi banayega.
+
 ---
 
 ## ⭐ v9 ME KYA BADLA (tumhari bataayi hui galtiyan)
@@ -1528,6 +1686,9 @@ Fix everything, then send the plan only.</pre></details>
 | 14 | Smoke/fog ka amount koi nahi batata, face dhuyen me gayab | **ATMOSPHERE NUMBER SYSTEM** — smoke 0–5, fog 0–5. Level likha jaata hai, andaza nahi |
 | 15 | &quot;Thoda fog&quot; likha, model ne poora frame bhar diya | **FACE REVEAL LAW** — face ke shot me level 2 se zyada kabhi nahi. Reveal = movement + direction + 2 second |
 | 16 | Frame me kya-kya hai, ginti nahi | **FRAME INVENTORY** — har card par count: kitne log, kitni light, kitni cheezein, kitne metre |
+| 17 | **Story kuch aur, image kuch aur** | **TRACE LAW** — har card ke sabse upar STORY LINE, jis line se wo shot bana hai. Bina line = card delete |
+| 18 | **Video me naya scene ban jaata hai** | **STILL IS THE TRUTH** — video prompt sirf *movement* likhta hai. Dikhaawat dobara describe nahi hoti |
+| 19 | AI apni marzi se cheezein jod deta hai | **NOTHING ADDED** — jo tumne nahi bola wo frame me nahi. Kuch chahiye to ASSUMPTIONS me likho, banane se pehle |
 
 ---
 
@@ -1982,6 +2143,10 @@ NOW GIVE ME YOUR OUTPUT IN THESE FIVE PARTS
   WHAT IS BEHIND THEM  |  DURATION
 
   Rules for filling it:
+  - ⭐ NEW COLUMN — STORY LINE. Every shot must quote the words of MY
+    STORY that produced it, short, inside quotes: &quot;she turns from the
+    door&quot;. If a shot has no line from my story, that shot is invented.
+    Delete it, or mark it clearly as PURE TRANSITION.
   - FROM → TO may never be the same place. If it is, that shot is
     wrong — give it real ground to cover.
   - Read the WHAT IS BEHIND THEM column top to bottom. If any
@@ -2363,6 +2528,8 @@ RULE 2 — THE CARD FORMAT (copy this exactly, every shot)
 ═══════════════════════════════════════════════════════════
 
   ══════════ SHOT 07 — &quot;GRIP&quot; ══════════
+  STORY LINE (mine, quoted): &quot;her fingers close on the cloth and she
+  does not let go&quot;        ← the only reason this shot exists
   Phase: 2 (want)   |   Emotion the audience gets: hope rising
   Camera: setup C — chest height, 50mm, handheld micro-drift
   Duration: 8s, one generation (Extend if the beat needs more)
@@ -2380,17 +2547,27 @@ RULE 2 — THE CARD FORMAT (copy this exactly, every shot)
   ACTION-ATTACH OUT: This shot ends with her fingers closed around it and
   her weight already moving left. Shot 08 must start exactly there.
 
+  NOT ADDED: nothing in this frame comes from my own imagination. Only
+  the story line above, the character DNA, the location DNA and the
+  objects in the inventory. Any small choice I had to make is listed at
+  the very end under MY ASSUMPTIONS.
+
   IMAGE PROMPT (make the still first):
   &lt;one paragraph: camera + subject + action + context + light + look&gt;
   &lt;identity block, word for word from PROMPT 2&gt;
   &lt;location block, word for word&gt;
+  Every object in this sentence must also be in the FRAME INVENTORY.
+  Nothing else may be written into the frame.
   &lt;one person / one photograph / not a grid, if it is a portrait&gt;
 
-  VIDEO PROMPT (use that still as the ingredient):
-  &lt;identity block, word for word&gt;
-  &lt;location block, word for word&gt;
-  &lt;look block, word for word&gt;
-  [00:00-00:02] &lt;what happens — the movement that finishes the last shot&gt;
+  VIDEO PROMPT — MOTION ONLY (the still is the truth):
+  ⭐ Never describe the place, the clothes or the face again. The
+     uploaded still already carries all of it, and writing it a second
+     time is exactly how the face and the scene start to change.
+  Keep identical to the still: face, clothes, colours, light,
+  background, number of people, position in frame.
+  Only these change, in this order:
+  [00:00-00:02] &lt;the movement that finishes the last shot&gt;
   [00:02-00:05] &lt;the main action&gt;
   [00:05-00:08] &lt;the reaction, one beat late, and the new position&gt;
   &lt;one sentence of sound — what we hear, no music&gt;
@@ -2665,6 +2842,93 @@ Write it straight onto the card:
   brass thali, one folded cloth, one rope) · smoke level 2
 
 ═══════════════════════════════════════════════════════════
+RULE 15 — THE TRACE LAW  ⭐ v9 (story kuch, image kuch — ye band)
+═══════════════════════════════════════════════════════════
+Every card must be traceable back to my words. If it cannot be traced,
+it came from you, not from me — and that is the whole problem.
+
+  1. Every card opens with STORY LINE: a short quote from MY STORY or
+     from the STORY LOCK, inside quotation marks.
+  2. If a card has no line, it does not exist. Either delete it, or mark
+     it as PURE TRANSITION and keep it to three seconds or less.
+  3. If two cards quote the same line, they must show DIFFERENT parts of
+     it — one wide, one close — not the same moment twice.
+  4. Never upgrade my words. If I wrote &quot;she looks at him&quot;, do not write
+     &quot;she gazes at him with tears, wind lifting her hair&quot;. My sentence is
+     the ceiling, not the floor.
+  5. Then, at the very end of all the cards, give me a short table:
+
+     | Shot | Story line it came from | Invented? |
+       01   | &quot;she turns from the door&quot; | no
+       02   | —                          | PURE TRANSITION
+       03   | &quot;the cloth slips&quot;          | no
+
+     Anything marked invented must be justified in one line, or cut.
+
+═══════════════════════════════════════════════════════════
+RULE 16 — THE STILL IS THE TRUTH  ⭐ v9 (video naya scene kyun banata hai)
+═══════════════════════════════════════════════════════════
+Three different things were being described three ways: the story, the
+image, and the video. That is why the film never matches. This rule makes
+them one chain:
+
+   STORY LINE  →  IMAGE PROMPT  →  VIDEO PROMPT
+   (my words)     (the still)       (motion only)
+
+  1. The IMAGE is generated from the story line plus the DNA blocks.
+     Nothing else goes into the image prompt.
+  2. The VIDEO asks for ONE thing only: movement. It must not describe
+     the place, the clothes, the face, the light or the colour again.
+     Those are in the still, and the model copies what it sees.
+  3. Every video prompt opens with these two lines, copied exactly:
+       &quot;The uploaded still is the truth. Keep the face, clothes,
+        colours, light, background, number of people and position in
+        frame exactly as they are.&quot;
+       &quot;Only these movements change:&quot;
+  4. Then the timestamps. Then the sound sentence. Then the negative
+     list. Nothing else.
+  5. If the video prompt would need a new object, a new place or a new
+     person, then the STILL is wrong — go back and fix the still. Never
+     fix it inside the video prompt.
+  6. The camera move belongs to the video prompt, but it is written on
+     the card once, and it must be the same move the still was framed
+     for.
+  7. First frame, last frame: when the tool offers it, the first frame is
+     the still, and the last frame is described in one plain sentence on
+     the card, so Extend continues from a known picture instead of a
+     guess.
+
+═══════════════════════════════════════════════════════════
+RULE 17 — NOTHING ADDED  ⭐ v9 (apni marzi se cheezein jodna band)
+═══════════════════════════════════════════════════════════
+What is not in my story, my STORY LOCK or my inventory does not go into
+the frame. Not a prop, not an animal, not a visitor, not weather, not a
+crowd, not a decoration in the corner to &quot;fill the frame&quot;.
+
+Birth, death, wedding, farewell and other ritual steps: use only the
+steps I actually described. Never add a ritual step that I did not write,
+and never invent a religious object that I did not mention.
+
+If something is genuinely missing and the shot cannot be built without it,
+do NOT invent it silently. Do this instead:
+
+  1. Build the shot using the most plain, most neutral choice possible.
+  2. Write that choice at the end, in a block called MY ASSUMPTIONS, one
+     line each:
+       MY ASSUMPTIONS — 1. she is standing, not sitting (story did not
+       say). 2. the doorway is wooden (the location DNA did not say).
+  3. Keep that block at the very end of your answer, after the cards.
+
+I will read it and correct it. A written assumption I can fix in one
+minute. A silent invention costs me a whole day of failed generations.
+
+⭐⭐ ONE MORE THING — the reverse also matters. If I wrote something and
+   it is missing from your cards, that is the same crime. Before you
+   send, list every item of MY THINGS from PROMPT 1 and point to the
+   shot number where it appears. Any item with no shot is a missing
+   piece — add it or tell me the reason.
+
+═══════════════════════════════════════════════════════════
 BEFORE YOU SEND — CHECK YOUR OWN WORK
 ═══════════════════════════════════════════════════════════
   1. Does any shot start at rest or end at rest, apart from the first
@@ -2697,6 +2961,16 @@ BEFORE YOU SEND — CHECK YOUR OWN WORK
  17. ⭐ Does every shot start at the exact atmosphere level that the
      previous shot ended on, and does any level change of more than one
      step have a written cause?
+ 18. ⭐ TRACE: does every card open with a quoted STORY LINE, and is at
+     the end-of-cards table there with the invented column filled?
+ 19. ⭐ STILL IS THE TRUTH: does every video prompt begin with the two
+     locked lines, and does it describe MOVEMENT ONLY — no place, no
+     clothes, no face, no light described a second time?
+ 20. ⭐ NOTHING ADDED: is there any object, person, animal, weather or
+     ritual step in any card that is not in my story or my STORY LOCK?
+     Cut it, or move it into MY ASSUMPTIONS.
+ 21. ⭐ Is every item of MY THINGS pinned to a shot number in the
+     coverage table? Any item without a shot is a missing piece.
 
 Fix all of it, then send the corrected cards only.
 ```
@@ -2859,14 +3133,19 @@ Fix everything, then send the plan only.
 7. PROMPT 4 → gaana + caption + timing   (upload se pehle)
 ```
 
-**Paanch cheezein jo sabse zyada farak dengi:**
-1. **ACTION-ATTACH** (Rule 3) — shot rest par shuru/khatam nahi hota.
-2. **ATMOSPHERE NUMBER** (Rule 12) — smoke/fog/rain ka number, andaza nahi.
-3. **FACE REVEAL LAW** (Rule 13) — face wale shot me level 2 se zyada nahi.
-4. **DNA line word-for-word** (Rule 10) — chehra badalna band.
-5. **4–6 camera setups** (Rule 4) — poore film ka coverage.
+**Chhe cheezein jo sabse zyada farak dengi:**
+1. **TRACE LAW** (Rule 15) — har card tumhari kahani ki line se shuru hota hai.
+2. **STILL IS THE TRUTH** (Rule 16) — image = kahani, video = sirf movement.
+3. **NOTHING ADDED** (Rule 17) — jo tumne nahi bola wo frame me nahi.
+4. **ACTION-ATTACH** (Rule 3) — shot rest par shuru/khatam nahi hota.
+5. **ATMOSPHERE NUMBER** (Rule 12) — smoke/fog ka number, andaza nahi.
+6. **DNA line word-for-word** (Rule 10) — chehra badalna band.
 
 **Aur step lock yaad rakho:** P2 sirf portrait banata hai. Video prompt P3 se pehle ban hi nahi sakta.
+
+**Agar phir bhi mann marzi kare, to ye line bhejo:**
+*&quot;Shot 07 ka STORY LINE kahan hai? Jo line nahi hai wo shot hata do.
+Video prompt me sirf movement likho — still hi sach hai.&quot;*
 </pre>
 
 <script>

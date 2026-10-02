@@ -34,6 +34,23 @@
 **Fire:** kitni lau + kitni unchi (cm me) + kahan. **Baarish:** 1–4 (3 = farsh par paani).
 **Reveal:** dhuan **left** jaayega, **2 second** me aankh+muh khulega, aur ek light **45° front** se, distance likho. Iske baad 2 shot tak smoke 0–1 hi rahega.
 
+### 🔗 TEEN CHEEZEIN — EK CHAIN (story · image · video)
+
+```
+   TUMHARI KAHANI KI LINE          →   IMAGE (still)        →   VIDEO
+   "uske haath me kapda aa gaya"       STORY LINE +            SIRF MOVEMENT
+                                        DNA + inventory          (still hi sach hai)
+```
+
+| | Kahan se banega | Kya NAHI likhna |
+|---|---|---|
+| **STORY LINE** | tumhare shabdon me, quotes me | apni kahani mat jodo |
+| **IMAGE** | sirf story line + DNA + inventory | jo inventory me nahi, wo frame me nahi |
+| **VIDEO** | sirf **movement** — still pehle se sab kuch hai | jagah/kapda/chehra dobara describe mat karo |
+
+**Niyam:** video prompt me naya object/chehra/jagah chahiye = **still galat hai** → still theek karo, video me kuch mat jodo.
+Aur jo tumne likha hi nahi (koi riwaz, koi cheez, koi janwar) — wo frame me **nahi** aayega. Zakoori ho to AI `MY ASSUMPTIONS` me likhega, chupke se nahi banayega.
+
 ---
 
 ## ⭐ v9 ME KYA BADLA (tumhari bataayi hui galtiyan)
@@ -56,6 +73,9 @@
 | 14 | Smoke/fog ka amount koi nahi batata, face dhuyen me gayab | **ATMOSPHERE NUMBER SYSTEM** — smoke 0–5, fog 0–5. Level likha jaata hai, andaza nahi |
 | 15 | "Thoda fog" likha, model ne poora frame bhar diya | **FACE REVEAL LAW** — face ke shot me level 2 se zyada kabhi nahi. Reveal = movement + direction + 2 second |
 | 16 | Frame me kya-kya hai, ginti nahi | **FRAME INVENTORY** — har card par count: kitne log, kitni light, kitni cheezein, kitne metre |
+| 17 | **Story kuch aur, image kuch aur** | **TRACE LAW** — har card ke sabse upar STORY LINE, jis line se wo shot bana hai. Bina line = card delete |
+| 18 | **Video me naya scene ban jaata hai** | **STILL IS THE TRUTH** — video prompt sirf *movement* likhta hai. Dikhaawat dobara describe nahi hoti |
+| 19 | AI apni marzi se cheezein jod deta hai | **NOTHING ADDED** — jo tumne nahi bola wo frame me nahi. Kuch chahiye to ASSUMPTIONS me likho, banane se pehle |
 
 ---
 
@@ -510,6 +530,10 @@ NOW GIVE ME YOUR OUTPUT IN THESE FIVE PARTS
   WHAT IS BEHIND THEM  |  DURATION
 
   Rules for filling it:
+  - ⭐ NEW COLUMN — STORY LINE. Every shot must quote the words of MY
+    STORY that produced it, short, inside quotes: "she turns from the
+    door". If a shot has no line from my story, that shot is invented.
+    Delete it, or mark it clearly as PURE TRANSITION.
   - FROM → TO may never be the same place. If it is, that shot is
     wrong — give it real ground to cover.
   - Read the WHAT IS BEHIND THEM column top to bottom. If any
@@ -891,6 +915,8 @@ RULE 2 — THE CARD FORMAT (copy this exactly, every shot)
 ═══════════════════════════════════════════════════════════
 
   ══════════ SHOT 07 — "GRIP" ══════════
+  STORY LINE (mine, quoted): "her fingers close on the cloth and she
+  does not let go"        ← the only reason this shot exists
   Phase: 2 (want)   |   Emotion the audience gets: hope rising
   Camera: setup C — chest height, 50mm, handheld micro-drift
   Duration: 8s, one generation (Extend if the beat needs more)
@@ -908,17 +934,27 @@ RULE 2 — THE CARD FORMAT (copy this exactly, every shot)
   ACTION-ATTACH OUT: This shot ends with her fingers closed around it and
   her weight already moving left. Shot 08 must start exactly there.
 
+  NOT ADDED: nothing in this frame comes from my own imagination. Only
+  the story line above, the character DNA, the location DNA and the
+  objects in the inventory. Any small choice I had to make is listed at
+  the very end under MY ASSUMPTIONS.
+
   IMAGE PROMPT (make the still first):
   <one paragraph: camera + subject + action + context + light + look>
   <identity block, word for word from PROMPT 2>
   <location block, word for word>
+  Every object in this sentence must also be in the FRAME INVENTORY.
+  Nothing else may be written into the frame.
   <one person / one photograph / not a grid, if it is a portrait>
 
-  VIDEO PROMPT (use that still as the ingredient):
-  <identity block, word for word>
-  <location block, word for word>
-  <look block, word for word>
-  [00:00-00:02] <what happens — the movement that finishes the last shot>
+  VIDEO PROMPT — MOTION ONLY (the still is the truth):
+  ⭐ Never describe the place, the clothes or the face again. The
+     uploaded still already carries all of it, and writing it a second
+     time is exactly how the face and the scene start to change.
+  Keep identical to the still: face, clothes, colours, light,
+  background, number of people, position in frame.
+  Only these change, in this order:
+  [00:00-00:02] <the movement that finishes the last shot>
   [00:02-00:05] <the main action>
   [00:05-00:08] <the reaction, one beat late, and the new position>
   <one sentence of sound — what we hear, no music>
@@ -1193,6 +1229,93 @@ Write it straight onto the card:
   brass thali, one folded cloth, one rope) · smoke level 2
 
 ═══════════════════════════════════════════════════════════
+RULE 15 — THE TRACE LAW  ⭐ v9 (story kuch, image kuch — ye band)
+═══════════════════════════════════════════════════════════
+Every card must be traceable back to my words. If it cannot be traced,
+it came from you, not from me — and that is the whole problem.
+
+  1. Every card opens with STORY LINE: a short quote from MY STORY or
+     from the STORY LOCK, inside quotation marks.
+  2. If a card has no line, it does not exist. Either delete it, or mark
+     it as PURE TRANSITION and keep it to three seconds or less.
+  3. If two cards quote the same line, they must show DIFFERENT parts of
+     it — one wide, one close — not the same moment twice.
+  4. Never upgrade my words. If I wrote "she looks at him", do not write
+     "she gazes at him with tears, wind lifting her hair". My sentence is
+     the ceiling, not the floor.
+  5. Then, at the very end of all the cards, give me a short table:
+
+     | Shot | Story line it came from | Invented? |
+       01   | "she turns from the door" | no
+       02   | —                          | PURE TRANSITION
+       03   | "the cloth slips"          | no
+
+     Anything marked invented must be justified in one line, or cut.
+
+═══════════════════════════════════════════════════════════
+RULE 16 — THE STILL IS THE TRUTH  ⭐ v9 (video naya scene kyun banata hai)
+═══════════════════════════════════════════════════════════
+Three different things were being described three ways: the story, the
+image, and the video. That is why the film never matches. This rule makes
+them one chain:
+
+   STORY LINE  →  IMAGE PROMPT  →  VIDEO PROMPT
+   (my words)     (the still)       (motion only)
+
+  1. The IMAGE is generated from the story line plus the DNA blocks.
+     Nothing else goes into the image prompt.
+  2. The VIDEO asks for ONE thing only: movement. It must not describe
+     the place, the clothes, the face, the light or the colour again.
+     Those are in the still, and the model copies what it sees.
+  3. Every video prompt opens with these two lines, copied exactly:
+       "The uploaded still is the truth. Keep the face, clothes,
+        colours, light, background, number of people and position in
+        frame exactly as they are."
+       "Only these movements change:"
+  4. Then the timestamps. Then the sound sentence. Then the negative
+     list. Nothing else.
+  5. If the video prompt would need a new object, a new place or a new
+     person, then the STILL is wrong — go back and fix the still. Never
+     fix it inside the video prompt.
+  6. The camera move belongs to the video prompt, but it is written on
+     the card once, and it must be the same move the still was framed
+     for.
+  7. First frame, last frame: when the tool offers it, the first frame is
+     the still, and the last frame is described in one plain sentence on
+     the card, so Extend continues from a known picture instead of a
+     guess.
+
+═══════════════════════════════════════════════════════════
+RULE 17 — NOTHING ADDED  ⭐ v9 (apni marzi se cheezein jodna band)
+═══════════════════════════════════════════════════════════
+What is not in my story, my STORY LOCK or my inventory does not go into
+the frame. Not a prop, not an animal, not a visitor, not weather, not a
+crowd, not a decoration in the corner to "fill the frame".
+
+Birth, death, wedding, farewell and other ritual steps: use only the
+steps I actually described. Never add a ritual step that I did not write,
+and never invent a religious object that I did not mention.
+
+If something is genuinely missing and the shot cannot be built without it,
+do NOT invent it silently. Do this instead:
+
+  1. Build the shot using the most plain, most neutral choice possible.
+  2. Write that choice at the end, in a block called MY ASSUMPTIONS, one
+     line each:
+       MY ASSUMPTIONS — 1. she is standing, not sitting (story did not
+       say). 2. the doorway is wooden (the location DNA did not say).
+  3. Keep that block at the very end of your answer, after the cards.
+
+I will read it and correct it. A written assumption I can fix in one
+minute. A silent invention costs me a whole day of failed generations.
+
+⭐⭐ ONE MORE THING — the reverse also matters. If I wrote something and
+   it is missing from your cards, that is the same crime. Before you
+   send, list every item of MY THINGS from PROMPT 1 and point to the
+   shot number where it appears. Any item with no shot is a missing
+   piece — add it or tell me the reason.
+
+═══════════════════════════════════════════════════════════
 BEFORE YOU SEND — CHECK YOUR OWN WORK
 ═══════════════════════════════════════════════════════════
   1. Does any shot start at rest or end at rest, apart from the first
@@ -1225,6 +1348,16 @@ BEFORE YOU SEND — CHECK YOUR OWN WORK
  17. ⭐ Does every shot start at the exact atmosphere level that the
      previous shot ended on, and does any level change of more than one
      step have a written cause?
+ 18. ⭐ TRACE: does every card open with a quoted STORY LINE, and is at
+     the end-of-cards table there with the invented column filled?
+ 19. ⭐ STILL IS THE TRUTH: does every video prompt begin with the two
+     locked lines, and does it describe MOVEMENT ONLY — no place, no
+     clothes, no face, no light described a second time?
+ 20. ⭐ NOTHING ADDED: is there any object, person, animal, weather or
+     ritual step in any card that is not in my story or my STORY LOCK?
+     Cut it, or move it into MY ASSUMPTIONS.
+ 21. ⭐ Is every item of MY THINGS pinned to a shot number in the
+     coverage table? Any item without a shot is a missing piece.
 
 Fix all of it, then send the corrected cards only.
 ```
@@ -1387,11 +1520,16 @@ Fix everything, then send the plan only.
 7. PROMPT 4 → gaana + caption + timing   (upload se pehle)
 ```
 
-**Paanch cheezein jo sabse zyada farak dengi:**
-1. **ACTION-ATTACH** (Rule 3) — shot rest par shuru/khatam nahi hota.
-2. **ATMOSPHERE NUMBER** (Rule 12) — smoke/fog/rain ka number, andaza nahi.
-3. **FACE REVEAL LAW** (Rule 13) — face wale shot me level 2 se zyada nahi.
-4. **DNA line word-for-word** (Rule 10) — chehra badalna band.
-5. **4–6 camera setups** (Rule 4) — poore film ka coverage.
+**Chhe cheezein jo sabse zyada farak dengi:**
+1. **TRACE LAW** (Rule 15) — har card tumhari kahani ki line se shuru hota hai.
+2. **STILL IS THE TRUTH** (Rule 16) — image = kahani, video = sirf movement.
+3. **NOTHING ADDED** (Rule 17) — jo tumne nahi bola wo frame me nahi.
+4. **ACTION-ATTACH** (Rule 3) — shot rest par shuru/khatam nahi hota.
+5. **ATMOSPHERE NUMBER** (Rule 12) — smoke/fog ka number, andaza nahi.
+6. **DNA line word-for-word** (Rule 10) — chehra badalna band.
 
 **Aur step lock yaad rakho:** P2 sirf portrait banata hai. Video prompt P3 se pehle ban hi nahi sakta.
+
+**Agar phir bhi mann marzi kare, to ye line bhejo:**
+*"Shot 07 ka STORY LINE kahan hai? Jo line nahi hai wo shot hata do.
+Video prompt me sirf movement likho — still hi sach hai."*
