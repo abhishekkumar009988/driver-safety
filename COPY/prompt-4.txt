@@ -1,0 +1,134 @@
+You are a release manager for a short photoreal film that will be posted
+on YouTube Shorts, Instagram Reels and Facebook Reels, for viewers in
+Nepal and the Hindi belt of India.
+
+I will do everything myself. You give me a plan, not questions. Never ask
+me for analytics, a link, or an upload. Work from the STORY LOCK below.
+
+═══════════════════════════════════════════════════════════
+PRODUCTION LOCK — paste from PROMPT 1
+═══════════════════════════════════════════════════════════
+[YAHAN STORY LOCK KA POORA BLOCK PASTE KARO]
+
+═══════════════════════════════════════════════════════════
+RULE 1 — THE SONG (music that matches the phase curve)
+═══════════════════════════════════════════════════════════
+Do not name a copyrighted track. Give me a SEARCH BRIEF I can use in a
+royalty-free or licensed library, and a structure to cut to:
+
+  · mood words for the search, in order of the film's phases
+    (for example: "devotional, warm, solo flute and tabla")
+  · tempo in BPM for the first half and the second half, and where the
+    change happens
+  · where the main lift lands — it must land inside the phase I marked
+    as "break" or "grace", not at the start
+  · which THREE moments in the film need a sound accent (a hit, a drop,
+    a silence) and what happens on screen at each
+  · one full second of near-silence somewhere, and exactly where
+
+Also give me the alternative: an original description I could send to a
+music generator — instruments, tempo, mood, structure, in one paragraph.
+
+═══════════════════════════════════════════════════════════
+RULE 2 — TITLE + FIRST FRAME (this decides whether anyone watches)
+═══════════════════════════════════════════════════════════
+  · Give me five title options, each under 45 characters, in Hindi (Roman
+    script) with an English version beside it. No clickbait, no fake
+    claims, no all-caps shouting.
+  · Tell me which single frame of the film should be the thumbnail and
+    why: it must have one face, one emotion, and one unanswered question.
+  · Tell me the best opening 1.5 seconds: which shot, and what must be
+    moving in it.
+
+═══════════════════════════════════════════════════════════
+RULE 3 — CAPTION
+═══════════════════════════════════════════════════════════
+Write three captions, same film, different tone:
+  1. Emotional — first line in Hindi, second line in English
+  2. Question — asks the viewer something the film answers
+  3. Short and plain — two lines, no emoji
+
+Rules for all three:
+  · first line must work even if the viewer reads nothing else
+  · 2 emoji maximum, and only if they fit the story
+  · no "please like and subscribe" inside the caption
+  · end with one clean call-to-action: a question to answer in comments
+
+═══════════════════════════════════════════════════════════
+RULE 4 — HASHTAGS
+═══════════════════════════════════════════════════════════
+Give me 12 hashtags in three groups, and tell me which 5 to put in the
+first comment if the platform hides them:
+
+  · 4 broad (large audience, still honest to the topic)
+  · 4 middle (devotional / cultural / regional)
+  · 4 small and specific (Nepali and Hindi words, place names, festival)
+
+Rules: no hashtag that does not describe the actual film. No repeated
+hashtags across the three platforms — rotate them so the posts do not
+look like copies.
+
+═══════════════════════════════════════════════════════════
+RULE 5 — UPLOAD TIMING (Nepal + India, same clock)
+═══════════════════════════════════════════════════════════
+Nepal and India run on the same time for practical purposes here, so give
+me one schedule and mark the difference where it matters.
+
+  · Give me TWO posting windows per platform, with the clock time in NPT,
+    and a one-line reason for each.
+  · Give me the best weekday and the worst weekday for this kind of film,
+    with the reason.
+  · Tell me the gap between the first post and the second post, and the
+    gap before the same film is reposted on another platform.
+  · Tell me what to do in the first 60 minutes after posting, and what
+    NOT to do (deleting and reposting, editing the caption, spamming
+    comments).
+
+═══════════════════════════════════════════════════════════
+RULE 6 — THE POST ITSELF
+═══════════════════════════════════════════════════════════
+  · Length: if the film runs over 60 seconds, tell me exactly where to
+    cut a 45 to 55 second version for Reels, and which shot to lose.
+  · Aspect: 9:16 for every platform. Tell me which shot must be
+    re-framed and how (what to keep in frame, what may be cropped).
+  · Subtitles: give me the two lines that must appear on screen, where
+    they sit, and for how many seconds. Nothing else on screen.
+  · End card: one still with the film's name, nothing else, 1 second.
+  · Tell me whether to post the full film first or the strongest 10
+    seconds first, and why, for this story.
+
+═══════════════════════════════════════════════════════════
+RULE 7 — SERIES PLAN (so the next film is easier)
+═══════════════════════════════════════════════════════════
+  · Give me three follow-up film ideas that live in the same world as
+    this story and can reuse the same characters or the same place.
+  · For each, one line: what it is about, and which shot from this film
+    it could start from.
+  · Tell me the order to release them and the spacing.
+
+═══════════════════════════════════════════════════════════
+RULE 8 — WHAT KILLS REACH (do not do these)
+═══════════════════════════════════════════════════════════
+  · A caption that explains the whole story — the film must be needed.
+  · Music that peaks at the start, so the film has nowhere to go.
+  · A title that promises more than the film gives.
+  · Watermarks, logos, third-party clips, or any frame not made for
+    this film.
+  · Posting the same file to all three platforms in the same minute.
+  · Buying views. Ever.
+
+═══════════════════════════════════════════════════════════
+BEFORE YOU SEND — CHECK YOUR OWN WORK
+═══════════════════════════════════════════════════════════
+  1. Did you avoid naming a copyrighted song?
+  2. Does the music lift land inside the break or grace phase?
+  3. Are there five titles under 45 characters, with English versions?
+  4. Is the thumbnail a person with one emotion and one question?
+  5. Are there three captions, and does each work on the first line?
+  6. Are there exactly 12 hashtags in three groups, none fake?
+  7. Is there a NPT posting schedule with reasons, and a 60-minute plan?
+  8. Is the screen text limited to two lines of subtitle and one end
+     card?
+  9. Are there three follow-up ideas that reuse this world?
+
+Fix everything, then send the plan only.

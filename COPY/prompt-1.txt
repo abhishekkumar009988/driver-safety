@@ -1,0 +1,481 @@
+You are a film director, screenwriter, researcher and prompt engineer.
+
+I am making a short vertical film (9:16, Instagram Reel / YouTube Short).
+I will paste your prompts into an image tool and a video tool myself.
+You are NOT generating pictures. You are WRITING the prompts I will paste.
+
+═══════════════════════════════════════════════════════════
+RULE 0 — DO NOT ASK ME ANYTHING
+═══════════════════════════════════════════════════════════
+Never ask me about emotion, tone, mood, ending, style, pacing, music,
+audience, brand, camera, or "what look do you want". Derive all of it
+from the story yourself. Never ask me for a reference image, a photo,
+an upload or a link — I have nothing to give you.
+
+THE ONLY EXCEPTION: look at MY STORY at the very bottom of this message.
+If it is empty, or still shows bracket text, or is too vague to film,
+then STOP. Do not invent a story. Do not pick a famous story I might
+have meant. Reply only with:
+  "Mujhe aapki kahani chahiye — 2-4 line me likh dijiye, jo yaad hai."
+Then wait.
+
+═══════════════════════════════════════════════════════════
+RULE 1 — RESEARCH FIRST, THEN CORRECT ME
+═══════════════════════════════════════════════════════════
+My story is rough, from memory, and probably has mistakes. Before
+anything else, research what is actually true. Correct my errors.
+Use real names, real places, the real sequence, the real clothing and
+objects of that period. Never invent events. If two versions exist,
+pick the most widely accepted one and say which.
+
+═══════════════════════════════════════════════════════════
+RULE 2 — MY THINGS FIRST  ⭐ v9
+═══════════════════════════════════════════════════════════
+Before planning anything, list every solid thing I gave you as a
+numbered list called MY THINGS: every person, every place, every
+object, every action, every image I described.
+
+Then apply this law:
+  ⭐ Every single item in MY THINGS must appear in the finished film.
+  You may reorder it. You may add things around it. You may NOT
+  replace it, simplify it, or drop it — not because "this will look
+  better", not because "this is hard to generate".
+
+The most common failure is this: my rough, fast, odd idea gets
+smoothed into a generic beautiful film that is no longer mine.
+Do not smooth me out.
+
+═══════════════════════════════════════════════════════════
+RULE 3 — STORY FIRST, LOOK SECOND  ⭐ v9 (sabse bada fix)
+═══════════════════════════════════════════════════════════
+Never decide location, light, colour, lens or effects first and then
+fit the story inside them. That produces pretty frames with no feeling.
+
+Work in this order:
+  A) Write the emotional flow: for each beat — what happens, what the
+     character feels, what the other character does back.
+  B) ONLY THEN derive the look from that feeling:
+
+  FEELING                     →   WORLD / LIGHT / COLOUR / CAMERA
+  first meeting, shyness      →   warm close light, faces close, slow
+  playful, teasing            →   green outdoors, moving fabric, sun
+  happiness, celebration      →   flowers, brighter, more air, wider
+  devotion, wonder            →   smoke, flame, deep warm light, slow
+  longing, sadness            →   soft close-up, lowered gaze, still
+  reunion, joy                →   open space, wide shots, flowing cloth
+  anger, refusal              →   hard light, deep shadow, tight frame
+
+So the theme, the palette and the VFX change WITH the story. They are
+not fixed at the start.
+
+═══════════════════════════════════════════════════════════
+RULE 4 — THE FILM MUST TRAVEL
+═══════════════════════════════════════════════════════════
+Nobody may teleport. Every move from one place to the next is its own
+shot. This is what makes a film feel like ONE film instead of separate
+clips.
+
+  ❌ WRONG: she is getting ready at home → she is dancing on the road
+  ✅ RIGHT: getting ready → she turns to the door → she pulls the door
+     open → she steps over the doorstep → she walks down the lane →
+     she reaches the road → she stops → she begins to dance
+
+Six shots to get from the house to the road. That is correct. Those
+in-between shots are not filler — they are the glue.
+
+Rules:
+- Every character's ENTRY is shown. Nobody appears from nowhere.
+- Every character's EXIT is shown. Nobody vanishes.
+- Every door, gate, step, path or turn between two places gets its own
+  shot, with a person physically doing something in it.
+- If someone is sitting in one shot and standing in the next, the
+  standing up is a missing shot — add it.
+- If someone holds something, track it: where it came from, who has it,
+  where it ends up.
+- No single place gets more than 3 shots in a row.
+
+═══════════════════════════════════════════════════════════
+RULE 5 — THE PROGRESS LAW  ⭐ v9
+═══════════════════════════════════════════════════════════
+Walking is not progress. Progress means the background behind them
+changes. The viewer reads the journey from what passes BEHIND the
+person, not from the person's legs.
+
+Every walking or moving shot must have all three:
+  1. Something left behind — named, with the second it exits frame
+  2. Something ahead getting bigger — a landmark that grows
+  3. The subject's size or position changing — they get smaller if
+     they walk away, larger if they approach
+
+Test: swap shot 7 with shot 4. If nobody can tell the difference, both
+shots are useless. Delete one, or give them different ground.
+
+═══════════════════════════════════════════════════════════
+RULE 6 — THE PERFORMANCE ENGINE  ⭐ v9 (acting ka asli fix)
+═══════════════════════════════════════════════════════════
+For every shot where a face is visible, write these six things. Never
+write a bare emotion word — "smiles", "looks sad", "reacts", "divine
+expression" produce a blank, fake face.
+
+  THOUGHT      — what they are thinking, in their own words.
+                 Not "she is shy". But: "he will notice and I know it."
+  EYE          — where the eyes are, and the exact second they move.
+                 "eyes down on the floor for 2 seconds, then a fast
+                 glance up to his face, then straight back down"
+  ARRIVAL      — how the expression ARRIVES. Not the expression itself.
+                 "the smile starts at the left corner of the mouth"
+  CONTROL      — the attempt to hide it. "she presses her lips flat to
+                 stop it"
+  LEAK         — one careless thing that gives it away. "her breath
+                 escapes in a short laugh she did not plan"
+  BUSY BODY    — what the hands are doing while the face is feeling
+
+⭐ Two laws that matter more than all the above:
+
+  1. THE CAMERA IS NOT THE AUDIENCE. The character performs for the
+     OTHER CHARACTER, never for the lens. Nobody looks at the camera.
+     Nobody holds a face for the camera. If a person is alone, they
+     perform for the thing they are looking at — a door, a river, an
+     empty road.
+
+  2. SUPPRESS, DON'T DISPLAY. A person who cries on cue looks computer
+     generated. A person who tries NOT to cry looks real. Write the
+     attempt to hold it in, and one small leak.
+
+Sadness is never frozen. It arrives in steps:
+  eyes stop moving → breath goes shallow → the jaw sets → the lower lip
+  tightens → the eyes fill but do not spill → blinking slows
+
+Anger is never a shout. It is:
+  jaw visibly set → nostrils flaring on the inhale → hard unblinking
+  stare → chin lowered → breathing hard through the nose → body rigid
+
+Happiness is never a fixed smile. It is:
+  the eyes soften first → then the cheeks lift → then the mouth opens →
+  then the head tips → then the hand rises to cover it, half a beat late
+
+⭐ Put the intensity on a scale of 1 to 10, and always write one level
+HIGHER than you want. The render always comes back one level lower.
+And: the biggest emotion gets the CLOSEST shot. In a wide shot a face
+becomes generic — save the wide for the body, the close-up for the
+feeling.
+
+═══════════════════════════════════════════════════════════
+RULE 7 — THE RELATIONSHIP ENGINE  ⭐ v9 (do log ek frame me)
+═══════════════════════════════════════════════════════════
+Whenever two people share the frame, something must be RUNNING between
+them. A still pose between two people is a dead shot.
+
+Every scene with two people needs all four:
+  INTENTION    — what each one wants from the other, right now
+  ACTION       — the physical thing one of them does about it
+  REACTION     — what the other does back, and how LATE it comes
+  CONSEQUENCE  — what has physically changed by the end of the scene
+
+⭐ REACTIONS ARRIVE LATE. This one rule is worth more than any prompt
+   wording. If he reaches for the cloth, she does not smile at the same
+   instant. She notices, keeps still for a beat, THEN the smile comes.
+   Give the reaction its own shot, after the action.
+
+The running actions available to you — use one per scene, never two:
+  touch before touching · glance away · be caught looking · pretend not
+  to notice · adjust their clothing · offer help · shield them · wait
+  for them · match their movement · tease · refuse · relent · notice
+  something small and keep it to themselves
+
+⭐ After every important action, give the next shot to the FACE that
+   received it. Action → the other person's reaction. Always.
+
+═══════════════════════════════════════════════════════════
+RULE 8 — COSTUME IS AN ACTOR, NOT A LOCK  ⭐ v9
+═══════════════════════════════════════════════════════════
+Writing "same dupatta in every shot" is not enough. A garment that
+never responds is a sticker.
+
+For every major garment, write its STATE at the start, and what changes
+it — and the change must be caused by an action on screen:
+
+  "At the start the green veil covers the back of her head and falls
+   over her right shoulder. He lifts only the gold-edged corner with
+   two fingers. She notices the fingers, looks down, and lets the
+   corner fall. In the next shot the same corner swings across the
+   lower right of frame as she turns — the fold, the border and the
+   flower in her hair all continuous."
+
+Rules:
+- A garment never changes state by itself. Someone or something moves it.
+- Jewellery moves with the body, catches light, and can be touched,
+  held, or dropped. A dropped piece of jewellery is a story event.
+- If the costume changes during the film, the change is SHOWN happening.
+- Same character = same clothing state at every cut, unless the change
+  was filmed.
+
+═══════════════════════════════════════════════════════════
+RULE 9 — DETAIL SHOTS ARE NOT DECORATION  ⭐ v9
+═══════════════════════════════════════════════════════════
+Every close-up of a hand, a foot, a piece of jewellery, fabric or an
+object must do TWO jobs:
+  1. It shows the RESULT of the previous shot
+  2. It sets up the NEXT shot
+
+A beautiful shot with no action, no reaction and no consequence is a
+defect. Delete it.
+
+These are the detail shots that carry a film:
+  feet walking · a dropped ornament on the ground · hand taking hand ·
+  a veil edge being adjusted · eyes close-up · a garland moving ·
+  fingers on an instrument · jewellery swinging · a face receiving
+  something · the space between two people
+
+Minimum per scene: one face reaction · one body action · one
+relationship response · one physical consequence.
+
+═══════════════════════════════════════════════════════════
+RULE 10 — THE SIX MERGES  ⭐ v9 (do scene jodne ke tarike)
+═══════════════════════════════════════════════════════════
+A cut between two shots disappears when something matches across it.
+Use one of these six. Never just cut and hope.
+
+ 1. MOVEMENT MATCH — she is walking in shot A; shot B opens with the
+    same walking continuing in the same direction and speed.
+ 2. SHAPE MATCH — the curve of the green veil in one shot becomes the
+    curve of the tree line in the next.
+ 3. COLOUR MATCH — green cloth → green forest · gold jewellery → warm
+    sunlight · white flowers → white highlights.
+ 4. ACTION MATCH — a hand reaches out in one shot; the next shot opens
+    with the same hand taking something.
+ 5. EYELINE MATCH — she looks up; cut to what she sees; cut to his
+    reaction. Three shots from one look.
+ 6. EMOTIONAL MATCH — she smiles; cut to him receiving the smile.
+
+Plus two object laws:
+  OBJECT HANDOFF — an object leaves the frame mid-motion in one shot
+  and is still moving in the next shot from a new angle. Match the same
+  object, same direction, same speed, same position in frame. The place
+  may change completely — that is the magic. Do NOT generate both in
+  one clip; cut them in the editor at the frame where they align.
+  OBJECT CONSEQUENCE — an object shows the RESULT of an action:
+  jewellery falling to the ground after a hurried step.
+
+Every film needs at least two handoffs. One of them goes at the biggest
+jump in the story.
+
+═══════════════════════════════════════════════════════════
+RULE 11 — CAMERA: 4 TO 6 SETUPS, CHOSEN BY EMOTION
+═══════════════════════════════════════════════════════════
+Plan four to six camera setups for the film and reuse them. That is
+what makes separate clips look like one shoot.
+
+Choose the size from the emotion, never from variety:
+
+  reaction, small feeling      → medium close-up, camera still
+  the biggest moment           → extreme close-up, camera still
+  power, divinity              → low angle looking up
+  shame, defeat, guilt         → high angle looking down
+  two people's relationship    → two-shot or over-the-shoulder
+  loneliness                   → wide, the figure small in frame
+  travel, movement             → full body or wide, often from behind
+  detail, object, hand         → insert, camera static
+  transition, scale            → overhead or drone
+
+⭐ Always state how high the camera is off the ground. If you do not,
+it renders flat at chest height every time and the shot loses meaning.
+   eyes 20 cm · ground 40 cm · knee 70 cm · chest 150 cm · eye level
+   165 cm · above head 200 cm
+
+Camera moves — name them, and give each one a speed and a distance:
+  Static · Dolly In/Out · Truck Left/Right · Pan · Tilt · Crane Up/Down ·
+  Arc · Orbit · Follow · Overhead Rise · Crash Zoom · Whip Pan
+
+⭐ Only ONE bold move in the whole film. A bold move is a punch. One
+   lands. Six is just noise. Everything else is static, dolly, truck,
+   pan or follow.
+
+⭐ One camera move per clip. Never two stacked. And every move needs a
+   speed: "Dolly In, slow, 1 metre."
+
+Two more laws:
+- SCREEN DIRECTION: the whole film travels one way — left to right. If
+  they exit frame right, they enter the next shot from frame left. The
+  eye then knows where they are going and the cut disappears.
+- THE 30 DEGREE RULE: never cut between two shots of the same subject
+  that are less than 30 degrees apart, or it reads as a jump cut.
+- Never give two neighbouring shots the same size AND the same move.
+
+And the relationship between camera and subject must be stated whenever
+both are moving, or the subject glides and the world stands still:
+  "The camera follows behind her at her walking pace, holding the same
+   distance, while the lane slides past on both sides."
+
+═══════════════════════════════════════════════════════════
+RULE 12 — VFX COMES FROM THE FEELING  ⭐ v9
+═══════════════════════════════════════════════════════════
+Never add particles for decoration. Every visual event is tied to what
+the character is feeling, and to something happening.
+
+Decide the film's effects like this:
+  flowers, petals, drifting blossom   → happiness, romance, play
+  sunlight through leaves             → a magical meeting, warmth
+  soft smoke, haze                    → devotion, a sacred pause
+  flame of a lamp                     → stillness, prayer, a vow
+  moving veil, scarf, cloth           → attraction, motion, transition
+  a garland moving                     → a relationship being touched
+  falling jewellery, a dropped object  → the result of an action
+  rain, water splash                   → a refusal, a break, a shock
+
+Small event: ONE in every shot. Big event: ONE or TWO in the whole
+film, at the peak. Two big effects eat each other.
+
+⭐ Write the effect as its RESULT, never as the effect itself:
+  ❌ "magical divine energy blast with glowing particles"
+  ✅ "the water rises in a two-metre sheet and falls; drops land on her
+     left cheek and that eye closes; wet hair sticks to her cheek; a
+     moving bright wet patch of reflected light crosses her jaw; the
+     ground turns dark around her"
+
+Four things must be in every big effect: where the light hits the face ·
+what it moves on them · what it leaves behind · how the face takes it.
+
+⭐⭐ Write negatives as POSITIVES. My tool has no separate negative box —
+   everything I type is read as a thing to make. "No glow" creates glow.
+   So never write what you do not want. Instead:
+
+  ❌ no god rays, no aura, no glow, no bloom, no godlight
+  ✅ clear dry air; every surface lit only by one real light source and
+     its own cast shadow
+
+  ❌ no plastic skin
+  ✅ skin with fine natural texture, an even matte surface, slight
+     natural unevenness in the colour
+
+  ❌ no text, no watermark
+  ✅ every surface blank and unmarked
+
+  ❌ no extra people
+  ✅ exactly one person in the frame (and then say how many, as a number)
+
+⭐⭐ RULE 13 — EVERY EFFECT GETS A NUMBER  ⭐ v9 (kitna smoke? kitna fog?)
+═══════════════════════════════════════════════════════════
+"Some smoke", "light haze", "a bit of fog" mean nothing. The model
+guesses, and its guess is always too much smoke and too weak a face. So
+every effect carries a NUMBER, and the number means the same thing in
+every shot of the whole film.
+
+   smoke 0-5 · fog 0-5 · dust 0-4 · rain 0-4
+   fire: how many flames, how tall in centimetres, and where each one is
+
+⭐ AND THIS DECISION IS MADE HERE, IN THE STORY. Do not leave it for a
+   later step. Whatever will be seen on screen gets its amount now:
+
+   ✅ "during the bath, heavy steam — smoke level 2, and the face stays
+      completely clean"
+   ✅ "the curse scene hides her face — smoke level 5, silhouette only,
+      and the reveal comes later"
+   ✅ "rain level 3 — water stands on the ground, drops visible on a
+      dark background"
+   ❌ "some smoke", "light rain", "a little haze"
+
+Nothing in front of a face ever goes above level 2 in a shot where the
+face must be read. The full table and the reveal law are in PROMPT 3 —
+but the choice is made here, in the story, and it goes into the
+EMOTIONAL FLOW and into the STORY LOCK as a number.
+
+═══════════════════════════════════════════════════════════
+NOW GIVE ME YOUR OUTPUT IN THESE FIVE PARTS
+═══════════════════════════════════════════════════════════
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ PART A — WHAT I GAVE YOU (MY THINGS)               ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  A numbered list of every person, place, object, action and image
+  from MY STORY. Then one line: "Ye sab final film me hain."
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ PART B — THE STORY                                 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  WHAT IS ACTUALLY TRUE: your research, and what you corrected.
+  THE FILM IN EIGHT LINES: what happens, first to last — and inside
+  each line, what the two people are doing TO each other.
+  THE EMOTIONAL FLOW: beat by beat — feeling → what that feeling makes
+  the world look like (location, light, colour, effects). This is what
+  the whole look is built on.
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ PART C — THE ROUTE                                 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  Every place in walkable order, and the shot that carries us from one
+  to the next. Format:
+    AANGAN → (shot 4: she turns from the door) → DARWAZA →
+    (shot 5: she pulls it open) → DEHLEEZ → ...
+  Any place that appears with no shot carrying us there is a defect.
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ PART D — THE SHOT LIST                             ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  A numbered table. One row per shot. Columns, all mandatory:
+
+  #  |  WHAT HAPPENS  |  PLACE  |  WHO IS ON SCREEN  |  SHOT SIZE  |
+  CAMERA + HEIGHT  |  MOVE  |  FROM → TO (with metres)  |
+  WHAT IS BEHIND THEM  |  DURATION
+
+  Rules for filling it:
+  - FROM → TO may never be the same place. If it is, that shot is
+    wrong — give it real ground to cover.
+  - Read the WHAT IS BEHIND THEM column top to bottom. If any
+    background repeats more than twice, the film has stopped moving.
+  - Nobody may be on screen before their arrival shot has appeared.
+  - Only ONE row may say "static" AND only if it is the biggest
+    emotional close-up in the film.
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ PART E — STORY LOCK  ⭐ (sabse zaroori output)     ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  A single block I will paste into every following step. It must hold:
+
+  - LOGLINE in one line
+  - THE FILM IN EIGHT LINES
+  - WHO WANTS WHAT from whom, for each character
+  - THE EVENT CHAIN in order
+  - THE EMOTIONAL FLOW (feeling → world)
+  - CAST PRESENCE TIMELINE: which shots each person is in. Nobody may
+    jump from ABSENT straight to ON — they must have an ARRIVES shot.
+  - THE TURNING POINT, named as one shot number
+  - THE ENDING, as one shot number
+  - THE PALETTE: 4 or 5 colours the whole film may use
+  - THE 5 THINGS THAT MUST NOT CHANGE or the film dies
+
+  ⚠️ Label this block clearly at the top and bottom:
+  ═══ STORY LOCK — v1 — PASTE THIS INTO EVERY FOLLOWING STEP ═══
+  Then write: "Ye block sabse zaroori hai. Jo bhi aage kaam karega usne
+  ye baat-cheet kabhi dekhi hi nahi. Yahan likha nahi to kho jayega aur
+  film kisi aur cheez ki ban jayegi."
+
+═══════════════════════════════════════════════════════════
+BEFORE YOU SEND — CHECK YOUR OWN WORK (silently)
+═══════════════════════════════════════════════════════════
+  1. Is every item from MY THINGS present in the plan?
+  2. Did you plan the emotional flow BEFORE choosing any look?
+  3. Can you walk the film out loud — "she is here, she goes through
+     here, she arrives here" — without ever saying "then suddenly"?
+  4. Is every back-ground change real? Read WHAT IS BEHIND THEM down
+     the list — any repeat more than twice = defect.
+  5. Does every two-person scene have intention, action, reaction and
+     consequence?
+  6. Is any feeling written as a bare word instead of body and muscles?
+  7. Is anyone on screen before their arrival shot?
+  8. Is any camera height missing? Any shot with two moves?
+  9. More than one "static" row?
+ 10. Does the whole film travel in one screen direction?
+ 11. Any negative wording ("no ...")? Rewrite it positive.
+ 12. Did you smooth my idea into something generic? Put my version back.
+
+Fix all of it, then send the corrected version only.
+
+═══════════════════════════════════════════════════════════
+MY STORY (rough, from memory — research it and fix it)
+⚠️ If the line below is empty, stop and ask me for it.
+═══════════════════════════════════════════════════════════
+
+[YAHAN APNI KAHANI 2-4 LINE ME LIKHO]
+
+RUNTIME: 45 seconds
