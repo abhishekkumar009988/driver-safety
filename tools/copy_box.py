@@ -34,8 +34,8 @@ COPY_PDF = os.path.join(ROOT, "PROMPTS-COPY.pdf")
 
 HEAD_RE = re.compile(r"^(#{1,6})\s+(.*)$")
 PROMPT_RE = re.compile(r"^\s*[1-4]?\ufe0f?\u20e3?\s*PROMPT\s*([1-4])\s*[\u2013\u2014\-]")
-MIN_CODE = 220          # chars — smaller blocks are not worth a button
-MIN_TABLE = 60
+MIN_CODE = 1            # chars — EVERY step gets its own button
+MIN_TABLE = 1
 KIND_LABEL = {"code": "block", "table": "table", "text": "text"}
 
 
@@ -92,11 +92,29 @@ def read_units():
     # mark prompts and number everything
     for n, u in enumerate(units):
         u["id"] = "u%d" % n
+        u["step"] = n + 1
         u["prompt_num"] = prompt_number(u["title"])
     for u in units:
         if u["prompt_num"]:
             u["kind"] = "prompt"
     return units, md
+
+
+def p3_parts():
+    """PROMPT 3 ke 3 hisse — wahi kataav jo chat me bheja gaya."""
+    hit = [u for u in read_units()[0] if u["prompt_num"] == 3]
+    if not hit:
+        return []
+    lines = hit[0]["text"].split("\n")
+    try:
+        c1 = next(i for i, l in enumerate(lines)
+                  if l.strip().startswith("INTIMATE close lenses"))
+        c2 = next(i for i, l in enumerate(lines)
+                  if l.strip().startswith("NOW WRITE ONE CARD")) + 1
+    except StopIteration:
+        c1, c2 = len(lines) // 3, 2 * len(lines) // 3
+    parts = ["\n".join(ch) for ch in (lines[:c1], lines[c1:c2], lines[c2:])]
+    return [t.rstrip() for t in parts]
 
 
 def make_unit(stack, text, kind, line):
@@ -106,7 +124,8 @@ def make_unit(stack, text, kind, line):
         break
     clean = re.sub(r"[#*`]", "", title).strip()
     return {"title": clean or "—", "text": text, "kind": kind, "line": line,
-            "words": len(text.split()), "prompt_num": None, "id": ""}
+            "words": len(text.split()), "prompt_num": None, "id": "",
+            "step": 0}
 
 
 def prompt_number(title):
@@ -125,7 +144,7 @@ PAGE = """<!doctype html>
 <html lang="hi"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>COPY BOX &mdash; AI-FILM-PROMPTS v9</title>
+<title>COPY BOX &mdash; AI-FILM-PROMPTS v10 &middot; har step ka button</title>
 <style>
   :root{--bg:#0d1117;--card:#161b22;--line:#2a3038;--ink:#e8edf3;
     --soft:#9aa7b4;--acc:#e8890c;--acc2:#ffb454;--ok:#2ea043;--bad:#d1242f}
@@ -179,8 +198,8 @@ PAGE = """<!doctype html>
   a{color:var(--acc2)}
 </style></head><body>
 <h1>COPY BOX</h1>
-<p class="kicker">AI-FILM-PROMPTS &middot; MASTER v9 &middot; poori file, hissa
-hissa, ek tap me copy</p>
+<p class="kicker">AI-FILM-PROMPTS &middot; MASTER v10 &middot; poori file,
+hissa hissa &mdash; <b>har STEP par apna ek-tap COPY button</b></p>
 
 <div class="box">
   <b>Order:</b> PROMPT 1 &rarr; PROMPT 2 &rarr; PROMPT 3 &rarr; (images + clips)
@@ -197,8 +216,16 @@ hissa, ek tap me copy</p>
 <button class="btn all" onclick="copyIt('allmd', this, 'POORI FILE COPY')">
 &#128203; POORI FILE COPY KARO (__ALLW__ words)</button>
 
-<h2 class="sec">4 main prompts</h2>
+<h2 class="sec">4 main prompts &mdash; har step ka apna button</h2>
 __MAIN__
+
+<h2 class="sec">PROMPT 3 &mdash; 3 hisse (ek hissa = ek button)</h2>
+<div class="box" style="font-size:13.5px">
+  PROMPT 3 bahut bada hai. Chat me bhejna ho to ek-ek hissa copy karo:
+  <b>PART 1 &rarr; PART 2 &rarr; PART 3</b>, isi order me, ek ke baad ek.
+  Poora ek saath chahiye to upar wala <b>&#128203; COPY PROMPT 3</b> dabao.
+</div>
+__P3PARTS__
 
 <h2 class="sec">baaki sab &mdash; isi order me (__NREST__ parts)</h2>
 <div class="card">
@@ -276,12 +303,68 @@ CARD = """<div class="card">
 ROW = """<div class="row">
   <div class="meta">
     <div class="t">__TITLE__</div>
-    <div class="k">__KIND__ &middot; __WORDS__ words</div>
+    <div class="k">STEP __STEP__ &middot; __KIND__ &middot; __WORDS__ words</div>
     <details><summary>dekho</summary><pre id="__ID__">__TEXT__</pre></details>
   </div>
   <button class="mini" data-label="COPY"
     onclick="copyIt('__ID__', this, 'COPY')">COPY</button>
 </div>"""
+
+PARTCARD = """<div class="card">
+  <div class="head">
+    <span class="num">PROMPT 3 &middot; PART __K__ / 3</span>
+    <p class="title">PROMPT 3 &mdash; PART __K__ / 3</p>
+    <p class="sub">__WORDS__ words &middot; ek tap me copy, phir agla part</p>
+  </div>
+  <button class="btn" onclick="copyIt('__ID__', this, '&#128203; COPY P3 PART __K__')">
+    &#128203; COPY P3 PART __K__</button>
+  <details><summary>poora part padho</summary>
+    <pre id="__ID__">__TEXT__</pre></details>
+</div>"""
+
+STEPROW = """<div class="row">
+  <div class="meta">
+    <div class="t">__TITLE__</div>
+    <div class="k">__WORDS__ words
+      <details><summary>dekho</summary><pre id="__ID__">__TEXT__</pre></details>
+    </div>
+  </div>
+  <button class="mini" onclick="copyIt('__ID__', this, 'COPY')">COPY</button>
+</div>"""
+
+STEP_MARK = re.compile(r"^(?:[\u2460-\u2473\u3251-\u3259]\s|PART\s+\d|STEP\s+[A-Z0-9])")
+BANNER = re.compile(r"^[\u2501\u2500=\u2550]{2,}\s*(.+?)\s*[\u2501\u2500=\u2550]{2,}$")
+SUBID = re.compile(r"^\d[A-Z]\.\s+\S")
+
+
+def step_head(line):
+    """Ek line step ka sir hai? — sirf asli structural markers."""
+    t = line.strip()
+    if not t or line[:1] == " ":
+        return None
+    if STEP_MARK.match(t):
+        return t[:74]
+    m = BANNER.match(t)
+    if m and 4 <= len(m.group(1)) <= 74:
+        return m.group(1)[:74]
+    if SUBID.match(t):
+        return t[:74]
+    return None
+
+
+def split_steps(text):
+    """Ek prompt ke andar ke steps — har step ka apna COPY button."""
+    lines = text.split("\n")
+    cut = [i for i, l in enumerate(lines) if step_head(l)]
+    if len(cut) < 2:
+        return []
+    out = []
+    for k, i in enumerate(cut):
+        j = cut[k + 1] if k + 1 < len(cut) else len(lines)
+        body = "\n".join(lines[i:j]).strip()
+        out.append((step_head(lines[i]), body))
+    return out
+
 
 SUB_FOR = {
     1: "STORY LOCK &middot; route &middot; shot list &mdash; apni kahani neeche likho",
@@ -310,15 +393,46 @@ def build_page():
                 .replace("__ID__", u["id"])
                 .replace("__TEXT__", html.escape(u["text"])))
 
+    # PROMPT 3 ke 3 hisse — wahi kataav jo chat me bheja gaya
+    parts_html = []
+    for k, txt in enumerate(p3_parts(), 1):
+        parts_html.append(
+            PARTCARD.replace("__K__", str(k))
+                    .replace("__WORDS__", str(len(txt.split())))
+                    .replace("__ID__", "p3part%d" % k)
+                    .replace("__TEXT__", html.escape(txt)))
+
     rows = []
     for u in rest:
         rows.append(ROW.replace("__TITLE__", html.escape(u["title"]))
                        .replace("__KIND__", KIND_LABEL.get(u["kind"], "part"))
                        .replace("__WORDS__", str(u["words"]))
+                       .replace("__STEP__", str(u.get("step", 0)))
                        .replace("__ID__", u["id"])
                        .replace("__TEXT__", html.escape(u["text"])))
 
+    # har prompt ke andar ke steps — apna-apna COPY button
+    for card_i, u in enumerate(prompts):
+        steps = split_steps(u["text"])
+        if not steps:
+            continue
+        sr = []
+        for k, (head, body) in enumerate(steps, 1):
+            sid = "s%dp%d" % (u["prompt_num"], k)
+            sr.append(STEPROW
+                      .replace("__TITLE__",
+                               html.escape("STEP %02d · %s" % (k, head)))
+                      .replace("__WORDS__", str(len(body.split())))
+                      .replace("__ID__", sid)
+                      .replace("__TEXT__", html.escape(body)))
+        block = ('<details style="margin:0 15px 14px">'
+                 '<summary>is prompt ke steps &mdash; har step ka apna button '
+                 '(%d steps)</summary>%s</details>') % (len(sr), "".join(sr))
+        assert main[card_i].endswith("</div>")
+        main[card_i] = main[card_i][:-6] + block + "</div>"
+
     return (PAGE.replace("__MAIN__", "\n".join(main))
+                .replace("__P3PARTS__", "\n".join(parts_html))
                 .replace("__REST__", "\n".join(rows) or "<p style='padding:14px'>—</p>")
                 .replace("__NREST__", str(len(rows)))
                 .replace("__ALLW__", str(len(md.split())))
@@ -474,7 +588,7 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         path = self.path.split("?")[0].rstrip("/") or "/"
-        if path == "/":
+        if path in ("/", "/steps"):
             self._send(200, build_page())
         elif path == "/health":
             self._send(200, "ok", "text/plain; charset=utf-8")
@@ -551,7 +665,19 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--port", type=int, default=8001)
     ap.add_argument("--host", default="0.0.0.0")
+    ap.add_argument("--dump", metavar="FILE",
+                    help="page ko file me likho (offline) aur exit")
     a = ap.parse_args()
+    if a.dump:
+        open(a.dump, "w", encoding="utf-8").write(build_page())
+        print("dumped %s (%d bytes)" % (a.dump, os.path.getsize(a.dump)))
+        cdir = os.path.join(ROOT, "COPY")
+        if os.path.isdir(cdir):
+            for k, txt in enumerate(p3_parts(), 1):
+                fp = os.path.join(cdir, "prompt-3-part%d.txt" % k)
+                open(fp, "w", encoding="utf-8").write(txt + "\n")
+                print("  wrote %s (%d words)" % (fp, len(txt.split())))
+        return
     units, md = read_units()
     print("Copy Box v2: http://%s:%d" % (a.host, a.port))
     print("  %d copy parts (%d words) from %s"

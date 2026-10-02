@@ -1,0 +1,380 @@
+Now turn the STORY LOCK into shot cards I can follow without
+thinking.
+
+Do not ask me anything at all. If something is missing, state an
+assumption and continue. Never ask me to upload, provide or identify
+a reference image or an example — I have nothing to give you, and
+the reference images already exist with the filenames from PROMPT 2.
+You are WRITING the prompts I will paste; you are not generating
+anything yourself.
+
+━━━ FIRST, PROVE YOU STILL HAVE THE STORY ━━━
+In eight lines: what this film is about · what physically happens
+first to last · every character and what each wants · the turning
+point · how it ends and what the audience feels · what they feel at
+start, middle and end · the one image they must remember · the five
+things that must not change.
+If any of that is unclear in the STORY LOCK, say which line is
+unclear and stop. Do not guess. Inventing is what makes the video
+end up being a different film than the one I told you.
+
+⚠️ THE STORY LOCK IS THE TRUTH. Translate it into shots. Never
+improve it, reinterpret it, or add events. If a shot you want to
+write is not in the event chain, you may not write it.
+
+⭐ AND THE NEW RULE THAT GOVERNS THIS WHOLE PROMPT — THE TRACE LAW.
+Every card must be traceable back to MY words. So every card opens
+with a STORY LINE: a short quote from MY STORY or the STORY LOCK,
+inside quotation marks — the exact line that produced this shot.
+
+   · If a card has no line, it does not exist. Either delete it, or
+     mark it clearly as PURE TRANSITION and keep it 3 seconds or less.
+   · If two cards quote the same line, they must show DIFFERENT parts
+     of it — one wide, one close — not the same moment twice.
+   · Never upgrade my words. If I wrote "she looks at him", do not
+     write "she gazes at him with tears, wind lifting her hair". My
+     sentence is the ceiling, not the floor.
+   · At the end of all the cards, print this table:
+
+     | Shot | Story line it came from | Invented? |
+       01   | "she turns from the door" | no
+       02   | —                          | PURE TRANSITION
+       03   | "the cloth slips"          | no
+
+     Anything marked invented gets one line of justification, or it
+     gets cut.
+
+━━━ HOW MANY SHOTS ━━━
+Veo and most tools give 8 second clips. 20 clips × 8s = 160s of
+material for a 45s film — that is correct, you trim later.
+Work out the shot count from the runtime and tell me the maths.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PLAN ALL OF THIS BEFORE WRITING ANY CARD
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+① THE SHOT LIST — one row per shot, mapped to the event chain.
+   Every chain event gets a shot; every shot maps to an event.
+   Columns: # · ⭐ STORY LINE (my words, quoted) · chain event ·
+   location · who is on screen · shot size · camera move ·
+   ⭐ MOVEMENT THROUGH THE FRAME · ⭐ ENTERS FROM which edge ·
+   ⭐ EXITS AT which edge · body state at start · body state at end ·
+   what the face is doing · duration · CHAIN or CUT ·
+   ⭐ ATMOSPHERE (the smoke/fog/dust/rain number for this shot).
+   State the GENRE MODE from ⑩ above the table — it governs clip
+   length, which moves are allowed and how the light behaves.
+   Add a ⭐ MOVE column holding the exact named move from ⑧ for
+   every shot. Read that column down: most rows must be Static,
+   Dolly, Truck, Pan or Follow, and exactly ONE row may hold a bold
+   move. If two bold moves appear, the film is noise — downgrade one.
+   Plus two more columns: ⭐ WHAT IS BEHIND HER, and ⭐ FROM → TO
+   (where her body starts and ends, with a rough distance for any
+   travelling shot). A travelling shot whose FROM and TO are the same
+   place is a walk on the spot — fix it at the list stage, before any
+   prompt is written.
+   Add a ⭐ SHOT TYPE column using ⑱: hand · eyes · detail ·
+   silhouette · feet · back of head · wide · full body. Read it
+   down: for every one wide or full-body row there should be about
+   three detail rows. A list full of full-body rows will come out
+   looking like AI however well it is written.
+   Add a ⭐ HANDOFF column from ⑰ — at least two rows in the film
+   must hand over through a moving object, and one of them at the
+   hardest jump in place or time.
+   Add a ⭐ BIG EFFECT column. Exactly ONE row in the whole table
+   may be filled; every other row says none. Put it on the story's
+   peak. A film with no spectacle shot is a film nobody forwards.
+   Add a ⭐ FACE FROM → TO column: what the expression is at the
+   start of the shot and what it has become by the end. If a row
+   has the same word twice, that shot has no acting in it.
+   State the film's one travel direction above the table.
+   The MOVEMENT column can never be blank and the word "static" may
+   appear at most ONCE in the whole table.
+   Read the BEHIND HER column straight down. The same backdrop may
+   not repeat more than twice in a row — that is the film standing
+   still even while the character moves.
+
+② WHO IS IN EACH SHOT — an exact name list per shot. Anyone not
+   named may not appear. Nobody appears before their ARRIVES event.
+
+③ THE DISTANCE PLAN — for every shot, how much of the frame height
+   the figure fills. Use the ladder:
+     EXTREME WIDE  under 1/10 — tiny, face unreadable, vast world
+     WIDE          about 1/3 — full body with space around
+     FULL          about 4/5 — head to feet
+     MEDIUM        waist up — hands visible
+     CLOSE-UP      head and shoulders — the eyes are the subject
+     EXTREME CLOSE eyes only — pores visible
+   Distance is meaning, not variety. Loneliness = wide, figure tiny.
+   Feeling = close. Choose from the story, then say why.
+
+④ THE CAMERA PLAN — pick every angle from the emotion:
+     any reaction → CLOSE-UP, static
+     strongest feeling → EXTREME CLOSE-UP, camera stops
+     hiding something → CLOSE, slightly off-axis
+     power or divinity → LOW ANGLE looking up
+     shame or defeat → HIGH ANGLE looking down
+     a relationship → TWO-SHOT or over-the-shoulder
+     someone unobserved → shot from behind cover
+     loneliness → WIDE, camera pulling away
+   For every shot also state FACE ANGLE (full front / three-quarter
+   / profile / from behind) and EYE HEIGHT (at eye level / below /
+   above). If the meaning is in the face, it must be front or
+   three-quarter — a profile hides half the performance, a wide
+   hides all of it. Never leave height unstated; it renders flat.
+   State the emotional reason for every angle. "Variety" is not one.
+   Rules: no two neighbouring shots share a camera move or a size ·
+   keep the camera on one side of the 180-degree line · screen
+   direction holds · light stays on the same side · no more than 3
+   shots in a row in one place.
+   ⭐ AND USE 4 TO 6 CAMERA SETUPS FOR THE WHOLE FILM — see ㉕.
+
+⑤ THE PERFORMANCE PLAN — the most important thing in this film.
+   A small story with great faces works. A great story with blank
+   faces does not.
+   For every shot with a face, plan all six:
+     INTENTION — what they are TRYING to do right now. A want, not
+        a feeling. "to make him look away first."
+     PUBLIC FACE — what they are deliberately showing.
+     PRIVATE TRUTH — what is leaking underneath. The gap between
+        these two IS the performance.
+     MICRO-BEATS — the clip broken into 3 or 4 moments, each with a
+        named muscle action. Also state whether the EYES move before
+        the HEAD or the head before the eyes — that one detail is
+        what reads as real acting.
+     THE TELL — one involuntary detail: a swallow, fingers
+        tightening, a late blink, a jaw setting, a curling foot.
+     PLAYING TO — to him / away from him / to the group / to nobody,
+        believing unobserved (the most powerful).
+
+   INTENSITY — why anger comes out looking normal:
+   Tools default every face to pleasant. Write "angry" and you get
+   mildly displeased. Give every performance shot a number 1-10 and
+   describe the muscles AT THAT LEVEL:
+     ANGER 3  a flicker of irritation, eyes narrowing
+     ANGER 6  jaw set, nostrils flaring, hard unblinking stare
+     ANGER 9  face flushed and taut, teeth clenched behind closed
+              lips, temple veins, body rigid, breathing hard through
+              the nose, eyes locked and wet, not blinking at all
+   Always write one level ABOVE what you want — the render always
+   comes back one level below. Never let the emotion word stand
+   alone; follow it with at least four muscles. Strong emotion needs
+   a close-up. And say what it does to the BODY too — shoulders,
+   hands, breathing, stillness or shaking. A face alone reads flat.
+
+   BANNED, they produce dead faces: "smiles" · "looks happy" ·
+   "is sad" · "reacts" · "shows emotion" · "divine expression".
+
+   THE REACTION RULE: the event is not the drama, the FACE receiving
+   it is. Every significant event needs two shots — the event, then
+   the face. Cut to the reaction a beat late.
+
+   ⭐ THE CHANGE RULE — the difference between an actor and a
+   mannequin. A still frame can carry one expression. A CLIP cannot.
+   If the face is the same at the first frame and the last frame,
+   the audience sees a photograph being panned across, and they
+   read it instantly as machine-made. So for every shot with a face,
+   write the expression as a JOURNEY: where it starts, the exact
+   second it turns, and where it ends. Then write the THOUGHT
+   behind it in the character's own words — that is what fills the
+   eyes. Then one involuntary LEAK. Then give the hands something
+   to do. Those four are carried into the video prompt as BLOCK 2B.
+
+   ⭐ AND SUPPRESS IT. Tools render emotion as performance: the
+   mouth opens, the brows go up, the whole face announces itself.
+   Real screen acting is the opposite — a person holding something
+   down while one part of them gives it away. Write the holding
+   down, and write the one place it escapes. A person trying not to
+   cry reads real. A person crying reads like an AI.
+
+⑥ TRAVEL THROUGH THE FRAME ⭐ THE BIGGEST FIX OF ALL
+   A shot where a person stands in one place and only their hand, their
+   earring or their hair moves is a DEAD SHOT. It reads as a photograph
+   with a filter running on it. It will never cut together with the shot
+   before or after it, however good the prompt is.
+
+     ❌ DEAD: "she sits by the mirror and her earring sways"
+     ❌ DEAD: "she stands under the tree and her dupatta lifts"
+     ✅ ALIVE: "she rises and leaves the top of frame"
+     ✅ ALIVE: "she enters frame left, crosses, exits frame right"
+     ✅ ALIVE: "she walks toward the lens and passes it"
+
+   So for EVERY shot, write one line called MOVEMENT THROUGH THE FRAME,
+   chosen from these — the frame itself must change during the clip:
+     she enters frame left and exits frame right
+     she walks toward the camera and passes the lens
+     she walks away from the camera and gets smaller
+     she rises up out of the top of frame
+     the camera tracks alongside her and the background streaks past
+     the camera follows behind her as she pulls away
+     the camera pushes in / pulls back / orbits, so the background moves
+     her feet or hands travel through the frame and out of it
+
+   HARD LIMIT: at most ONE shot in the entire film may stay still, and
+   it must be the single biggest emotional close-up, where the feeling
+   moves instead of the body. Every other shot travels. If your shot
+   list has two static shots, you have a slideshow — fix it now.
+
+   Also: a character must EXIT a place on screen and ENTER the next one
+   on screen. The last second of a shot in place A should already be
+   her leaving; the first second in place B should already be her
+   arriving. Never let a shot simply begin with someone standing there.
+
+   ⭐ AND TRAVELLING MEANS COVERING GROUND, NOT JUST MOVING
+   There is a second kind of dead shot, and it is harder to spot: the
+   character walks convincingly for the whole clip and ends up exactly
+   where she started. Legs moving, hips moving, braid swinging — and
+   the same wall behind her at the last frame as the first. A walk on
+   a treadmill.
+
+   It happens because the shot was planned as "she walks" instead of
+   "she gets from here to there". A walk is a body doing something. A
+   travelling shot is a body CHANGING PLACE. Only the second one moves
+   a film forward.
+
+   So plan every travelling shot as a JOURNEY WITH TWO ENDS:
+       FROM: level with the blue door
+       TO:   under the neem tree, about eight metres on
+       PASSES ON THE WAY: the stacked clay pots, the tethered cow
+   Then the beats can be written against real landmarks, and the
+   audience can see how far she has come.
+
+   Three rules that make ground-covering visible on screen:
+     1. SOMETHING MUST LEAVE THE FRAME BEHIND HER. If nothing exits
+        the back of the shot, she has not gone anywhere. Name the
+        thing and the second it disappears.
+     2. SOMETHING MUST GROW AHEAD OF HER. The tree, the gate, the
+        ghat — small at 0s, large at the end. That growth IS the
+        distance, as far as the viewer is concerned.
+     3. HER SIZE OR POSITION IN FRAME MUST CHANGE, unless the camera
+        is deliberately matching her pace. Walking away, she gets
+        smaller. Walking past a locked camera, she crosses it and
+        exits. Only a tracking camera holds her the same size — and
+        then the BACKGROUND has to carry the whole job.
+
+   Write the FROM, the TO and the metres on every travelling shot
+   before you write a word of its prompt.
+
+⑦ SCREEN DIRECTION ⭐ WHY TWO CLIPS MERGE OR CLASH
+   This is the real editing rule behind "the frames don't feel joined".
+
+   Pick ONE travel direction for the whole film — normally LEFT to RIGHT
+   — and hold it. If she exits a shot at frame right, she enters the
+   next shot from frame left, still travelling right. The eye then
+   already knows where she is going before the new shot is understood,
+   and the cut disappears.
+
+   Break it and the audience feels she turned around for no reason —
+   that is exactly the "alag-alag video" feeling.
+
+   Rules:
+   - State the direction once, at the top of the shot list, and put the
+     entry edge and exit edge on every single shot row.
+   - Never flip the direction unless you SHOW her turning around inside
+     a shot, or you place a neutral shot (walking straight at or
+     straight away from the lens) between the two sides.
+   - The same applies to eyelines. If she looks off frame right in one
+     shot, the thing she is looking at appears from frame left in the
+     next.
+   - Never cut between two camera positions less than 30 degrees apart.
+     That is a jump cut and it reads as a mistake, not a cut.
+
+⑧ THE CAMERA MOVE — USE THE REAL NAME ⭐ THE HIGGSFIELD METHOD
+   There is a reason footage from camera-control platforms looks
+   directed rather than drifting, and it is not a secret model. It
+   is that every shot is assigned ONE NAMED, REAL CAMERA MOVE from a
+   fixed list — the same words a camera operator says on a set.
+
+   Those names are standard cinematography terms, so every video
+   model already knows them from its training. Describing a move in
+   your own words gets you drift. Naming it gets you the move.
+
+     ❌ "the camera moves quickly towards her face"
+     ✅ "crash zoom in on her face"
+
+     ❌ "the camera goes around him in a circle"
+     ✅ "360 orbit around him, moving left to right"
+
+     ❌ "the camera follows her while the background stretches"
+     ✅ "dolly zoom in — camera pushes forward while the lens zooms
+        out, so she stays the same size and the background stretches
+        behind her"
+
+   Pick ONE move per shot from this list, write its exact name, then
+   add the direction and the speed. Nothing else.
+
+   ── EVERYDAY MOVES — these carry most of a film ──
+     Static              camera locked off, subject moves in frame
+     Dolly In / Out      camera travels toward or away, on a track
+     Super Dolly In/Out  the same, longer and more dramatic
+     Truck Left / Right  camera slides sideways, staying parallel
+     Pan Left / Right    camera pivots in place, horizontally
+     Tilt Up / Down      camera pivots in place, vertically
+     Handheld            small natural shake, human and unstaged
+     Follow / Head Tracking  camera holds behind or on the subject
+                         at their pace as they travel
+
+   ── MOVES WITH SHAPE — one or two in a film ──
+     Crane Up / Down     camera rises or falls vertically, high arc
+     Jib Up / Down       a shorter, gentler crane
+     Arc Left / Right    camera sweeps a partial curve around
+     360 Orbit           a full circle around the subject
+     Lazy Susan          the subject turns, the camera holds
+     Boom Down           camera descends, often following stairs
+     Push to Glass       camera moves in until it meets a surface
+     Through Object      camera passes through a gap, door or window
+
+   ── BOLD MOVES — ⚠️ AT MOST ONE IN THE WHOLE FILM ──
+     Crash Zoom In/Out   violent fast zoom, for one reaction or
+                         reveal only
+     Dolly Zoom (Vertigo) push in + zoom out together; subject fixed,
+                         background warps. Dread, realisation.
+     Bullet Time         time nearly frozen while the camera arcs
+     Whip Pan            a blur-fast pan, usually hiding a cut
+     Snorricam           camera locked to the body, world swings
+     FPV Drone           fast flying path, dives and climbs
+     YoYo Zoom           in then straight back out
+     3D Rotation         the frame itself rotates
+
+   ⚠️ THE DISCIPLINE THAT MATTERS MOST
+   A bold move is a punch. Throw one and it lands. Throw six and the
+   film is noise and nobody feels anything. Most shots in a good film
+   are Static, Dolly, Truck, Pan or Follow. Reserve exactly ONE bold
+   move for the single biggest beat, and write in the plan which shot
+   gets it and why.
+
+   NEVER stack two moves. "Orbit while zooming and craning up" gives
+   you mush — the model picks one or blends them into drift. One
+   named move, one direction, one speed.
+
+   Every shot's move line is written like this:
+       MOVE: Dolly In · slow · 1 metre of travel
+       MOVE: Truck Right · matching her walking pace
+       MOVE: Crash Zoom In · fast · on her eyes      ← the one bold
+       MOVE: Static · locked off, she crosses the frame
+
+   And the speed word is never optional. "Slow", "steady",
+   "matching her pace", "fast" — a move with no speed renders at the
+   model's default, which is usually too fast and reads as cheap.
+
+⑨ SPEED RAMPS — where the film breathes
+   Real action films do not run at one speed. They ramp: normal
+   speed into slow motion at the peak, then back. Choose the ONE
+   moment in this film that slows down, and state it:
+       "Shot 11 ramps: normal speed for 0-2s, then slows to 40% for
+        the turn, then returns to normal."
+   One ramp per film. Two is a music video; three is a mess.
+
+⑩ GENRE MODE — set it once, obey it everywhere
+   A camera-control platform asks you to pick a genre before you
+   generate anything, because genre decides pacing, light and how
+   much the camera is allowed to move. Pick ONE for this film and
+   write it at the top of the shot list. Then every shot obeys it.
+
+     DRAMA    long takes, slow dolly, soft directional light,
+              the camera waits on faces
+     ACTION   shorter clips, handheld and follow moves, hard light,
+              one crash zoom allowed
+     EPIC     wide lenses, cranes and slow reveals, big landscape,
+              low horizon
+     NOIR     static and slow, hard single-source light, deep black
+              shadow, the frame half dark
