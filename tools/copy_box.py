@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
 """
-Copy Box — tap-to-copy page for the four prompts inside AI-FILM-PROMPTS.md.
+Copy Box v2 — one-tap copy for the WHOLE AI-FILM-PROMPTS.md, exactly in the
+order it is written in the markdown.
 
-Opens on the phone, four big COPY buttons, one tap each. Reads the prompts
-straight out of the markdown every time the page loads, so it can never go
-stale when the prompts are edited.
+  · the 4 main prompts get big cards
+  · every other copy-worthy part (tables, checklists, order blocks) gets a row
+  · one button copies the whole file
+
+The page is built from the markdown at load time, so it can never go stale.
 
 Routes:
   /                 the tap-to-copy page
+  /all              whole markdown as plain text
+  /prompt/<1-4>     one prompt as plain text
   /md               download the markdown
   /pdf              download the PDF
   /health           plain ok
@@ -25,125 +30,189 @@ ROOT = os.path.abspath(os.path.join(HERE, os.pardir))
 MD_PATH = os.path.join(ROOT, "AI-FILM-PROMPTS.md")
 PDF_PATH = os.path.join(ROOT, "AI-FILM-PROMPTS.pdf")
 
-PROMPT_RE = re.compile(r"^#\s+([1-4]\ufe0f?\u20e3?)\s*PROMPT\s*([1-4])\b(.*)$")
-FENCE_RE = re.compile(r"^```(\w*)\s*$")
+HEAD_RE = re.compile(r"^(#{1,6})\s+(.*)$")
+PROMPT_RE = re.compile(r"^\s*[1-4]?\ufe0f?\u20e3?\s*PROMPT\s*([1-4])\s*[\u2013\u2014\-]")
+MIN_CODE = 220          # chars — smaller blocks are not worth a button
+MIN_TABLE = 60
+KIND_LABEL = {"code": "block", "table": "table", "text": "text"}
 
 
-def read_prompts():
-    """-> list of dicts: num, title, sub, text"""
+# ------------------------------------------------------------------ parsing
+def read_units():
+    """Every copy-worthy piece of the markdown, in document order."""
     try:
         md = open(MD_PATH, encoding="utf-8").read()
     except OSError:
-        return []
+        return [], ""
     lines = md.split("\n")
-    heads = {}                      # line index -> (num, title)
-    for i, ln in enumerate(lines):
-        m = PROMPT_RE.match(ln.strip())
-        if m:
-            heads[i] = (m.group(2), ln.strip().lstrip("# ").strip())
+    units, stack = [], []
+    in_code, buf, start = False, [], 0
+    i = 0
+    while i < len(lines):
+        ln = lines[i]
+        s = ln.strip()
 
-    out, cur = [], None
-    in_code = False
-    buf = []
-    code_start = 0
-    for i, ln in enumerate(lines):
-        if FENCE_RE.match(ln.strip()):
-            if not in_code:
-                in_code = True
-                buf = []
-                code_start = i
-            else:
-                in_code = False
-                best = None
-                for hl, val in heads.items():
-                    if hl < code_start and (best is None or hl > best):
-                        best = hl
-                if best is not None and len("\n".join(buf).strip()) > 400:
-                    num, title = heads[best]
-                    sub = ""
-                    for j in range(best + 1, min(best + 6, len(lines))):
-                        s = lines[j].strip()
-                        if s and not s.startswith("#"):
-                            sub = s.strip("> ").strip()
-                            break
-                    out.append({"num": num, "title": title,
-                                "sub": sub, "text": "\n".join(buf).strip()})
-                    del heads[best]
-            continue
         if in_code:
-            buf.append(ln)
-    out.sort(key=lambda d: int(d["num"]))
-    return out
+            if s.startswith("```"):
+                in_code = False
+                txt = "\n".join(buf).strip()
+                if len(txt) >= MIN_CODE:
+                    units.append(make_unit(stack, txt, "code", start))
+            else:
+                buf.append(ln)
+            i += 1
+            continue
+
+        if s.startswith("```"):
+            in_code, buf, start = True, [], i
+            i += 1
+            continue
+
+        m = HEAD_RE.match(s)
+        if m:
+            level, text = len(m.group(1)), m.group(2).strip()
+            stack = [h for h in stack if h[0] < level] + [(level, text)]
+            i += 1
+            continue
+
+        if s.startswith("|"):
+            tbl, j = [], i
+            while j < len(lines) and lines[j].strip().startswith("|"):
+                tbl.append(lines[j].strip())
+                j += 1
+            txt = "\n".join(tbl).strip()
+            if len(txt) >= MIN_TABLE:
+                units.append(make_unit(stack, txt, "table", i))
+            i = j
+            continue
+        i += 1
+
+    # mark prompts and number everything
+    for n, u in enumerate(units):
+        u["id"] = "u%d" % n
+        u["prompt_num"] = prompt_number(u["title"])
+    for u in units:
+        if u["prompt_num"]:
+            u["kind"] = "prompt"
+    return units, md
 
 
+def make_unit(stack, text, kind, line):
+    title = ""
+    for lvl, t in reversed(stack):
+        title = t
+        break
+    clean = re.sub(r"[#*`]", "", title).strip()
+    return {"title": clean or "—", "text": text, "kind": kind, "line": line,
+            "words": len(text.split()), "prompt_num": None, "id": ""}
+
+
+def prompt_number(title):
+    m = PROMPT_RE.match(title)
+    return int(m.group(1)) if m else None
+
+
+def read_prompts():
+    units, _ = read_units()
+    return sorted([u for u in units if u["prompt_num"]],
+                  key=lambda u: u["prompt_num"])
+
+
+# ------------------------------------------------------------------ page
 PAGE = """<!doctype html>
 <html lang="hi"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>COPY BOX &mdash; AI-FILM-PROMPTS v9</title>
 <style>
-  :root{
-    --bg:#0d1117; --card:#161b22; --line:#2a3038; --ink:#e8edf3;
-    --soft:#9aa7b4; --acc:#e8890c; --acc2:#ffb454; --ok:#2ea043; --bad:#d1242f;
-  }
-  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
-  body{margin:0; background:var(--bg); color:var(--ink);
+  :root{--bg:#0d1117;--card:#161b22;--line:#2a3038;--ink:#e8edf3;
+    --soft:#9aa7b4;--acc:#e8890c;--acc2:#ffb454;--ok:#2ea043;--bad:#d1242f}
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{margin:0;background:var(--bg);color:var(--ink);padding:14px 12px 60px;
     font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
-    "Noto Sans",sans-serif; padding:16px 14px 60px}
-  h1{font-size:22px; margin:2px 0 4px; color:var(--acc2); letter-spacing:.3px}
-  .kicker{color:var(--soft); font-size:13.5px; margin:0 0 14px}
-  .steps{background:var(--card); border:1px solid var(--line); border-radius:12px;
-    padding:12px 14px; font-size:14px; margin:0 0 18px}
-  .steps b{color:var(--acc)}
-  .warn{border-left:3px solid var(--bad); margin:12px 0 20px; padding:8px 12px;
-    background:#1f1214; border-radius:0 10px 10px 0; font-size:14px; color:#ffc9c9}
-  .card{background:var(--card); border:1px solid var(--line); border-radius:14px;
-    margin:0 0 16px; overflow:hidden}
-  .head{padding:14px 16px 10px}
-  .num{display:inline-block; background:#1c2530; color:var(--acc2); font-weight:700;
-    font-size:12.5px; padding:3px 9px; border-radius:99px; margin-bottom:8px}
-  .title{font-size:17px; font-weight:700; margin:0 0 3px}
-  .sub{color:var(--soft); font-size:13.5px; margin:0}
-  .btn{display:block; width:calc(100% - 32px); margin:12px 16px 14px;
-    border:0; border-radius:12px; padding:16px; font-size:17px; font-weight:700;
-    background:var(--acc); color:#17130a; cursor:pointer; letter-spacing:.3px}
+    "Noto Sans",sans-serif}
+  h1{font-size:22px;margin:2px 0 4px;color:var(--acc2)}
+  .kicker{color:var(--soft);font-size:13.5px;margin:0 0 14px}
+  .box{background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:12px 14px;font-size:14px;margin:0 0 14px}
+  .box b{color:var(--acc)}
+  .warn{border-left:3px solid var(--bad);background:#1f1214;border-radius:0 10px
+    10px 0;margin:0 0 16px;padding:9px 12px;font-size:14px;color:#ffc9c9}
+  h2.sec{font-size:13px;letter-spacing:1.4px;text-transform:uppercase;
+    color:var(--soft);margin:22px 2px 10px;font-weight:700}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    margin:0 0 14px;overflow:hidden}
+  .head{padding:13px 15px 8px}
+  .num{display:inline-block;background:#1c2530;color:var(--acc2);font-weight:700;
+    font-size:12.5px;padding:3px 9px;border-radius:99px;margin-bottom:7px}
+  .title{font-size:17px;font-weight:700;margin:0 0 3px;word-wrap:break-word}
+  .sub{color:var(--soft);font-size:13px;margin:0}
+  .btn{display:block;width:calc(100% - 30px);margin:10px 15px 14px;border:0;
+    border-radius:12px;padding:16px;font-size:17px;font-weight:700;
+    background:var(--acc);color:#17130a;cursor:pointer;letter-spacing:.3px}
   .btn:active{transform:scale(.985)}
-  .btn.ok{background:var(--ok); color:#fff}
-  .btn.bad{background:var(--bad); color:#fff}
-  details{margin:0 16px 16px}
-  summary{color:var(--soft); font-size:13.5px; cursor:pointer; padding:6px 0}
-  pre{margin:8px 0 0; background:#0b0f14; border:1px solid var(--line);
-    border-radius:10px; padding:12px; font:12px/1.45 ui-monospace,SFMono-Regular,
-    Menlo,monospace; color:#c9d5e1; max-height:46vh; overflow:auto;
-    white-space:pre-wrap; word-break:break-word; user-select:text}
-  .foot{color:var(--soft); font-size:12.5px; text-align:center; margin-top:24px;
-    line-height:1.7}
+  .btn.ok{background:var(--ok);color:#fff}
+  .btn.bad{background:var(--bad);color:#fff}
+  .btn.all{background:#243040;color:#ffd79a;border:1px solid #37455a}
+  .row{display:flex;align-items:center;gap:10px;padding:11px 13px;
+    border-top:1px solid var(--line)}
+  .row:first-child{border-top:0}
+  .row .meta{flex:1;min-width:0}
+  .row .t{font-size:14.4px;font-weight:600;overflow:hidden;text-overflow:ellipsis;
+    white-space:nowrap}
+  .row .k{color:var(--soft);font-size:11.6px;margin-top:2px}
+  .mini{flex:0 0 auto;border:0;border-radius:9px;padding:11px 13px;font-size:13px;
+    font-weight:700;background:#26303d;color:#ffd79a;cursor:pointer}
+  .mini.ok{background:var(--ok);color:#fff}
+  .mini.bad{background:var(--bad);color:#fff}
+  details{margin:0 15px 14px}
+  .row details{margin:6px 0 0}
+  summary{color:var(--soft);font-size:13px;cursor:pointer;padding:5px 0}
+  pre{margin:7px 0 0;background:#0b0f14;border:1px solid var(--line);
+    border-radius:10px;padding:11px;font:11.6px/1.42 ui-monospace,monospace;
+    color:#c9d5e1;max-height:42vh;overflow:auto;white-space:pre-wrap;
+    word-break:break-word;user-select:text}
+  .foot{color:var(--soft);font-size:12.5px;text-align:center;margin-top:26px;
+    line-height:1.8}
   a{color:var(--acc2)}
 </style></head><body>
 <h1>COPY BOX</h1>
-<p class="kicker">AI-FILM-PROMPTS &middot; MASTER v9 &middot; tumhara fixed prompt system</p>
+<p class="kicker">AI-FILM-PROMPTS &middot; MASTER v9 &middot; poori file, hissa
+hissa, ek tap me copy</p>
 
-<div class="steps">
-  <b>Kaise use karna hai:</b><br>
-  1. PROMPT 1 copy karo &rarr; AI ko do &rarr; neeche apni kahani likho<br>
-  2. Uske baad PROMPT 2 &rarr; phir PROMPT 3 &rarr; sabse aakhir me PROMPT 4<br>
-  <b>Ek ke baad ek. Jaldi mat karo.</b>
+<div class="box">
+  <b>Order:</b> PROMPT 1 &rarr; PROMPT 2 &rarr; PROMPT 3 &rarr; (images + clips)
+  &rarr; PROMPT 4<br>
+  <b>Ek ke baad ek.</b> Beech me kuch apne se mat jodo.
 </div>
-
 <div class="warn">
-  AI 2nd step me hi video prompt banane lage to usse bolo:
+  AI 2nd step me hi video prompt banaye to bolo:
   <b>&ldquo;Step 3 abhi nahi. Sirf portraits do.&rdquo;</b>
 </div>
-__CARDS__
+
+<button class="btn all" onclick="copyIt('allmd', this, 'POORI FILE COPY')">
+&#128203; POORI FILE COPY KARO (__ALLW__ words)</button>
+
+<h2 class="sec">4 main prompts</h2>
+__MAIN__
+
+<h2 class="sec">baaki sab &mdash; isi order me (__NREST__ parts)</h2>
+<div class="card">
+__REST__
+</div>
+
 <p class="foot">
-  <a href="/pdf">PDF download</a> &nbsp;&middot;&nbsp; <a href="/md">Markdown download</a><br>
-  plain text: <a href="/prompt/1">P1</a> &middot; <a href="/prompt/2">P2</a> &middot;
-  <a href="/prompt/3">P3</a> &middot; <a href="/prompt/4">P4</a><br>
-  Fixed file: <b>AI-FILM-PROMPTS.md</b> (v9) &mdash; purani file PURANI-FILES/ me hai.
+  <a href="/pdf">PDF</a> &middot; <a href="/md">Markdown</a> &middot;
+  <a href="/all">poori file text</a><br>
+  fixed file: <b>AI-FILM-PROMPTS.md</b> &mdash; purani file PURANI_FILES/ me hai
 </p>
+
+<pre id="allmd" hidden>__ALLMD__</pre>
+
 <script>
-async function doCopy(i, btn){
-  const el = document.getElementById('t'+i);
+async function copyIt(id, btn, label){
+  const el = document.getElementById(id);
+  if(!el) return;
   const text = el.textContent;
   let ok = false;
   try{
@@ -152,26 +221,29 @@ async function doCopy(i, btn){
     }
   }catch(e){ ok = false; }
   if(!ok){
-    const ta=document.createElement('textarea');
-    ta.value=text; ta.setAttribute('readonly','');
+    const ta = document.createElement('textarea');
+    ta.value = text; ta.setAttribute('readonly','');
     ta.style.position='fixed'; ta.style.top='-1000px'; ta.style.opacity='0';
     document.body.appendChild(ta);
     ta.focus(); ta.select();
-    try{ ok = document.execCommand('copy'); }catch(e){ ok=false; }
+    try{ ok = document.execCommand('copy'); }catch(e){ ok = false; }
     document.body.removeChild(ta);
   }
   if(ok){
-    btn.classList.add('ok'); btn.textContent='\u2705 COPIED \u2014 ab AI me paste karo';
+    btn.classList.add('ok');
+    btn.textContent = '\u2705 COPY HO GAYA';
   }else{
-    btn.classList.add('bad'); btn.textContent='Neeche text select kiya \u2014 copy dabao';
-    const r=document.createRange(); r.selectNodeContents(el);
-    const s=window.getSelection(); s.removeAllRanges(); s.addRange(r);
-    el.closest('details') && (el.closest('details').open = true);
+    btn.classList.add('bad');
+    btn.textContent = 'text select kiya \u2014 copy dabao';
+    const d = el.closest('details'); if(d) d.open = true;
+    const r = document.createRange(); r.selectNodeContents(el);
+    const s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+    el.scrollIntoView({block:'center'});
   }
   setTimeout(function(){
     btn.classList.remove('ok','bad');
-    btn.textContent='\U0001F4CB COPY PROMPT '+i;
-  }, 3200);
+    btn.textContent = label;
+  }, 3000);
 }
 </script>
 </body></html>
@@ -179,35 +251,72 @@ async function doCopy(i, btn){
 
 CARD = """<div class="card">
   <div class="head">
-    <span class="num">PROMPT __NUM__</span>
+    <span class="num">PROMPT __NUM__ &middot; __WORDS__ words</span>
     <p class="title">__TITLE__</p>
     <p class="sub">__SUB__</p>
   </div>
-  <button class="btn" onclick="doCopy(__NUM__, this)">&#128203; COPY PROMPT __NUM__</button>
-  <details><summary>Poora prompt dekho (__WORDS__ words)</summary>
-    <pre id="t__NUM__">__TEXT__</pre>
-  </details>
+  <button class="btn" data-label="&#128203; COPY PROMPT __NUM__"
+    onclick="copyIt('__ID__', this, '&#128203; COPY PROMPT __NUM__')">
+    &#128203; COPY PROMPT __NUM__</button>
+  <details><summary>poora prompt padho</summary>
+    <pre id="__ID__">__TEXT__</pre></details>
 </div>"""
+
+ROW = """<div class="row">
+  <div class="meta">
+    <div class="t">__TITLE__</div>
+    <div class="k">__KIND__ &middot; __WORDS__ words</div>
+    <details><summary>dekho</summary><pre id="__ID__">__TEXT__</pre></details>
+  </div>
+  <button class="mini" data-label="COPY"
+    onclick="copyIt('__ID__', this, 'COPY')">COPY</button>
+</div>"""
+
+SUB_FOR = {
+    1: "STORY LOCK &middot; route &middot; shot list &mdash; apni kahani neeche likho",
+    2: "sirf portraits &amp; duniya &mdash; yahan video prompt nahi banta",
+    3: "har shot ka card &mdash; smoke/fog number, 4&ndash;6 camera, action-attach",
+    4: "gaana &middot; caption &middot; hashtag &middot; Nepal timing",
+}
 
 
 def build_page():
-    prompts = read_prompts()
-    cards = []
-    for p in prompts:
-        title = re.sub(r"^[1-4]\ufe0f?\u20e3?\s*PROMPT\s*[1-4]\s*[-\u2014]\s*",
-                       "", p["title"]).strip()
-        cards.append(
-            CARD.replace("__NUM__", p["num"])
-                .replace("__TITLE__", html.escape(title or p["title"]))
-                .replace("__SUB__", html.escape(p["sub"]))
-                .replace("__WORDS__", str(len(p["text"].split())))
-                .replace("__TEXT__", html.escape(p["text"])))
-    return PAGE.replace("__CARDS__", "\n".join(cards) if cards
-                        else "<p>AI-FILM-PROMPTS.md nahi mili.</p>")
+    units, md = read_units()
+    prompts = sorted([u for u in units if u["prompt_num"]],
+                     key=lambda u: u["prompt_num"])
+    rest = [u for u in units if not u["prompt_num"]]
+
+    main = []
+    for u in prompts:
+        n = u["prompt_num"]
+        title = re.sub(r"^[#\s]*[1-4]\ufe0f?\u20e3?\s*", "", u["title"])
+        title = re.sub(r"^PROMPT\s*[1-4]\s*[-\u2014\u2013]\s*", "", title)
+        main.append(
+            CARD.replace("__NUM__", str(n))
+                .replace("__TITLE__", html.escape(title.strip()))
+                .replace("__SUB__", SUB_FOR.get(n, ""))
+                .replace("__WORDS__", str(u["words"]))
+                .replace("__ID__", u["id"])
+                .replace("__TEXT__", html.escape(u["text"])))
+
+    rows = []
+    for u in rest:
+        rows.append(ROW.replace("__TITLE__", html.escape(u["title"]))
+                       .replace("__KIND__", KIND_LABEL.get(u["kind"], "part"))
+                       .replace("__WORDS__", str(u["words"]))
+                       .replace("__ID__", u["id"])
+                       .replace("__TEXT__", html.escape(u["text"])))
+
+    return (PAGE.replace("__MAIN__", "\n".join(main))
+                .replace("__REST__", "\n".join(rows) or "<p style='padding:14px'>—</p>")
+                .replace("__NREST__", str(len(rows)))
+                .replace("__ALLW__", str(len(md.split())))
+                .replace("__ALLMD__", html.escape(md)))
 
 
+# ------------------------------------------------------------------ server
 class Handler(BaseHTTPRequestHandler):
-    server_version = "CopyBox/1.0"
+    server_version = "CopyBox/2.0"
 
     def log_message(self, fmt, *args):
         print("%s %s" % (self.address_string(), fmt % args), flush=True)
@@ -230,29 +339,23 @@ class Handler(BaseHTTPRequestHandler):
             self._send(200, build_page())
         elif path == "/health":
             self._send(200, "ok", "text/plain; charset=utf-8")
+        elif path == "/all":
+            self._send(200, open(MD_PATH, encoding="utf-8").read(),
+                       "text/plain; charset=utf-8")
+        elif re.match(r"^/prompt/[1-4]$", path):
+            want = int(path.rsplit("/", 1)[1])
+            hit = [u for u in read_prompts() if u["prompt_num"] == want]
+            self._send(200, hit[0]["text"] if hit else "not found",
+                       "text/plain; charset=utf-8")
         elif path == "/md":
-            if os.path.exists(MD_PATH):
-                self._send(200, open(MD_PATH, "rb").read(),
-                           "text/markdown; charset=utf-8",
-                           {"Content-Disposition":
-                            'attachment; filename="AI-FILM-PROMPTS.md"'})
-            else:
-                self._send(404, "no md")
-        elif re.match(r"^/(prompt|p)/[1-4]$", path):
-            want = path.rsplit("/", 1)[1]
-            hit = [x for x in read_prompts() if x["num"] == want]
-            if hit:
-                self._send(200, hit[0]["text"], "text/plain; charset=utf-8")
-            else:
-                self._send(404, "no prompt")
+            self._send(200, open(MD_PATH, "rb").read(),
+                       "text/markdown; charset=utf-8",
+                       {"Content-Disposition":
+                        'attachment; filename="AI-FILM-PROMPTS.md"'})
         elif path == "/pdf":
-            if os.path.exists(PDF_PATH):
-                self._send(200, open(PDF_PATH, "rb").read(),
-                           "application/pdf",
-                           {"Content-Disposition":
-                            'attachment; filename="AI-FILM-PROMPTS.pdf"'})
-            else:
-                self._send(404, "no pdf")
+            self._send(200, open(PDF_PATH, "rb").read(), "application/pdf",
+                       {"Content-Disposition":
+                        'attachment; filename="AI-FILM-PROMPTS.pdf"'})
         else:
             self._send(404, "not found")
 
@@ -262,12 +365,13 @@ def main():
     ap.add_argument("--port", type=int, default=8001)
     ap.add_argument("--host", default="0.0.0.0")
     a = ap.parse_args()
-    found = read_prompts()
-    print("Copy Box v1: http://%s:%d" % (a.host, a.port))
-    print("  found %d prompts in %s" % (len(found), MD_PATH))
-    for p in found:
-        print("    prompt %s: %s (%d words)" % (p["num"], p["title"],
-                                                len(p["text"].split())))
+    units, md = read_units()
+    print("Copy Box v2: http://%s:%d" % (a.host, a.port))
+    print("  %d copy parts (%d words) from %s"
+          % (len(units), len(md.split()), MD_PATH))
+    for u in units:
+        tag = "PROMPT %s" % u["prompt_num"] if u["prompt_num"] else u["kind"]
+        print("    [%-9s] %-58s %5d words" % (tag, u["title"][:58], u["words"]))
     ThreadingHTTPServer((a.host, a.port), Handler).serve_forever()
 
 
