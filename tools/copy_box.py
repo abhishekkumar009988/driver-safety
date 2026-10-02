@@ -202,6 +202,7 @@ __REST__
 </div>
 
 <p class="foot">
+  <a href="/zip">&#11015; SAARI FILES (zip)</a> &middot;
   <a href="/pdf">PDF</a> &middot; <a href="/md">Markdown</a> &middot;
   <a href="/all">poori file text</a><br>
   fixed file: <b>AI-FILM-PROMPTS.md</b> &mdash; purani file PURANI_FILES/ me hai
@@ -352,6 +353,24 @@ class Handler(BaseHTTPRequestHandler):
                        "text/markdown; charset=utf-8",
                        {"Content-Disposition":
                         'attachment; filename="AI-FILM-PROMPTS.md"'})
+        elif path == "/zip":
+            import io as _io
+            import zipfile
+            buf = _io.BytesIO()
+            with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as z:
+                z.write(MD_PATH, "AI-FILM-PROMPTS.md")
+                if os.path.exists(PDF_PATH):
+                    z.write(PDF_PATH, "AI-FILM-PROMPTS.pdf")
+                box = os.path.join(ROOT, "COPY-BOX.html")
+                if os.path.exists(box):
+                    z.write(box, "COPY-BOX.html")
+                cdir = os.path.join(ROOT, "COPY")
+                if os.path.isdir(cdir):
+                    for f in sorted(os.listdir(cdir)):
+                        z.write(os.path.join(cdir, f), "COPY/" + f)
+            self._send(200, buf.getvalue(), "application/zip",
+                       {"Content-Disposition":
+                        'attachment; filename="AI-FILM-V9.zip"'})
         elif path == "/pdf":
             self._send(200, open(PDF_PATH, "rb").read(), "application/pdf",
                        {"Content-Disposition":
